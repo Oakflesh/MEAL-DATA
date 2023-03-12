@@ -163,7 +163,6 @@
         "Wargear Name": {
             "optional": true,
             "points": 5, 
-            "style": "danger",
             "type": "Active",
             "userSelected": false
         },
@@ -171,7 +170,6 @@
         "Wargear Name": {
             "optional": false,
             "points": 5, 
-            "style": "neutral",
             "type": "Default",
             "userSelected": false
         }
@@ -188,7 +186,6 @@
         "Crown Of Morgul": {
             "optional": true,
             "points": 25,
-            "style": "warning",
             "type": "Passive",
             "userSelected": false
         },
