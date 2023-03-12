@@ -1,9 +1,9 @@
 # Example Data Templates
 
-<details><summary>Stats</summary>
+## Stats
+<details>
+<summary>Properties</summary>
 <p>
-
-## Properties
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -27,7 +27,11 @@
 | points | number | The cost in points of the additional stat per point e.g. 5 points. 0 if model can't have additional points. |
 | value | number | The model's un-modified default stat value |
 
-## Template
+</p></details>
+
+<details>
+<summary>Template</summary>
+<p>
 
 ```JSON5
 "stats": {
@@ -57,7 +61,12 @@
     }
 ```
 
-## Examples
+</p>
+</details>
+
+<details>
+<summary>Example</summary>
+<p>
 
 ```JSON5
 "stats": {
@@ -91,24 +100,34 @@
 </details>
 
 
-<details><summary>Type</summary>
+## Type
+<details>
+<summary>Properties</summary>
 <p>
 
-## Properties
 
 | Property | Type |Description |
 | --- | --- | --- |
 | Type Of Model | "Cavalry" \| "Infantry" \| "Monster" | The types for this model.  |
 
-## Template
+</p>
+</details>
+
+<details>
+<summary>Template</summary>
+<p>
 
 ```JSON5
 "type": {
         "Type Of Model": {}
 }
 ```
+</p>
+</details>
 
-## Examples
+<details>
+<summary>Example</summary>
+<p>
 
 ```JSON5
 "type": {
@@ -121,11 +140,9 @@
 </p>
 </details>
 
-
-<details><summary>Wargear</summary>
+## Wargear
+<details><summary>Properties</summary>
 <p>
-
-## Properties
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -134,8 +151,11 @@
 | points | number | The cost in points of the wargear. 0 if wargear is part of default wargear for the model |
 | type | "Active" \| "Passive" | Is this wargear passive or active in its use. |
 | userSelected | boolean | Default (false), changes when a user selects it (true).  |
+</p>
+</details>
 
-## Template
+<details><summary>Template</summary>
+<p>
 
 ```JSON5
 "wargear": {
@@ -157,8 +177,11 @@
         }
 }
 ```
+</p>
+</details>
 
-## Example
+<details><summary>Example</summary>
+<p>
 
 ```JSON5
 "wargear": {
