@@ -1,7 +1,98 @@
 # Example Data Templates
 
-## Rules
+## Name
+<details>
+<summary>Properties</summary>
+<p>
 
+| Property | Type | Description |
+| --- | --- | --- |
+| name | string | The name of this model in Capital Case. |
+
+</p>
+</details>
+
+<details>
+<summary>Template & Example</summary>
+<p>
+
+```JSON5
+    "name": ""
+```
+
+```JSON5
+    "name": "The Witch-King Of Angmar"
+```
+
+</p>
+</details>
+
+
+## Points
+<details>
+<summary>Properties</summary>
+<p>
+
+| Property | Type | Description |
+| --- | --- | --- |
+| points | number | the base cost of this model. |
+
+</p>
+</details>
+
+<details>
+<summary>Template & Example</summary>
+<p>
+
+```JSON5
+    "points": 0
+```
+
+```JSON5
+    // Witch-King Base Cost
+    "points": 70
+```
+
+</p>
+</details>
+
+
+## Race
+<details>
+<summary>Properties</summary>
+<p>
+
+| Property | Type | Description |
+| --- | --- | --- |
+| Name Of Race | string | The Race of this model in Capital Case. |
+
+</p>
+</details>
+
+<details>
+<summary>Template & Example</summary>
+<p>
+
+```JSON5
+    "race": {
+        "Name Of Race": {},
+        "Name Of Race": {}
+    }
+```
+
+```JSON5
+    // With-King Race Details
+    "race": {
+        "Spirit": {},
+        "Ringwraith": {}
+    }
+```
+
+</p>
+</details>
+
+
+## Rules
 <details>
 <summary>Properties</summary>
 <p>
@@ -15,7 +106,7 @@
 </details>
 
 <details>
-<summary>Template</summary>
+<summary>Template & Example</summary>
 <p>
 
 ```JSON5
@@ -31,12 +122,6 @@
         }
     }
 ```
-</p>
-</details>
-
-<details>
-<summary>Example</summary>
-<p>
 
 ```JSON5
 "rules": {
@@ -54,6 +139,7 @@
 ```
 </p>
 </details>
+
 
 ## Stats
 <details>
@@ -85,7 +171,7 @@
 </p></details>
 
 <details>
-<summary>Template</summary>
+<summary>Template & Example</summary>
 <p>
 
 ```JSON5
@@ -115,13 +201,6 @@
         }
     }
 ```
-
-</p>
-</details>
-
-<details>
-<summary>Example</summary>
-<p>
 
 ```JSON5
 "stats": {
@@ -169,7 +248,7 @@
 </details>
 
 <details>
-<summary>Template</summary>
+<summary>Template & Example</summary>
 <p>
 
 ```JSON5
@@ -177,12 +256,6 @@
         "Type Of Model": {}
 }
 ```
-</p>
-</details>
-
-<details>
-<summary>Example</summary>
-<p>
 
 ```JSON5
 "type": {
@@ -194,6 +267,7 @@
 ```
 </p>
 </details>
+
 
 ## Wargear
 <details><summary>Properties</summary>
@@ -209,7 +283,7 @@
 </p>
 </details>
 
-<details><summary>Template</summary>
+<summary>Template & Example</summary>
 <p>
 
 ```JSON5
@@ -230,11 +304,6 @@
         }
 }
 ```
-</p>
-</details>
-
-<details><summary>Example</summary>
-<p>
 
 ```JSON5
 "wargear": {
@@ -249,6 +318,3 @@
 ```
 </p>
 </details>
-
-
-
