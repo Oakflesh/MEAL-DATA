@@ -23,9 +23,9 @@
 
 | Property | Type | Description |
 | --- | --- | --- |
-| - additional | number | The additional amount of might points that can be bought for a model e.g. Ringwriath, Witch-King |
-| - points | number | The cost in points of the additional stat per point e.g. 5 points. 0 if model can't have additional points. |
-| - value | number | The model's un-modified default stat value |
+| additional | number | The additional amount of might points that can be bought for a model e.g. Ringwriath, Witch-King |
+| points | number | The cost in points of the additional stat per point e.g. 5 points. 0 if model can't have additional points. |
+| value | number | The model's un-modified default stat value |
 
 ## Template
 
