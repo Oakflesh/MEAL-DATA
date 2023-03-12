@@ -1,5 +1,148 @@
 # Example Data Templates
 
+## Magic
+<details>
+<summary>Properties</summary>
+<p>
+
+| Property | Type | Description |
+| --- | --- | --- |
+| Name Of Magic Power | string | The name of the Magical Power that this model has in Capital Case. |
+| casting | number | The model's casting score for this Magical Power. |
+| range | number | The distance in inches a model can cast the Magical Power. |    
+
+</p>
+</details>
+
+<details>
+<summary>Template & Example</summary>
+<p>
+
+```JSON5
+    "magic": {
+        "Name Of Magic Power": {
+            "casting": 0,
+            "range": 0
+        },
+        "Name Of Magic Power": {
+            "casting": 0,
+            "range": 0
+        },
+        "Name Of Magic Power": {
+            "casting": 0,
+            "range": 0
+        }
+    }
+```
+
+```JSON5
+    "magic": {
+        "Instill Fear": {
+            "casting": 5,
+            "range": 3
+        },
+        "Transfix": {
+            "casting": 3,
+            "range": 12
+        },
+        "Compel": {
+            "casting": 4,
+            "range": 12
+        }
+    }
+```
+
+</p>
+</details>
+
+
+## Model Count
+<details>
+<summary>Properties</summary>
+<p>
+
+| Property | Type | Description |
+| --- | --- | --- |
+| modelCount | number | The quantity of the model, should always be 1. |
+
+</p>
+</details>
+
+<details>
+<summary>Template & Example</summary>
+<p>
+
+```JSON5
+    "modelCount": 1
+```
+
+</p>
+</details>
+
+
+## Mounts
+<details>
+<summary>Properties</summary>
+<p>
+
+| Property | Type | Description |
+| --- | --- | --- |
+| Name Of Mount | string | The name of the mount in Capital Case. |
+| points | number | The cost in points of the mount. |
+| userSelected | boolean | Default (false), changes when a user selects it (true).  |
+
+
+</p>
+</details>
+
+<details>
+<summary>Template & Example</summary>
+<p>
+
+```JSON5
+    "mounts": {
+        "Name Of Mount": {
+            "points": 0,
+            "userSelected": false
+        },
+        "Name Of Mount": {
+            "points": 0,
+            "userSelected": false
+        },
+        "Name Of Mount": {
+            "points": 0,
+            "userSelected": false
+        }
+        ... // Additonal Mounts
+    }
+```
+
+```JSON5
+    // Witch-King Mounts
+    "mounts": {
+        "Armoured Fell Beast": {
+            "points": 70,
+            "userSelected": false
+        },
+        "Armoured Horse": {
+            "points": 15,
+            "userSelected": false
+        },
+        "Fell Beast": {
+            "points": 50,
+            "userSelected": false
+        },
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    }
+```
+
+</p>
+</details>
+
+
 ## Name
 <details>
 <summary>Properties</summary>
@@ -156,14 +299,7 @@
 | attacks | number | The number of attacks the model can make in melee combat. |
 | wounds | number | The model's wounds score. |
 | courage | number | The model's courage score. |
-| might | object | The model's might stats |
-| will | object | The model's will stats |
-| fate | object | The model's fate stats |
-
-### Might, Will & Fate Objects
-
-| Property | Type | Description |
-| --- | --- | --- |
+| might , will & fate | object | The model's Might, Will & Fate stats |
 | additional | number | The additional amount of might points that can be bought for a model e.g. Ringwriath, Witch-King |
 | points | number | The cost in points of the additional stat per point e.g. 5 points. 0 if model can't have additional points. |
 | value | number | The model's un-modified default stat value |
