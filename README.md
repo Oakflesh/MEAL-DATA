@@ -1,5 +1,95 @@
 # Example Data Templates
 
+## Actions
+<details>
+<summary>Properties</summary>
+<p>
+
+| Property | Type | Description |
+| --- | --- | --- |
+| Name Of Action | string | The name of this model in Capital Case. |
+
+</p>
+</details>
+
+<details>
+<summary>Template & Example</summary>
+<p>
+
+```JSON5
+    "actions": {
+        "Name Of Action": {},
+        "Name Of Action": {}
+    }
+```
+
+```JSON5
+    "actions": {
+        "Channeling": {},
+        "March": {}
+    }
+```
+
+</p>
+</details>
+
+
+## Armies, Tiers & Warband Size
+<details>
+<summary>Properties</summary>
+<p>
+
+| Property | Type | Description |
+| --- | --- | --- |
+| Army Name | string | The name of the army this model belongs to in Capital Case. |
+| tier | "Hero Of Legend" \| "Hero Of Valour" \| "Hero Of Fortitude" \| "Independent" \| "Warrior" | The tier of this model in the specified army in Capital Case. |
+| warbandSize | number | The maximum warband size this model is allowed. 0 if this model isn't a hero. |
+
+</p>
+</details>
+
+<details>
+<summary>Template & Example</summary>
+<p>
+
+```JSON5
+    "armies": {
+        "Army Name": {
+            "tier": "",
+            "warbandSize": 0
+        },
+        "Army Name": {
+            "tier": "",
+            "warbandSize": 0
+        },
+        "Army Name": {
+            "tier": "",
+            "warbandSize": 0
+        }
+    }
+```
+
+```JSON5
+    "armies": {
+        "Angmar": {
+            "tier": "Hero Of Legend",
+            "warbandSize": 18
+        },
+        "Barad-Dûr": {
+            "tier": "Hero Of Valour",
+            "warbandSize": 15
+        },
+        "Mordor": {
+            "tier": "Hero Of Legend",
+            "warbandSize": 18
+        }
+    }
+```
+
+</p>
+</details>
+
+
 ## Magic
 <details>
 <summary>Properties</summary>
