@@ -419,6 +419,7 @@
 </p>
 </details>
 
+<details>
 <summary>Template & Example</summary>
 <p>
 
