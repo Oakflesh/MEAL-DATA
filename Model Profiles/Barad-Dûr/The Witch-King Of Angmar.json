@@ -1,0 +1,149 @@
+{
+    "actions": {
+        "Resolve": {},
+        "Channeling": {},
+        "Strike": {},
+        "Strength": {},
+        "Challenge": {}
+    },
+    "armies": {
+        "Angmar": {
+            "tier": "Hero Of Legend",
+            "warbandSize": 18
+        },
+        "Barad-dûr": {
+            "tier": "Hero Of Valour",
+            "warbandSize": 15
+        },
+        "Mordor": {
+            "tier": "Hero Of Legend",
+            "warbandSize": 18
+        }
+    },
+    "magic": {
+        "Instill Fear": {
+            "range": 3,
+            "casting": 5
+        },
+        "Transfix": {
+            "range": 12,
+            "casting": 3
+        },
+        "Compel": {
+            "range": 12,
+            "casting": 4
+        },
+        "Drain Courage": {
+            "casting": 2,
+            "range": 12
+        },
+        "Black Dart": {
+            "casting": 5,
+            "range": 12
+        },
+        "Sap Will": {
+            "range": 12,
+            "casting": 5
+        },
+        "Your Staff Is Broken": {
+            "range": 12,
+            "casting": 4
+        }
+    },
+    "modelCount": 1,
+    "mounts": {
+        "Armoured Fell Beast": {
+            "points": 70,
+            "userSelected": false
+        },
+        "Armoured Horse": {
+            "points": 15,
+            "userSelected": false
+        },
+        "Fell Beast": {
+            "points": 50,
+            "userSelected": false
+        },
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "The Witch-King Of Angmar",
+    "points": 70,
+    "race": {
+        "Spirit": {},
+        "Ringwraith": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Will Of Evil": {
+            "type": "Passive"
+        },
+        "Harbinger Of Evil": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 4,
+        "strength": 4,
+        "defence": 8,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 6,
+        "might": {
+            "additional": 3,
+            "points": 5,
+            "value": 0
+        },
+        "will": {
+            "additional": 10,
+            "points": 5,
+            "value": 10
+        },
+        "fate": {
+            "additional": 3,
+            "points": 5,
+            "value": 0
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Crown Of Morgul": {
+            "optional": true,
+            "points": 25,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Morgul Blade": {
+            "optional": true,
+            "points": 10,
+            "type": "Active",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Two-Handed Flail": {
+            "optional": true,
+            "points": 5,
+            "type": "Active",
+            "userSelected": false
+        }
+    }
+}
