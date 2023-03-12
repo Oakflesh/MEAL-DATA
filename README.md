@@ -1,5 +1,60 @@
 # Example Data Templates
 
+## Rules
+
+<details>
+<summary>Properties</summary>
+<p>
+
+| Property | Type |Description |
+| --- | --- | --- |
+| Name Of Rule | string | The name for rule of this model in Capital Case.  |
+| type | "Active" \| "Brutal Power Attack" \| "Passive" | The classification of this Rule. |
+
+</p>
+</details>
+
+<details>
+<summary>Template</summary>
+<p>
+
+```JSON5
+"rules": {
+        "Name Of Rule": {
+            "type": "Passive"
+        },
+        "Name Of Rule": {
+            "type": "Active"
+        },
+        "Name Of Rule": {
+            "type": "Brutal Power Attack"
+        }
+    }
+```
+</p>
+</details>
+
+<details>
+<summary>Example</summary>
+<p>
+
+```JSON5
+"rules": {
+        // With-King Rules
+        "Terror": {
+            "type": "Passive"
+        },
+        "Will Of Evil": {
+            "type": "Passive"
+        },
+        "Harbinger Of Evil": {
+            "type": "Passive"
+        }
+    }
+```
+</p>
+</details>
+
 ## Stats
 <details>
 <summary>Properties</summary>
