@@ -121,5 +121,6 @@
             "type": "Default",
             "userSelected": false
         }
-    }
+    },
+    "version": 0.1
 }
