@@ -145,5 +145,6 @@
             "type": "Active",
             "userSelected": false
         }
-    }
+    },
+    "version": 0.1
 }
