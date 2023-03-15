@@ -1,4 +1,129 @@
-# Example Data Templates
+# Model Profile Templates & Examples
+
+## Model Profile
+<details>
+<summary>Template</summary>
+<p>
+
+```JSON5
+    "actions": {
+        "Name Of Action": {},
+        "Name Of Action": {}
+    },
+    "armies": {
+        "Army Name": {
+            "tier": "",
+            "warbandSize": 0
+        },
+        "Army Name": {
+            "tier": "",
+            "warbandSize": 0
+        },
+        "Army Name": {
+            "tier": "",
+            "warbandSize": 0
+        }
+    },
+    "magic": {
+        "Name Of Magic Power": {
+            "casting": 0,
+            "range": 0
+        },
+        "Name Of Magic Power": {
+            "casting": 0,
+            "range": 0
+        },
+        "Name Of Magic Power": {
+            "casting": 0,
+            "range": 0
+        }
+    },
+    "modelCount": 1,
+    "mounts": {
+        "Name Of Mount": {
+            "points": 0,
+            "userSelected": false
+        },
+        "Name Of Mount": {
+            "points": 0,
+            "userSelected": false
+        },
+        "Name Of Mount": {
+            "points": 0,
+            "userSelected": false
+        }
+        ... // Additonal Mounts
+    },
+    "name": "",
+    "points": 0,
+    "race": {
+        "Name Of Race": {},
+        "Name Of Race": {}
+    },
+    "rules": {
+        "Name Of Rule": {
+            "type": "Passive"
+        },
+        "Name Of Rule": {
+            "type": "Active"
+        },
+        "Name Of Rule": {
+            "type": "Brutal Power Attack"
+        }
+    },
+    "stats": {
+        "movement": 0,
+        "fight": 0,
+        "range": 0,
+        "strength": 0,
+        "defence": 0,
+        "attacks": 0,
+        "wounds": 0,
+        "courage": 0,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 0
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 0
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 0
+        }
+    },
+    "type": {
+        "Monster": {},
+        "Infantry": {}
+        ... // Additonal Types
+
+    },
+    "version": 0,
+    "wargear": {
+        // Selectable Wargear
+        "Wargear Name": {
+            "optional": true,
+            "points": 5, 
+            "type": "Active",
+            "userSelected": false
+        },
+        // Default Wargear
+        "Wargear Name": {
+            "optional": false,
+            "points": 5, 
+            "type": "Default",
+            "userSelected": false
+        }
+    }
+
+```
+
+</p>
+</details>
 
 ## Actions
 <details>
@@ -490,6 +615,32 @@
         ... // Additonal Types
 
 }
+```
+</p>
+</details>
+
+
+## Version
+<details><summary>Properties</summary>
+<p>
+
+| Property | Type | Description |
+| --- | --- | --- |
+| version | number | The semantic versioning of this JSON file. |
+
+</p>
+</details>
+
+<details>
+<summary>Template & Example</summary>
+<p>
+
+```JSON5
+    "version": 0
+```
+
+```JSON5
+"version": 1.0
 ```
 </p>
 </details>
