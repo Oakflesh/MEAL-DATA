@@ -14,14 +14,17 @@
     "armies": {
         "Army Name": {
             "tier": "",
+            "selectableInWarband": true
             "warbandSize": 0
         },
         "Army Name": {
             "tier": "",
+            "selectableInWarband": true,
             "warbandSize": 0
         },
         "Army Name": {
             "tier": "",
+            "selectableInWarband": true
             "warbandSize": 0
         }
     },
@@ -165,6 +168,7 @@
 | Army Name | string | The name of the army this model belongs to in Capital Case. |
 | tier | "Hero Of Legend" \| "Hero Of Valour" \| "Hero Of Fortitude" \| "Minor Hero"\| "Independent Hero" \| "Warrior" | The tier of this model in the specified army in Capital Case. |
 | warbandSize | number | The maximum warband size this model is allowed. 0 if this model isn't a hero. |
+| selectableInWarband | boolean | Can this model be selected as part of another models warband (Default should be true). |
 
 </p>
 </details>
@@ -177,14 +181,17 @@
     "armies": {
         "Army Name": {
             "tier": "",
+            "selectableInWarband": true
             "warbandSize": 0
         },
         "Army Name": {
             "tier": "",
+            "selectableInWarband": true,
             "warbandSize": 0
         },
         "Army Name": {
             "tier": "",
+            "selectableInWarband": true
             "warbandSize": 0
         }
     }
@@ -194,14 +201,17 @@
     "armies": {
         "Angmar": {
             "tier": "Hero Of Legend",
+            "selectableInWarband": true
             "warbandSize": 18
         },
         "Barad-Dûr": {
             "tier": "Hero Of Valour",
+            "selectableInWarband": true
             "warbandSize": 15
         },
         "Mordor": {
             "tier": "Hero Of Legend",
+            "selectableInWarband": true
             "warbandSize": 18
         }
     }
@@ -371,11 +381,11 @@
 <p>
 
 ```JSON5
-    "name": ""
+    "uniqueName": ""
 ```
 
 ```JSON5
-    "name": "The Witch-King Of Angmar"
+    "uniqueName": "The Witch-King Of Angmar"
 ```
 
 </p>
