@@ -1,0 +1,77 @@
+{
+    "actions": {},
+    "armies": {
+        "Barad-Dûr": {
+            "tier": "Independent Hero",
+            "warbandSize": 0
+        },
+        "Mordor": {
+            "tier": "Independent Hero",
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "uniqueName": "Shelob",
+    "points": 90,
+    "race": {
+        "Spider": {},
+        "Name Of Race": {}
+    },
+    "rules": {
+        "Monstrous Charge": {
+            "type": "Active"
+        },
+        "Survival Instinct": {
+            "type": "Active"
+        },
+        "Swift Movement": {
+            "type": "Active"
+        },
+        "Terror": {
+            "type": "Passive"
+        },
+        "Venom": {
+            "type": "Active"
+        },
+        "Caught In A Web": {
+            "type": "Brutal Power Attack"
+        },
+        "Lone Hunter": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 10,
+        "fight": 7,
+        "range": 6,
+        "strength": 7,
+        "defence": 7,
+        "attacks": 1,
+        "wounds": 6,
+        "courage": 4,
+        "might": {
+            "value": 0
+        },
+        "will": {
+            "value": 6
+        },
+        "fate": {
+            "value": 0
+        }
+    },
+    "type": {
+        "Monster": {},
+        "Infantry": {}
+    },
+    "version": 1,
+    "wargear": {
+        "Large Venomous Fangs": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        }
+    }
+}
