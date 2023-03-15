@@ -3,10 +3,12 @@
     "armies": {
         "Barad-Dûr": {
             "tier": "Independent Hero",
+            "selectableInWarband": true,
             "warbandSize": 0
         },
         "Mordor": {
             "tier": "Independent Hero",
+            "selectableInWarband": true,
             "warbandSize": 0
         }
     },

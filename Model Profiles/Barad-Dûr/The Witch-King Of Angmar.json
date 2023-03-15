@@ -9,14 +9,17 @@
     "armies": {
         "Angmar": {
             "tier": "Hero Of Legend",
+            "selectableInWarband": false,
             "warbandSize": 18
         },
         "Barad-dûr": {
             "tier": "Hero Of Valour",
+            "selectableInWarband": false,
             "warbandSize": 15
         },
         "Mordor": {
             "tier": "Hero Of Legend",
+            "selectableInWarband": false,
             "warbandSize": 18
         }
     },
@@ -146,5 +149,5 @@
             "userSelected": false
         }
     },
-    "version": 0.2
+    "version": 1.0
 }
