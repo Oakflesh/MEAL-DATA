@@ -6,6 +6,7 @@
 <p>
 
 ```JSON5
+{
     "actions": {
         "Name Of Action": {},
         "Name Of Action": {}
@@ -52,7 +53,6 @@
             "points": 0,
             "userSelected": false
         }
-        ... // Additonal Mounts
     },
     "name": "",
     "points": 0,
@@ -99,27 +99,23 @@
     "type": {
         "Monster": {},
         "Infantry": {}
-        ... // Additonal Types
-
     },
     "version": 0,
     "wargear": {
-        // Selectable Wargear
         "Wargear Name": {
             "optional": true,
-            "points": 5, 
+            "points": 5,
             "type": "Active",
             "userSelected": false
         },
-        // Default Wargear
         "Wargear Name": {
             "optional": false,
-            "points": 5, 
+            "points": 5,
             "type": "Default",
             "userSelected": false
         }
     }
-
+}
 ```
 
 </p>
