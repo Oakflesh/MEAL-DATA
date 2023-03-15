@@ -163,7 +163,7 @@
 | Property | Type | Description |
 | --- | --- | --- |
 | Army Name | string | The name of the army this model belongs to in Capital Case. |
-| tier | "Hero Of Legend" \| "Hero Of Valour" \| "Hero Of Fortitude" \| "Independent" \| "Warrior" | The tier of this model in the specified army in Capital Case. |
+| tier | "Hero Of Legend" \| "Hero Of Valour" \| "Hero Of Fortitude" \| "Minor Hero"\| "Independent Hero" \| "Warrior" | The tier of this model in the specified army in Capital Case. |
 | warbandSize | number | The maximum warband size this model is allowed. 0 if this model isn't a hero. |
 
 </p>
