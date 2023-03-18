@@ -1,0 +1,65 @@
+{
+    "actions": {},
+    "armies": {
+        "Barad-Dûr": {
+            "tier": "Siege Engine",
+            "selectableInWarband": false,
+            "warbandSize": 6
+        },
+        "Mordor": {
+            "tier": "Siege Engine",
+            "selectableInWarband": false,
+            "warbandSize": 6
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "uniqueName": "Mordor Siege Bow",
+    "points": 50,
+    "race": {
+    },
+    "rules": {
+        "Piercing Shot": {
+            "type": "Passive"
+        },
+        "Accurate": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 0,
+        "fight": 0,
+        "range": 0,
+        "strength": 9,
+        "defence": 10,
+        "attacks": 0,
+        "wounds": 3,
+        "courage": 0,
+        "might": {
+            "value": 0
+        },
+        "will": {
+            "value": 0
+        },
+        "fate": {
+            "value": 0
+        }
+    },
+    "type": {},
+    "version": 1,
+    "wargear": {
+        "Flamming Ammunition": {
+            "optional": true,
+            "points": 15,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Orc Engineer Captain": {
+            "optional": true,
+            "points": 40,
+            "type": "Passive",
+            "userSelected": false
+        }
+    }
+}
