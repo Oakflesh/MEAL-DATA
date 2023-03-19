@@ -48,16 +48,103 @@
     "type": {},
     "version": 1,
     "warband": {
-        "Orc Siege Veteran": {
-            "actions": {},
+        "Orc Siege Engineer Captain": {
+            "actions": {
+                "March": {}
+            },
             "armies": {
                 "Mordor": {
-                    "tier": "Siege Crew",
+                    "minModelCount": 1,
+                    "maxModelCount": 1,
+                    "tier": "Hero Of Fortitude",
                     "selectableInWarband": false,
                     "warbandSize": 0
                 },
                 "Barad-Dûr": {
-                    "tier": "Siege Crew",
+                    "minModelCount": 1,
+                    "maxModelCount": 1,
+                    "tier": "Hero Of Fortitude",
+                    "selectableInWarband": false,
+                    "warbandSize": 0
+                }
+            },
+            "magic": {},
+            "modelCount": 0,
+            "mounts": {},
+            "name": "Orc Siege Engineer Captain",
+            "points": 0,
+            "race": {},
+            "rules": {},
+            "stats": {
+                "movement": 6,
+                "fight": 4,
+                "range": 5,
+                "strength": 4,
+                "defence": 5,
+                "attacks": 2,
+                "wounds": 2,
+                "courage": 3,
+                "might": {
+                    "value": 2
+                },
+                "will": {
+                    "value": 1
+                },
+                "fate": {
+                    "value": 1
+                }
+            },
+            "type": {},
+            "totalPoints": 0,
+            "warband": {},
+            "wargear": {
+                "Orc Bow": {
+                    "optional": true,
+                    "points": 5,
+                    "type": "Passive",
+                    "userSelected": false
+                },
+                "Armour": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Default",
+                    "userSelected": false
+                },
+                "Sword": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Default",
+                    "userSelected": false
+                },                
+                "Pick": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Default",
+                    "userSelected": false
+                },
+                "Shield": {
+                    "optional": true,
+                    "points": 5,
+                    "type": "Passive",
+                    "userSelected": false
+                }
+            },
+            "version": 1
+        },
+        "Orc Siege Veteran": {
+            "actions": {},
+            "armies": {
+                "Mordor": {
+                    "minModelCount": 1,
+                    "maxModelCount": 1,
+                    "tier": "Minor Hero",
+                    "selectableInWarband": false,
+                    "warbandSize": 0
+                },
+                "Barad-Dûr": {
+                    "minModelCount": 1,
+                    "maxModelCount": 1,
+                    "tier": "Minor Hero",
                     "selectableInWarband": false,
                     "warbandSize": 0
                 }
@@ -89,6 +176,7 @@
                 }
             },
             "type": {},
+            "totalPoints": 0,
             "warband": {},
             "wargear": {},
             "version": 1
@@ -99,14 +187,14 @@
                 "Mordor": {
                     "minModelCount": 2,
                     "maxModelCount": 2,
-                    "tier": "Siege Crew",
+                    "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0
                 },
                 "Barad-Dûr": {
                     "minModelCount": 2,
                     "maxModelCount": 2,
-                    "tier": "Siege Crew",
+                    "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0
                 }
@@ -139,6 +227,7 @@
                 }
             },
             "type": {},
+            "totalPoints": 0,
             "warband": {},
             "wargear": {},
             "version": 1
@@ -149,14 +238,14 @@
                 "Mordor": {
                     "minModelCount": 0,
                     "maxModelCount": 6,
-                    "tier": "Siege Crew",
+                    "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0
                 },
                 "Barad-Dûr": {
                     "minModelCount": 0,
                     "maxModelCount": 6,
-                    "tier": "Siege Crew",
+                    "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0
                 }
@@ -188,6 +277,7 @@
                 }
             },
             "type": {},
+            "totalPoints": 0,
             "warband": {},
             "wargear": {},
             "version": 1
