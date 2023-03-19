@@ -1,0 +1,109 @@
+{
+    "actions": {
+        "Channeling": {},
+        "Strike": {},
+        "Strength": {},
+        "Challenge": {}
+        },
+    "armies": {
+        "Barad-Dûr": {
+            "tier": "Hero Of Legend",
+            "selectableInWarband": true,
+            "warbandSize": 18,
+            "additionalSize": 6
+        }
+    },
+    "magic": {
+        "Instill Fear": {
+            "range": 3,
+            "casting": 3
+        },
+        "Transfix": {
+            "range": 18,
+            "casting": 2
+        },
+        "Compel": {
+            "range": 18,
+            "casting": 3
+        },
+        "Drain Courage": {
+            "casting": 2,
+            "range": 18
+        },
+        "Sap Will": {
+            "range": 18,
+            "casting": 4
+        },
+        "Chill Soul": {
+            "range": 18,
+            "casting": 4
+        }
+    },
+    "modelCount": 1,
+    "mounts": {},
+    "name": "The Dark Lord Sauron",
+    "uniqueName": "Sauron",
+    "points": 400,
+    "race": {
+        "Spirit": {}
+    },
+    "rules": {
+        "Ancient Evil": {
+            "type": "Passive"
+        },
+        "Resistant To Magic": {
+            "type": "Passive"
+        },
+        "Terror": {
+            "type": "Passive"
+        },
+        "The Dark Lord": {
+            "type": "Passive"
+        },
+        "* The Lord Of The Rings": {
+            "type": "Passive"
+        },
+        "Unstoppable!": {
+            "type": "Brutal Power Attack"
+        },
+        "The Flames Of Evil": {
+            "type": "Brutal Power Attack"
+        },
+        "** The One Ring": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 9,
+        "range": 4,
+        "strength": 8,
+        "defence": 10,
+        "attacks": 4,
+        "wounds": 5,
+        "courage": 7,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 6,
+            "asterisk": "*"
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 0,
+            "asterisk": "**"
+        }
+    },
+    "type": {
+        "Monster": {},
+        "Infantry": {}
+    },
+    "version": 1,
+    "wargear": {}
+}
