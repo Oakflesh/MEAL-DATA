@@ -17,7 +17,8 @@
     "mounts": {},
     "uniqueName": "Mordor Siege Bow",
     "points": 50,
-    "race": {},
+    "race": {
+    },
     "rules": {
         "Piercing Shot": {
             "type": "Passive"
@@ -47,52 +48,54 @@
     },
     "type": {},
     "version": 1,
-    "warband": {
-        "actions": {},
-        "armies": {
-            "Mordor": {
-                "tier": "Siege Crew",
-                "selectableInWarband": true,
-                "warbandSize": 0
+    "warband":{
+        "Orc Siege Crew": {
+            "actions": {},
+            "armies": {
+                "Mordor": {
+                    "tier": "Siege Crew",
+                    "selectableInWarband": true,
+                    "warbandSize": 0
+                },
+                "Barad-Dûr": {
+                    "tier": "Siege Crew",
+                    "selectableInWarband": true,
+                    "warbandSize": 0
+                }
             },
-            "Barad-Dûr": {
-                "tier": "Siege Crew",
-                "selectableInWarband": true,
-                "warbandSize": 0
-            }
-        },
-        "magic": {},
-        "modelCount": 2,
-        "minimumModelCount": 2,
-        "mounts": {},
-        "name": "Orc Siege Crew",
-        "points": 5,
-        "race": {},
-        "rules": {},
-        "stats": {
-            "movement": 6,
-            "fight": 3,
-            "range": 5,
-            "strength": 3,
-            "defence": 4,
-            "attacks": 1,
-            "wounds": 1,
-            "courage": 2,
-            "might": {
-                "value": 0
+            "magic": {},
+            "modelCount": 2,
+            "minimumModelCount": 2,
+            "mounts": {},
+            "name": "Orc Siege Crew",
+            "points": 5,
+            "race": {},
+            "rules": {},
+            "stats": {
+                "movement": 6,
+                "fight": 3,
+                "range": 5,
+                "strength": 3,
+                "defence": 4,
+                "attacks": 1,
+                "wounds": 1,
+                "courage": 2,
+                "might": {
+                    "value": 0
+                },
+                "will": {
+                    "value": 0
+                },
+                "fate": {
+                    "value": 0
+                }
             },
-            "will": {
-                "value": 0
-            },
-            "fate": {
-                "value": 0
-            }
-        },
-        "type": {},
-        "warband": {},
-        "wargear": {},
-        "version": 1,
-        "totalPoints": 5
+            "type": {},
+            "warband": {},
+            "wargear": {},
+            "version": 1,
+            "totalPoints": 5
+        }
     },
     "wargear": {
         "Flamming Ammunition": {
