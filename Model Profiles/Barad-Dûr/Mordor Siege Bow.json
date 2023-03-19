@@ -26,6 +26,12 @@
             "type": "Passive"
         }
     },
+    "siegeCrew": {
+        "captain": "Orc Siege Engineer Captain",
+        "veteran": "Orc Siege Veteran",
+        "crew": "Orc Siege Crew",
+        "additionalCrew": ""
+    },
     "stats": {
         "movement": 0,
         "fight": 0,
