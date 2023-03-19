@@ -28,7 +28,16 @@
         "defence": 4,
         "attacks": 1,
         "wounds": 1,
-        "courage": 2
+        "courage": 2,
+        "might": {
+            "value": 0
+        },
+        "will": {
+            "value": 0
+        },
+        "fate": {
+            "value": 0
+        }
     },
     "type": {},
     "warband": {},
