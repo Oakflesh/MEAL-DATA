@@ -1,26 +1,18 @@
 {
     "actions": {
-        "Resolve": {},
         "Channeling": {},
-        "Strike": {},
-        "Strength": {},
-        "Challenge": {}
+        "March": {}
     },
     "armies": {
-        "Angmar": {
-            "tier": "Hero Of Legend",
-            "selectableInWarband": false,
-            "warbandSize": 18
-        },
         "Barad-Dûr": {
-            "tier": "Hero Of Valour",
+            "tier": "Hero Of Fortitude",
             "selectableInWarband": false,
-            "warbandSize": 15
+            "warbandSize": 12
         },
         "Mordor": {
-            "tier": "Hero Of Legend",
+            "tier": "Hero Of Fortitude",
             "selectableInWarband": false,
-            "warbandSize": 18
+            "warbandSize": 12
         }
     },
     "magic": {
@@ -47,20 +39,12 @@
         "Sap Will": {
             "range": 12,
             "casting": 5
-        },
-        "Your Staff Is Broken": {
-            "range": 12,
-            "casting": 4
         }
     },
     "modelCount": 1,
     "mounts": {
         "Armoured Fell Beast": {
             "points": 70,
-            "userSelected": false
-        },
-        "Armoured Horse": {
-            "points": 15,
             "userSelected": false
         },
         "Fell Beast": {
@@ -72,9 +56,9 @@
             "userSelected": false
         }
     },
-    "name": "The Witch-King Of Angmar",
+    "name": "Ringwraith",
     "uniqueName": "Ringwraith",
-    "points": 70,
+    "points": 55,
     "race": {
         "Spirit": {},
         "Ringwraith": {}
@@ -103,17 +87,17 @@
         "wounds": 1,
         "courage": 6,
         "might": {
-            "additional": 3,
+            "additional": 2,
             "points": 5,
             "value": 0
         },
         "will": {
-            "additional": 10,
+            "additional": 7,
             "points": 5,
-            "value": 10
+            "value": 7
         },
         "fate": {
-            "additional": 3,
+            "additional": 2,
             "points": 5,
             "value": 0
         }
@@ -122,34 +106,16 @@
         "Infantry": {}
     },
     "wargear": {
-        "Crown Of Morgul": {
-            "optional": true,
-            "points": 25,
-            "type": "Passive",
-            "userSelected": false
-        },
         "Heavy Armour": {
             "optional": false,
             "points": 0,
             "type": "Default",
             "userSelected": false
         },
-        "Morgul Blade": {
-            "optional": true,
-            "points": 10,
-            "type": "Active",
-            "userSelected": false
-        },
         "Sword": {
             "optional": false,
             "points": 0,
             "type": "Default",
-            "userSelected": false
-        },
-        "Two-Handed Flail": {
-            "optional": true,
-            "points": 5,
-            "type": "Active",
             "userSelected": false
         }
     },

@@ -1,0 +1,91 @@
+{
+    "actions": {
+        "Channelling": {}
+    },
+    "armies": {
+        "Barad-Dûr": {
+            "tier": "Minor Hero",
+            "selectableInWarband": false,
+            "warbandSize": 6
+        },
+        "Mordor": {
+            "tier": "Minor Hero",
+            "selectableInWarband": false,
+            "warbandSize": 6
+        }
+    },
+    "magic": {
+        "Transfix": {
+            "range": 12,
+            "casting": 5
+        },
+        "Fury": {
+            "range": 6,
+            "casting": 3,
+            "target": "Mordor Orc"
+        }
+    },
+    "modelCount": 1,
+    "mounts": {
+        "Warg": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Orc Shaman",
+    "uniqueName": "Orc Shaman",
+    "points": 50,
+    "race": {
+        "Orc": {}
+    },
+    "rules": {},
+    "stats": {
+        "movement": 6,
+        "fight": 3,
+        "range": 5,
+        "strength": 3,
+        "defence": 5,
+        "attacks": 1,
+        "wounds": 2,
+        "courage": 3,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Spear": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Dagger": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        }
+    },
+    "version": 1.0
+}

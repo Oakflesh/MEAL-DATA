@@ -1,0 +1,93 @@
+{
+    "actions": {
+        "March": {}
+    },
+    "armies": {
+        "Barad-Dûr": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        },
+        "Mordor": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Warg": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Orc Captain",
+    "uniqueName": "Orc Captain",
+    "points": 40,
+    "race": {
+        "Orc": {}
+    },
+    "rules": {},
+    "stats": {
+        "movement": 6,
+        "fight": 4,
+        "range": 5,
+        "strength": 4,
+        "defence": 5,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 3,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Shield": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Orc Bow": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Pick": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        }
+    },
+    "version": 1.0
+}
