@@ -67,7 +67,7 @@
             "modelCount": 1,
             "mounts": {},
             "name": "Orc Siege Veteran",
-            "points": 5,
+            "points": 0,
             "race": {},
             "rules": {},
             "stats": {
@@ -99,11 +99,15 @@
             "actions": {},
             "armies": {
                 "Mordor": {
+                    "minModelCount": 2,
+                    "maxModelCount": 2,
                     "tier": "Siege Crew",
                     "selectableInWarband": true,
                     "warbandSize": 0
                 },
                 "Barad-Dûr": {
+                    "minModelCount": 2,
+                    "maxModelCount": 2,
                     "tier": "Siege Crew",
                     "selectableInWarband": true,
                     "warbandSize": 0
@@ -112,6 +116,55 @@
             "magic": {},
             "modelCount": 2,
             "minimumModelCount": 2,
+            "mounts": {},
+            "name": "Orc Siege Crew",
+            "points": 0,
+            "race": {},
+            "rules": {},
+            "stats": {
+                "movement": 6,
+                "fight": 3,
+                "range": 5,
+                "strength": 3,
+                "defence": 4,
+                "attacks": 1,
+                "wounds": 1,
+                "courage": 2,
+                "might": {
+                    "value": 0
+                },
+                "will": {
+                    "value": 0
+                },
+                "fate": {
+                    "value": 0
+                }
+            },
+            "type": {},
+            "warband": {},
+            "wargear": {},
+            "version": 1
+        },
+        "Additional Orc Siege Crew": {
+            "actions": {},
+            "armies": {
+                "Mordor": {
+                    "minModelCount": 0,
+                    "maxModelCount": 6,
+                    "tier": "Siege Crew",
+                    "selectableInWarband": true,
+                    "warbandSize": 0
+                },
+                "Barad-Dûr": {
+                    "minModelCount": 0,
+                    "maxModelCount": 6,
+                    "tier": "Siege Crew",
+                    "selectableInWarband": true,
+                    "warbandSize": 0
+                }
+            },
+            "magic": {},
+            "modelCount": 0,
             "mounts": {},
             "name": "Orc Siege Crew",
             "points": 5,
@@ -150,7 +203,7 @@
             "type": "Passive",
             "userSelected": false
         },
-        "Orc Engineer Captain": {
+        "Engineer Captain": {
             "optional": true,
             "points": 40,
             "type": "Passive",
