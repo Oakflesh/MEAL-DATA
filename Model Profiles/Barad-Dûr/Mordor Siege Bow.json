@@ -49,6 +49,52 @@
     "type": {},
     "version": 1,
     "warband":{
+        "Orc Siege Veteran": {
+            "actions": {},
+            "armies": {
+                "Mordor": {
+                    "tier": "Siege Crew",
+                    "selectableInWarband": true,
+                    "warbandSize": 0
+                },
+                "Barad-Dûr": {
+                    "tier": "Siege Crew",
+                    "selectableInWarband": true,
+                    "warbandSize": 0
+                }
+            },
+            "magic": {},
+            "modelCount": 1,
+            "mounts": {},
+            "name": "Orc Siege Veteran",
+            "points": 5,
+            "race": {},
+            "rules": {},
+            "stats": {
+                "movement": 6,
+                "fight": 3,
+                "range": 5,
+                "strength": 3,
+                "defence": 4,
+                "attacks": 1,
+                "wounds": 1,
+                "courage": 2,
+                "might": {
+                    "value": 1
+                },
+                "will": {
+                    "value": 1
+                },
+                "fate": {
+                    "value": 1
+                }
+            },
+            "type": {},
+            "warband": {},
+            "wargear": {},
+            "version": 1,
+            "totalPoints": 5
+        },
         "Orc Siege Crew": {
             "actions": {},
             "armies": {
