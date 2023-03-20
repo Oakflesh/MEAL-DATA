@@ -1,0 +1,86 @@
+{
+    "actions": {
+        "March": {}
+    },
+    "armies": {
+        "Barad-Dûr": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        },
+        "Mordor": {
+            "tier": "Independent Hero",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Armoured Horse": {
+            "points": 15,
+            "userSelected": false
+        }
+    },
+    "name": "Black Númenórean Marshal",
+    "uniqueName": "Black Númenórean Marshal",
+    "points": 65,
+    "race": {
+        "Man": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 4,
+        "strength": 4,
+        "defence": 7,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 5,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Lance": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Two-Handed weapon": {
+            "target": "Replaces Shield",
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "version": 1.0
+}

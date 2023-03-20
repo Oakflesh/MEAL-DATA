@@ -149,7 +149,7 @@
         "Two-Handed Flail": {
             "optional": true,
             "points": 5,
-            "type": "Active",
+            "type": "Passive",
             "userSelected": false
         }
     },

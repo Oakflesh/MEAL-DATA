@@ -1,0 +1,80 @@
+{
+    "actions": {
+        "March": {}
+    },
+    "armies": {
+        "Barad-Dûr": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        },
+        "Mordor": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Orc Taskmaster",
+    "uniqueName": "Orc Taskmaster",
+    "points": 50,
+    "race": {
+        "Orc": {}
+    },
+    "rules": {
+        "Whip Of The Masters": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 4,
+        "range": 5,
+        "strength": 4,
+        "defence": 5,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 3,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Whip": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Mace": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        }
+    },
+    "version": 1.0
+}
