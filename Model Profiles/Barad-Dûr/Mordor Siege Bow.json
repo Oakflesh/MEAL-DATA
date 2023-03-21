@@ -15,7 +15,8 @@
     "magic": {},
     "modelCount": 1,
     "mounts": {},
-    "uniqueName": "Mordor Siege Bow",
+    "name": "Mordor Siege Bow",
+    "unique": false,
     "points": 50,
     "race": {},
     "rules": {

@@ -42,6 +42,7 @@
     "modelCount": 1,
     "mounts": {},
     "name": "The Dark Lord Sauron",
+    "unique": true,
     "uniqueName": "Sauron",
     "points": 400,
     "race": {

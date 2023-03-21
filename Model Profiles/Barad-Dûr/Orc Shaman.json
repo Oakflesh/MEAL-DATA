@@ -33,7 +33,7 @@
         }
     },
     "name": "Orc Shaman",
-    "uniqueName": "Orc Shaman",
+    "unique": false,
     "points": 50,
     "race": {
         "Orc": {}

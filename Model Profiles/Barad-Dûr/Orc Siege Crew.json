@@ -17,6 +17,7 @@
     "minimumModelCount": 2,
     "mounts": {},
     "name": "Orc Siege Crew",
+    "unique": false,
     "points": 5,
     "race": {},
     "rules": {},

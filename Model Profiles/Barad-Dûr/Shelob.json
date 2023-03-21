@@ -16,6 +16,7 @@
     "modelCount": 1,
     "mounts": {},
     "name": "Shelob",
+    "unique": true,
     "uniqueName": "Shelob",
     "points": 90,
     "race": {

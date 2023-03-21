@@ -57,6 +57,7 @@
         }
     },
     "name": "Ringwraith",
+    "unique": true,
     "uniqueName": "Ringwraith",
     "points": 55,
     "race": {

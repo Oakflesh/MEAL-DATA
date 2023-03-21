@@ -60,6 +60,8 @@
         }
     },
     "name": "The Tainted",
+    "unique": true,
+    "uniqueName": "Ringwraith",
     "points": 120,
     "race": {
         "Spirit": {},

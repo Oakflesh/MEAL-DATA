@@ -23,7 +23,7 @@
         }
     },
     "name": "Orc Captain",
-    "uniqueName": "Orc Captain",
+    "unique": false,
     "points": 40,
     "race": {
         "Orc": {}
