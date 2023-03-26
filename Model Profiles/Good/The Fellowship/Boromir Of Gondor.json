@@ -1,0 +1,93 @@
+{
+    "actions": {
+        "March": {},
+        "Strike": {},
+        "Strength": {},
+        "Defence": {}
+    },
+    "armies": {
+        "The Fellowship": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Boromir Of Gondor",
+    "unique": true,
+    "uniqueName": "Boromir",
+    "points": 95,
+    "race": {
+        "Man": {},
+        "Gondor": {}
+    },
+    "rules": {},
+    "stats": {
+        "movement": 6,
+        "fight": 6,
+        "range": 4,
+        "strength": 4,
+        "defence": 5,
+        "attacks": 3,
+        "wounds": 3,
+        "courage": 6,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 6
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 0
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Horn Of Gondor": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Elven Cloak": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "version": 1.0
+}

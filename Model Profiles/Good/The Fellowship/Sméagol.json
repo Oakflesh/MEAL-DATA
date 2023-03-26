@@ -1,0 +1,65 @@
+{
+    "actions": {},
+    "armies": {
+        "The Fellowship": {
+            "tier": "Independent Hero",
+            "selectableInWarband": false,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Sméagol",
+    "unique": true,
+    "uniqueName": "Gollum",
+    "points": 30,
+    "race": {
+        "Hobbit": {}
+    },
+    "rules": {
+        "Cave Dweller": {
+            "type": "Passive"
+        },
+        "Serve The Master Of The Precious": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 5,
+        "fight": 4,
+        "range": 4,
+        "strength": 4,
+        "defence": 4,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 4,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 0
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Strong Strangling Fingers": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        }
+    },
+    "version": 1.0
+}

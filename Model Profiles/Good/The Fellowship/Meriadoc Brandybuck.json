@@ -1,0 +1,74 @@
+{
+    "actions": {},
+    "armies": {
+        "The Fellowship": {
+            "tier": "Minor Hero",
+            "selectableInWarband": false,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Meriadoc Brandybuck",
+    "unique": true,
+    "uniqueName": "Meriadoc",
+    "points": 10,
+    "race": {
+        "Hobbit": {}
+    },
+    "rules": {
+        "Resistant To Magic": {
+            "type": "Passive"
+        },
+        "Throw Stones (Hobbit)": {
+            "type": "Active"
+        },
+        "For The Shire": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 4,
+        "fight": 3,
+        "range": 3,
+        "strength": 2,
+        "defence": 3,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 4,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 0
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 0
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Dagger": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Elven Cloak": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "version": 1.0
+}

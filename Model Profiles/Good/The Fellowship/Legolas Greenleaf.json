@@ -1,0 +1,95 @@
+{
+    "actions": {
+        "Accuracy": {},
+        "Strike": {}
+    },
+    "armies": {
+        "The Fellowship": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Legolas Greenleaf",
+    "unique": true,
+    "uniqueName": "Legolas",
+    "points": 100,
+    "race": {
+        "Elf": {},
+        "Mirkwood": {}
+    },
+    "rules": {
+        "Woodland Creature": {
+            "type": "Active"
+        },
+        "Deadly Shot": {
+            "type": "Active"
+        },
+        "Final Count, 42": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 6,
+        "range": 3,
+        "strength": 4,
+        "defence": 4,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 6,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Elf Bow": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Elven-Made Daggers": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Armour": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Elven Cloak": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "version": 1.0
+}

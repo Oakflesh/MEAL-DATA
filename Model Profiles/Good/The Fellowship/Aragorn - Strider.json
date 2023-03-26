@@ -1,0 +1,104 @@
+{
+    "actions": {
+        "Resolve": {},
+        "March": {},
+        "Accuracy": {},
+        "Strike": {},
+        "Strength": {},
+        "Defence": {},
+        "Challenge": {}
+    },
+    "armies": {
+        "The Fellowship": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Aragorn - Strider",
+    "unique": true,
+    "uniqueName": "Aragorn",
+    "points": 160,
+    "race": {
+        "Man": {}
+    },
+    "rules": {
+        "Horse Lord": {
+            "type": "Passive"
+        },
+        "Mighty Hero": {
+            "type": "Passive",
+            "asterisk": "*"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 6,
+        "range": 3,
+        "strength": 4,
+        "defence": 5,
+        "attacks": 3,
+        "wounds": 3,
+        "courage": 6,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3,
+            "asterisk": "*"
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Andúril, Flame Of The West": {
+            "optional": true,
+            "points": 40,
+            "type": "Active",
+            "userSelected": false
+        },
+        "Armour": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Bow": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Elven Cloak": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "version": 1.0
+}

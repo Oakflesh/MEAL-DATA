@@ -61,8 +61,9 @@
         "The Dark Lord": {
             "type": "Passive"
         },
-        "* The Lord Of The Rings": {
-            "type": "Passive"
+        "The Lord Of The Rings": {
+            "type": "Passive",
+            "asterisk": "*"
         },
         "Unstoppable!": {
             "type": "Brutal Power Attack"
@@ -70,8 +71,9 @@
         "The Flames Of Evil": {
             "type": "Brutal Power Attack"
         },
-        "** The One Ring": {
-            "type": "Passive"
+        "The One Ring": {
+            "type": "Passive",
+            "asterisk": "**"
         }
     },
     "stats": {

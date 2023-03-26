@@ -1,0 +1,120 @@
+{
+    "actions": {
+        "Resolve": {},
+        "Channelling": {},
+        "Strike": {}
+    },
+    "armies": {
+        "The Fellowship": {
+            "tier": "Hero Of Legend",
+            "selectableInWarband": false,
+            "warbandSize": 0
+        }
+    },
+    "magic": {
+        "Blinding Light": {
+            "range": 0,
+            "casting": 2
+        },
+        "Terrifying Aura": {
+            "range": 0,
+            "casting": 2
+        },
+        "Immobilise": {
+            "range": 12,
+            "casting": 3
+        },
+        "Command": {
+            "range": 12,
+            "casting": 4
+        },
+        "Protection Of The Valar": {
+            "range": 0,
+            "casting": 4
+        },
+        "Strengthen Will": {
+            "range": 12,
+            "casting": 4
+        },
+        "Collapse Rocks": {
+            "range": 6,
+            "casting": 5
+        },
+        "Sorcerous Blast": {
+            "range": 12,
+            "casting": 5
+        }
+    },
+    "modelCount": 1,
+    "mounts": {
+        "Cart": {
+            "points": 25,
+            "userSelected": false
+        },
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Gandalf The Grey",
+    "unique": true,
+    "uniqueName": "Gandalf",
+    "points": 170,
+    "race": {
+        "Wizard": {}
+    },
+    "rules": {},
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 4,
+        "strength": 4,
+        "defence": 5,
+        "attacks": 1,
+        "wounds": 3,
+        "courage": 7,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 6,
+            "asterisk": "*"
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 3,
+            "asterisk": "**"
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Staff Of Power": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false,
+            "asterisk": "*"
+        },
+        "Glamdring": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
+            "userSelected": false
+        },
+        "Narya": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false,
+            "asterisk": "**"
+        }
+    },
+    "version": 1.0
+}

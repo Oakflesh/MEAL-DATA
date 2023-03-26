@@ -1,0 +1,93 @@
+{
+    "actions": {
+        "Strength": {},
+        "Strike": {}
+    },
+    "armies": {
+        "The Fellowship": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Gimli Son Of Glóin",
+    "unique": true,
+    "uniqueName": "Gimli",
+    "points": 100,
+    "race": {
+        "Dwarf": {},
+        "Erebor": {}
+    },
+    "rules": {
+        "Axes Of The Dwarves!": {
+            "type": "Active"
+        },
+        "I Myself Am Sitting Pretty On 43": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 5,
+        "fight": 6,
+        "range": 4,
+        "strength": 4,
+        "defence": 8,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 6,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Dwarf Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Master Forged Two-Handed Axe": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Two Axes": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },       
+         "Throwing Axes": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Elven Cloak": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "version": 1.0
+}

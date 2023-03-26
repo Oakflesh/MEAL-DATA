@@ -1,0 +1,68 @@
+{
+    "actions": {},
+    "armies": {
+        "The Fellowship": {
+            "tier": "Independent Hero",
+            "selectableInWarband": false,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Bill The Pony",
+    "unique": true,
+    "uniqueName": "Bill The Pony",
+    "points": 25,
+    "race": {
+        "Pony": {}
+    },
+    "rules": {
+        "Official Meals": {
+            "type": "Passive"
+        },
+        "Second Breakfast": {
+            "type": "Passive"
+        },
+        "Only A Pony": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 8,
+        "fight": 1,
+        "range": 6,
+        "strength": 3,
+        "defence": 4,
+        "attacks": 1,
+        "wounds": 2,
+        "courage": 3,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 0
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Iron-Shod Hooves": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        }
+    },
+    "version": 1.0
+}
