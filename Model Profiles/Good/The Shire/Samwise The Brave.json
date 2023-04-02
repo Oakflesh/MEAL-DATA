@@ -1,21 +1,27 @@
 {
     "actions": {
-        "Defence": {}
+        "Strike": {},
+        "Resolve": {}
     },
     "armies": {
-        "The Fellowship": {
+        "The Shire": {
             "tier": "Hero Of Fortitude",
             "selectableInWarband": false,
-            "warbandSize": 0
+            "warbandSize": 12
         }
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {},
-    "name": "Frodo Baggins",
+    "mounts": {
+        "Pony": {
+            "points": 5,
+            "userSelected": false
+        }
+    },
+    "name": "Samwise The Brave",
     "unique": true,
-    "uniqueName": "Frodo",
-    "points": 60,
+    "uniqueName": "Samwise",
+    "points": 45,
     "race": {
         "Hobbit": {}
     },
@@ -44,7 +50,7 @@
         "will": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 2
         },
         "fate": {
             "additional": 0,
@@ -56,39 +62,21 @@
         "Infantry": {}
     },
     "wargear": {
-        "The One Ring": {
-            "optional": false,
-            "points": 0,
-            "type": "Default",
-            "userSelected": false
-        },
-        "Dagger": {
-            "optional": false,
-            "points": 0,
-            "type": "Default",
-            "userSelected": false
-        },
-        "Mithril Coat": {
-            "optional": true,
-            "points": 15,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Sting": {
-            "optional": true,
-            "points": 5,
-            "type": "Passive",
-            "userSelected": false
-        },
         "Elven Cloak": {
             "optional": true,
             "points": 5,
             "type": "Passive",
             "userSelected": false
+        },
+        "Sting": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
         }
     },
     "pageReferences":{
-        "Armies Of The Lord Of The Rings": 19
+        "Armies Of The Lord Of The Rings": 17
     },
     "version": 1.0
 }

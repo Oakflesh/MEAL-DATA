@@ -1,0 +1,117 @@
+{
+    "actions": {
+        "Accuracy": {}
+    },
+    "armies": {
+        "The Shire": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Farmer Maggot",
+    "unique": true,
+    "uniqueName": "Farmer Maggot",
+    "points": 45,
+    "race": {
+        "Hobbit": {}
+    },
+    "rules": {
+        "Resistant To Magic": {
+            "type": "Passive"
+        },
+        "Throw Stones (Hobbit)": {
+            "type": "Active"
+        },
+        "Grip, Fang And Wolf": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 4,
+        "fight": 3,
+        "range": 3,
+        "strength": 3,
+        "defence": 3,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 5,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Two-Handed Scythe (Pick)": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        }
+    },
+    "warband": {
+        "Grip, Fang And Wolf": {
+            "actions": {},
+            "armies": {
+                "The Shire": {
+                    "tier": "Warrior",
+                    "minModelCount": 3,
+                    "maxModelCount": 3
+                }
+            },
+            "magic": {},
+            "modelCount": 3,
+            "mounts": {},
+            "name": "Grip, Fang And Wolf",
+            "points": 0,
+            "race": {
+                "Dog": {}
+            },
+            "rules": {},
+            "stats": {
+                "movement": 8,
+                "fight": 3,
+                "range": 4,
+                "strength": 3,
+                "defence": 3,
+                "attacks": 1,
+                "wounds": 1,
+                "courage": 3,
+                "might": {
+                    "value": 0
+                },
+                "will": {
+                    "value": 0
+                },
+                "fate": {
+                    "value": 0
+                }
+            },
+            "type": {},
+            "totalPoints": 0,
+            "warband": {},
+            "wargear": {}
+        }
+    },
+    "pageReferences": {
+        "Armies Of The Lord Of The Rings": 19
+    },
+    "version": 1.0
+}

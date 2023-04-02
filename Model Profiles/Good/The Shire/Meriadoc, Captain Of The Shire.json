@@ -1,21 +1,27 @@
 {
     "actions": {
-        "Defence": {}
+        "March": {},
+        "Strike": {},
+        "Challenge": {}
     },
     "armies": {
-        "The Fellowship": {
-            "tier": "Hero Of Fortitude",
+        "The Shire": {
+            "tier": "Hero Of Valour",
             "selectableInWarband": false,
-            "warbandSize": 0
+            "warbandSize": 15
         }
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {},
-    "name": "Frodo Baggins",
+    "mounts": {
+        "Pony": {
+            "points": 5,
+            "userSelected": false
+        }
+    },    "name": "Meriadoc, Captain Of The Shire",
     "unique": true,
-    "uniqueName": "Frodo",
-    "points": 60,
+    "uniqueName": "Meriadoc",
+    "points": 45,
     "race": {
         "Hobbit": {}
     },
@@ -32,10 +38,10 @@
         "fight": 3,
         "range": 3,
         "strength": 2,
-        "defence": 3,
-        "attacks": 1,
+        "defence": 4,
+        "attacks": 2,
         "wounds": 2,
-        "courage": 6,
+        "courage": 5,
         "might": {
             "additional": 0,
             "points": 0,
@@ -44,40 +50,34 @@
         "will": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 2
         },
         "fate": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 2
         }
     },
     "type": {
         "Infantry": {}
     },
     "wargear": {
-        "The One Ring": {
+        "Armour": {
             "optional": false,
             "points": 0,
             "type": "Default",
             "userSelected": false
         },
-        "Dagger": {
+        "Sword": {
             "optional": false,
             "points": 0,
             "type": "Default",
             "userSelected": false
         },
-        "Mithril Coat": {
-            "optional": true,
-            "points": 15,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Sting": {
-            "optional": true,
-            "points": 5,
-            "type": "Passive",
+        "Horn Of The Riddermark": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
             "userSelected": false
         },
         "Elven Cloak": {
@@ -85,10 +85,16 @@
             "points": 5,
             "type": "Passive",
             "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
         }
     },
     "pageReferences":{
-        "Armies Of The Lord Of The Rings": 19
+        "Armies Of The Lord Of The Rings": 18
     },
     "version": 1.0
 }

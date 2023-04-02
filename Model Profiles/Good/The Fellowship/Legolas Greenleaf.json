@@ -91,5 +91,8 @@
             "userSelected": false
         }
     },
+    "pageReferences":{
+        "Armies Of The Lord Of The Rings": 13
+    },
     "version": 1.0
 }
