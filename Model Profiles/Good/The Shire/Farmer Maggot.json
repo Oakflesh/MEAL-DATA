@@ -67,19 +67,103 @@
         }
     },
     "warband": {
-        "Grip, Fang And Wolf": {
+        "Grip": {
             "actions": {},
             "armies": {
                 "The Shire": {
                     "tier": "Warrior",
-                    "minModelCount": 3,
-                    "maxModelCount": 3
+                    "minModelCount": 1,
+                    "maxModelCount": 1
                 }
             },
             "magic": {},
-            "modelCount": 3,
+            "modelCount": 1,
             "mounts": {},
-            "name": "Grip, Fang And Wolf",
+            "name": "Grip",
+            "points": 0,
+            "race": {
+                "Dog": {}
+            },
+            "rules": {},
+            "stats": {
+                "movement": 8,
+                "fight": 3,
+                "range": 4,
+                "strength": 3,
+                "defence": 3,
+                "attacks": 1,
+                "wounds": 1,
+                "courage": 3,
+                "might": {
+                    "value": 0
+                },
+                "will": {
+                    "value": 0
+                },
+                "fate": {
+                    "value": 0
+                }
+            },
+            "type": {},
+            "totalPoints": 0,
+            "warband": {},
+            "wargear": {}
+        },
+        "Fang": {
+            "actions": {},
+            "armies": {
+                "The Shire": {
+                    "tier": "Warrior",
+                    "minModelCount": 1,
+                    "maxModelCount": 1
+                }
+            },
+            "magic": {},
+            "modelCount": 1,
+            "mounts": {},
+            "name": "Fang",
+            "points": 0,
+            "race": {
+                "Dog": {}
+            },
+            "rules": {},
+            "stats": {
+                "movement": 8,
+                "fight": 3,
+                "range": 4,
+                "strength": 3,
+                "defence": 3,
+                "attacks": 1,
+                "wounds": 1,
+                "courage": 3,
+                "might": {
+                    "value": 0
+                },
+                "will": {
+                    "value": 0
+                },
+                "fate": {
+                    "value": 0
+                }
+            },
+            "type": {},
+            "totalPoints": 0,
+            "warband": {},
+            "wargear": {}
+        },
+        "Wolf": {
+            "actions": {},
+            "armies": {
+                "The Shire": {
+                    "tier": "Warrior",
+                    "minModelCount": 1,
+                    "maxModelCount": 1
+                }
+            },
+            "magic": {},
+            "modelCount": 1,
+            "mounts": {},
+            "name": "Wolf",
             "points": 0,
             "race": {
                 "Dog": {}
