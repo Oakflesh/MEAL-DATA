@@ -1,27 +1,19 @@
 {
-    "actions": {
-        "Strike": {},
-        "Resolve": {}
-    },
+    "actions": {},
     "armies": {
         "The Shire": {
-            "tier": "Hero Of Fortitude",
+            "tier": "Minor Hero",
             "selectableInWarband": false,
-            "warbandSize": 12
+            "warbandSize": 6
         }
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {
-        "Pony": {
-            "points": 5,
-            "userSelected": false
-        }
-    },
-    "name": "Samwise The Brave",
+    "mounts": {},
+    "name": "Fredegar Bolger",
     "unique": true,
-    "uniqueName": "Samwise",
-    "points": 45,
+    "uniqueName": "Fredegar Bolger",
+    "points": 10,
     "race": {
         "Hobbit": {}
     },
@@ -35,49 +27,42 @@
     },
     "stats": {
         "movement": 4,
-        "fight": 3,
+        "fight": 2,
         "range": 3,
         "strength": 2,
         "defence": 3,
         "attacks": 1,
-        "wounds": 2,
-        "courage": 6,
+        "wounds": 1,
+        "courage": 3,
         "might": {
             "additional": 0,
             "points": 0,
-            "value": 2
+            "value": 0
         },
         "will": {
             "additional": 0,
             "points": 0,
-            "value": 2
+            "value": 0
         },
         "fate": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 1
         }
     },
     "type": {
         "Infantry": {}
     },
     "wargear": {
-        "Elven Cloak": {
-            "optional": true,
-            "points": 5,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Sting": {
+        "Unarmed": {
             "optional": false,
             "points": 0,
             "type": "Default",
-            "userSelected": false,
-            "unique": true
+            "userSelected": false
         }
     },
     "pageReferences": {
-        "Armies Of The Lord Of The Rings": 17
+        "Armies Of The Lord Of The Rings": 20
     },
     "version": 1.0
 }

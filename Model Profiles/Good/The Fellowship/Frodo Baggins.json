@@ -60,7 +60,8 @@
             "optional": false,
             "points": 0,
             "type": "Default",
-            "userSelected": false
+            "userSelected": false,
+            "unique": true
         },
         "Dagger": {
             "optional": false,
@@ -72,13 +73,15 @@
             "optional": true,
             "points": 15,
             "type": "Passive",
-            "userSelected": false
+            "userSelected": false,
+            "unique": true
         },
         "Sting": {
             "optional": true,
             "points": 5,
             "type": "Passive",
-            "userSelected": false
+            "userSelected": false,
+            "unique": true
         },
         "Elven Cloak": {
             "optional": true,

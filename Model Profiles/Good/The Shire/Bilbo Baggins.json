@@ -1,6 +1,5 @@
 {
     "actions": {
-        "Defence": {},
         "Resolve": {}
     },
     "armies": {
@@ -12,16 +11,11 @@
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {
-        "Pony": {
-            "points": 5,
-            "userSelected": false
-        }
-    },
-    "name": "Frodo Of The Nine Fingers",
+    "mounts": {},
+    "name": "Bilbo Baggins",
     "unique": true,
-    "uniqueName": "Frodo",
-    "points": 60,
+    "uniqueName": "Bilbo",
+    "points": 40,
     "race": {
         "Hobbit": {}
     },
@@ -29,11 +23,8 @@
         "Resistant To Magic": {
             "type": "Passive"
         },
-        "It Will Never Really Heal": {
-            "type": "Passive"
-        },
-        "Home Is The Hero": {
-            "type": "Passive"
+        "Throw Stones (Hobbit)": {
+            "type": "Active"
         }
     },
     "stats": {
@@ -41,7 +32,7 @@
         "fight": 3,
         "range": 3,
         "strength": 2,
-        "defence": 6,
+        "defence": 2,
         "attacks": 1,
         "wounds": 2,
         "courage": 6,
@@ -58,35 +49,43 @@
         "fate": {
             "additional": 0,
             "points": 0,
-            "value": 1
+            "value": 3
         }
     },
     "type": {
         "Infantry": {}
     },
     "wargear": {
-        "Unarmed" : {
+        "Dagger": {
             "optional": false,
             "points": 0,
             "type": "Default",
             "userSelected": false
         },
-        "Elven Cloak": {
-            "optional": true,
-            "points": 5,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Mithril Coat": {
+        "The One Ring": {
             "optional": false,
             "points": 0,
             "type": "Default",
             "userSelected": false,
             "unique": true
+        },
+        "Mithril Coat": {
+            "optional": true,
+            "points": 15,
+            "type": "Passive",
+            "userSelected": false,
+            "unique": true
+        },
+        "Sting": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false,
+            "unique": true
         }
     },
-    "pageReferences":{
-        "Armies Of The Lord Of The Rings": 17
+    "pageReferences": {
+        "Armies Of The Lord Of The Rings": 20
     },
     "version": 1.0
 }
