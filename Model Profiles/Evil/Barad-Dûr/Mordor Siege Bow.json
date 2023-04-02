@@ -65,14 +65,16 @@
                     "maxModelCount": 1,
                     "tier": "Hero Of Fortitude",
                     "selectableInWarband": false,
-                    "warbandSize": 0
+                    "warbandSize": 0,
+                    "removeFromWarband": false
                 },
                 "Barad-Dûr": {
                     "minModelCount": 1,
                     "maxModelCount": 1,
                     "tier": "Hero Of Fortitude",
                     "selectableInWarband": false,
-                    "warbandSize": 0
+                    "warbandSize": 0,
+                    "removeFromWarband": false
                 }
             },
             "magic": {},
@@ -122,7 +124,7 @@
                     "points": 0,
                     "type": "Default",
                     "userSelected": false
-                },                
+                },
                 "Pick": {
                     "optional": false,
                     "points": 0,
@@ -146,14 +148,16 @@
                     "maxModelCount": 1,
                     "tier": "Minor Hero",
                     "selectableInWarband": false,
-                    "warbandSize": 0
+                    "warbandSize": 0,
+                    "removeFromWarband": false
                 },
                 "Barad-Dûr": {
                     "minModelCount": 1,
                     "maxModelCount": 1,
                     "tier": "Minor Hero",
                     "selectableInWarband": false,
-                    "warbandSize": 0
+                    "warbandSize": 0,
+                    "removeFromWarband": false
                 }
             },
             "magic": {},
@@ -196,14 +200,16 @@
                     "maxModelCount": 2,
                     "tier": "Warrior",
                     "selectableInWarband": false,
-                    "warbandSize": 0
+                    "warbandSize": 0,
+                    "removeFromWarband": false
                 },
                 "Barad-Dûr": {
                     "minModelCount": 2,
                     "maxModelCount": 2,
                     "tier": "Warrior",
                     "selectableInWarband": false,
-                    "warbandSize": 0
+                    "warbandSize": 0,
+                    "removeFromWarband": false
                 }
             },
             "magic": {},
@@ -247,14 +253,16 @@
                     "maxModelCount": 6,
                     "tier": "Warrior",
                     "selectableInWarband": false,
-                    "warbandSize": 0
+                    "warbandSize": 0,
+                    "removeFromWarband": false
                 },
                 "Barad-Dûr": {
                     "minModelCount": 0,
                     "maxModelCount": 6,
                     "tier": "Warrior",
                     "selectableInWarband": false,
-                    "warbandSize": 0
+                    "warbandSize": 0,
+                    "removeFromWarband": false
                 }
             },
             "magic": {},

@@ -73,7 +73,8 @@
                 "The Shire": {
                     "tier": "Warrior",
                     "minModelCount": 1,
-                    "maxModelCount": 1
+                    "maxModelCount": 1,
+                    "removeFromWarband": false
                 }
             },
             "magic": {},
@@ -115,7 +116,8 @@
                 "The Shire": {
                     "tier": "Warrior",
                     "minModelCount": 1,
-                    "maxModelCount": 1
+                    "maxModelCount": 1,
+                    "removeFromWarband": false
                 }
             },
             "magic": {},
@@ -157,7 +159,8 @@
                 "The Shire": {
                     "tier": "Warrior",
                     "minModelCount": 1,
-                    "maxModelCount": 1
+                    "maxModelCount": 1,
+                    "removeFromWarband": false
                 }
             },
             "magic": {},
