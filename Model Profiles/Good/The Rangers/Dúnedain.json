@@ -1,0 +1,77 @@
+{
+    "actions": {
+        "Accuracy": {}
+    },
+    "armies": {
+        "The Rangers": {
+            "tier": "Independent Hero",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        },
+        "The Shire": {
+            "tier": "Minor Hero",
+            "selectableInWarband": false,
+            "warbandSize": 6
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Dúnedain",
+    "unique": false,
+    "uniqueName": "Dúnedain",
+    "points": 25,
+    "race": {
+        "Man": {}
+    },
+    "rules": {},
+    "stats": {
+        "movement": 6,
+        "fight": 4,
+        "range": 3,
+        "strength": 4,
+        "defence": 4,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 4,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Bow": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Spear": {
+            "optional": true,
+            "points": 1,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "version": 1.0
+}
