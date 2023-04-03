@@ -63,7 +63,7 @@
             "userSelected": false
         },
         "The One Ring": {
-            "optional": false,
+            "optional": true,
             "points": 0,
             "type": "Default",
             "userSelected": false,
