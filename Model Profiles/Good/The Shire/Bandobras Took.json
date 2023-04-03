@@ -1,20 +1,27 @@
 {
     "actions": {
-        "Resolve": {}
+        "Strike": {},
+        "Strength": {}
     },
     "armies": {
         "The Shire": {
-            "tier": "Hero Of Fortitude",
+            "tier": "Hero Of Valour",
             "selectableInWarband": false,
-            "warbandSize": 12
+            "warbandSize": 15
         }
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {},
-    "name": "Bilbo Baggins",
+    "mounts": {
+        "Horse": {
+            "optional": false,
+            "points": 0,
+            "userSelected": true
+        }
+    },
+    "name": "Badobras Took",
     "unique": true,
-    "uniqueName": "Bilbo",
+    "uniqueName": "Badobras Took",
     "points": 40,
     "race": {
         "Hobbit": {}
@@ -31,59 +38,39 @@
         "movement": 4,
         "fight": 3,
         "range": 3,
-        "strength": 2,
-        "defence": 2,
-        "attacks": 1,
+        "strength": 3,
+        "defence": 4,
+        "attacks": 2,
         "wounds": 2,
-        "courage": 6,
+        "courage": 5,
         "might": {
             "additional": 0,
             "points": 0,
-            "value": 1
+            "value": 2
         },
         "will": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 1
         },
         "fate": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 1
         }
     },
     "type": {
         "Infantry": {}
     },
     "wargear": {
-        "Dagger": {
+        "Club": {
             "optional": false,
             "points": 0,
             "type": "Default",
             "userSelected": false
-        },
-        "The One Ring": {
-            "optional": false,
-            "points": 0,
-            "type": "Default",
-            "userSelected": false,
-            "unique": true
-        },
-        "Mithril Coat": {
-            "optional": true,
-            "points": 15,
-            "type": "Passive",
-            "userSelected": false,
-            "unique": true
-        },
-        "Sting": {
-            "optional": true,
-            "points": 5,
-            "type": "Passive",
-            "userSelected": false,
-            "unique": true
         }
     },
+    "warband": {},
     "pageReferences": {
         "Armies Of The Lord Of The Rings": 21
     },

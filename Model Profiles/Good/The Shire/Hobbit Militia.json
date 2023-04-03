@@ -1,0 +1,64 @@
+{
+    "actions": {},
+    "armies": {
+        "The Shire": {
+            "tier": "Warrior",
+            "selectableInWarband": true
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Hobbit Milittia",
+    "unique": false,
+    "points": 4,
+    "race": {
+        "Hobbit": {}
+    },
+    "rules": {
+        "Resistant To Magic": {
+            "type": "Passive"
+        },
+        "Throw Stones (Hobbit)": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 4,
+        "fight": 1,
+        "range": 3,
+        "strength": 2,
+        "defence": 3,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 3
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Dagger": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Axe": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Hammer": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        }
+    },
+    "warband": {},
+    "pageReferences": {
+        "Armies Of The Lord Of The Rings": 22
+    },
+    "version": 1.0
+}
