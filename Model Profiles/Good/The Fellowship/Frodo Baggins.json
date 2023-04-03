@@ -60,7 +60,7 @@
             "optional": false,
             "points": 0,
             "type": "Default",
-            "userSelected": false,
+            "userSelected": true,
             "unique": true
         },
         "Dagger": {
