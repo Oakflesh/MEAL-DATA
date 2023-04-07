@@ -1,48 +1,49 @@
 {
     "actions": {
-        "Accuracy": {}
+        "Accuracy": {},
+        "Strike": {}
     },
     "armies": {
         "The Rangers": {
-            "tier": "Independent Hero",
-            "selectableInWarband": true,
-            "warbandSize": 0
-        },
-        "The Shire": {
-            "tier": "Minor Hero",
+            "tier": "Hero Of Fortitude",
             "selectableInWarband": false,
-            "warbandSize": 6
+            "warbandSize": 12
         }
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {},
-    "name": "Dúnedain",
-    "unique": false,
-    "uniqueName": "Dúnedain",
-    "points": 25,
+    "mounts": {
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Halbarad",
+    "unique": true,
+    "uniqueName": "Halbarad",
+    "points": 70,
     "race": {
         "Man": {}
     },
     "rules": {},
     "stats": {
         "movement": 6,
-        "fight": 4,
+        "fight": 5,
         "range": 3,
         "strength": 4,
-        "defence": 4,
-        "attacks": 1,
-        "wounds": 1,
-        "courage": 4,
+        "defence": 5,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 6,
         "might": {
             "additional": 0,
             "points": 0,
-            "value": 1
+            "value": 3
         },
         "will": {
             "additional": 0,
             "points": 0,
-            "value": 1
+            "value": 2
         },
         "fate": {
             "additional": 0,
@@ -54,27 +55,33 @@
         "Infantry": {}
     },
     "wargear": {
-        "Bow": {
-            "optional": false,
-            "points": 0,
-            "type": "Default",
-            "userSelected": false
-        },
         "Sword": {
             "optional": false,
             "points": 0,
             "type": "Default",
             "userSelected": false
         },
-        "Spear": {
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Bow": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Banner Of Arwen Evenstar": {
             "optional": true,
-            "points": 1,
+            "points": 40,
             "type": "Passive",
             "userSelected": false
         }
     },
     "pageReferences": {
-        "Armies Of The Lord Of The Rings": 27
+        "Armies Of The Lord Of The Rings": 25
     },
     "version": 1.0
 }

@@ -1,48 +1,44 @@
 {
     "actions": {
-        "Accuracy": {}
+        "Accuracy": {},
+        "Strike": {}
     },
     "armies": {
         "The Rangers": {
-            "tier": "Independent Hero",
-            "selectableInWarband": true,
-            "warbandSize": 0
-        },
-        "The Shire": {
-            "tier": "Minor Hero",
+            "tier": "Hero Of Valour",
             "selectableInWarband": false,
-            "warbandSize": 6
+            "warbandSize": 15
         }
     },
     "magic": {},
     "modelCount": 1,
     "mounts": {},
-    "name": "Dúnedain",
-    "unique": false,
-    "uniqueName": "Dúnedain",
-    "points": 25,
+    "name": "Arathorn",
+    "unique": true,
+    "uniqueName": "Arathorn",
+    "points": 75,
     "race": {
         "Man": {}
     },
     "rules": {},
     "stats": {
         "movement": 6,
-        "fight": 4,
+        "fight": 5,
         "range": 3,
         "strength": 4,
-        "defence": 4,
-        "attacks": 1,
-        "wounds": 1,
-        "courage": 4,
+        "defence": 5,
+        "attacks": 3,
+        "wounds": 2,
+        "courage": 5,
         "might": {
             "additional": 0,
             "points": 0,
-            "value": 1
+            "value": 3
         },
         "will": {
             "additional": 0,
             "points": 0,
-            "value": 1
+            "value": 2
         },
         "fate": {
             "additional": 0,
@@ -54,27 +50,27 @@
         "Infantry": {}
     },
     "wargear": {
-        "Bow": {
-            "optional": false,
-            "points": 0,
-            "type": "Default",
-            "userSelected": false
-        },
         "Sword": {
             "optional": false,
             "points": 0,
             "type": "Default",
             "userSelected": false
         },
-        "Spear": {
-            "optional": true,
-            "points": 1,
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Bow": {
+            "optional": false,
+            "points": 0,
             "type": "Passive",
             "userSelected": false
         }
     },
     "pageReferences": {
-        "Armies Of The Lord Of The Rings": 27
+        "Armies Of The Lord Of The Rings": 25
     },
     "version": 1.0
 }

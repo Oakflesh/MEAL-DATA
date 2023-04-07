@@ -1,0 +1,91 @@
+{
+    "actions": {
+        "Strike": {},
+        "Strength": {},
+        "Defence": {},
+        "Challenge": {}
+    },
+    "armies": {
+        "Númenor": {
+            "tier": "Hero Of Legend",
+            "selectableInWarband": false,
+            "warbandSize": 18
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Elendil, High King Of Gondor And Arnor",
+    "unique": true,
+    "uniqueName": "Elendil, High King Of Gondor And Arnor",
+    "points": 185,
+    "race": {
+        "Man": {},
+        "Númenor": {}
+    },
+    "rules": {
+        "High King Of Gondor And Arnor": {
+            "type": "Active"
+        },
+        "Unbending Resolve": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 7,
+        "range": 4,
+        "strength": 5,
+        "defence": 7,
+        "attacks": 3,
+        "wounds": 3,
+        "courage": 6,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Narsil": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Shield":{
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false 
+        }
+    },
+    "pageReferences": {
+        "Armies Of The Lord Of The Rings": 29
+    },
+    "version": 1.0
+}

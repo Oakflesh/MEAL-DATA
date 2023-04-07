@@ -1,23 +1,12 @@
 {
     "actions": {
-        "Resolve": {},
-        "March": {},
-        "Accuracy": {},
-        "Strike": {},
-        "Strength": {},
-        "Defence": {},
-        "Challenge": {}
+        "March": {}
     },
     "armies": {
-        "The Fellowship": {
-            "tier": "Hero Of Valour",
+        "Númenor": {
+            "tier": "Hero Of Fortitude",
             "selectableInWarband": false,
-            "warbandSize": 0
-        },
-        "The Rangers": {
-            "tier": "Hero Of Valour",
-            "selectableInWarband": false,
-            "warbandSize": 15
+            "warbandSize": 12
         }
     },
     "magic": {},
@@ -28,68 +17,57 @@
             "userSelected": false
         }
     },
-    "name": "Aragorn - Strider",
-    "unique": true,
-    "uniqueName": "Aragorn",
-    "points": 160,
+    "name": "Captain Of Númenor",
+    "unique": false,
+    "points": 50,
     "race": {
-        "Man": {}
+        "Man": {},
+        "Númenor": {}
     },
     "rules": {
-        "Horse Lord": {
-            "type": "Passive"
-        },
-        "Mighty Hero": {
-            "type": "Passive",
-            "asterisk": "*"
+        "Blood Of Númenor": {
+            "type": "Active"
         }
     },
     "stats": {
         "movement": 6,
-        "fight": 6,
-        "range": 3,
+        "fight": 5,
+        "range": 4,
         "strength": 4,
         "defence": 5,
-        "attacks": 3,
-        "wounds": 3,
-        "courage": 6,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 4,
         "might": {
             "additional": 0,
             "points": 0,
-            "value": 3,
-            "asterisk": "*"
+            "value": 2
         },
         "will": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 1
         },
         "fate": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 1
         }
     },
     "type": {
         "Infantry": {}
     },
     "wargear": {
-        "Sword": {
+        "Armour": {
             "optional": false,
             "points": 0,
             "type": "Default",
             "userSelected": false
         },
-        "Andúril, Flame Of The West": {
-            "optional": true,
-            "points": 40,
-            "type": "Active",
-            "userSelected": false
-        },
-        "Armour": {
-            "optional": true,
-            "points": 5,
-            "type": "Passive",
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
             "userSelected": false
         },
         "Bow": {
@@ -98,15 +76,27 @@
             "type": "Passive",
             "userSelected": false
         },
-        "Elven Cloak": {
+        "Heavy Armour": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Lance": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
             "optional": true,
             "points": 5,
             "type": "Passive",
             "userSelected": false
         }
     },
-    "pageReferences":{
-        "Armies Of The Lord Of The Rings": 12
+    "pageReferences": {
+        "Armies Of The Lord Of The Rings": 30
     },
     "version": 1.0
 }

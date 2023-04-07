@@ -7,20 +7,20 @@
             "tier": "Independent Hero",
             "selectableInWarband": true,
             "warbandSize": 0
-        },
-        "The Shire": {
-            "tier": "Minor Hero",
-            "selectableInWarband": false,
-            "warbandSize": 6
         }
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {},
-    "name": "Dúnedain",
+    "mounts": {
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Ranger Of The North",
     "unique": false,
-    "uniqueName": "Dúnedain",
-    "points": 25,
+    "uniqueName": "Ranger Of The North",
+    "points": 30,
     "race": {
         "Man": {}
     },
@@ -30,7 +30,7 @@
         "fight": 4,
         "range": 3,
         "strength": 4,
-        "defence": 4,
+        "defence": 5,
         "attacks": 1,
         "wounds": 1,
         "courage": 4,
@@ -54,6 +54,12 @@
         "Infantry": {}
     },
     "wargear": {
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
         "Bow": {
             "optional": false,
             "points": 0,
@@ -74,7 +80,7 @@
         }
     },
     "pageReferences": {
-        "Armies Of The Lord Of The Rings": 27
+        "Armies Of The Lord Of The Rings": 26
     },
     "version": 1.0
 }
