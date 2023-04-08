@@ -197,8 +197,13 @@
             "wargear": {}
         }
     },
-    "pageReferences": {
-        "Armies Of The Lord Of The Rings": 19
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 19,
+                "initials": "AotLotR"
+            }
+        }
     },
     "version": 1.0
 }

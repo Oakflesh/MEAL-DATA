@@ -77,15 +77,20 @@
             "type": "Default",
             "userSelected": false
         },
-        "Shield":{
+        "Shield": {
             "optional": true,
             "points": 5,
             "type": "Passive",
-            "userSelected": false 
+            "userSelected": false
         }
     },
-    "pageReferences": {
-        "Armies Of The Lord Of The Rings": 29
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 29,
+                "initials": "AotLotR"
+            }
+        }
     },
     "version": 1.0
 }

@@ -51,8 +51,13 @@
         }
     },
     "warband": {},
-    "pageReferences": {
-        "Armies Of The Lord Of The Rings": 22
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 22,
+                "initials": "AotLotR"
+            }
+        }
     },
     "version": 1.0
 }

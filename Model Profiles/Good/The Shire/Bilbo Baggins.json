@@ -84,8 +84,13 @@
             "unique": true
         }
     },
-    "pageReferences": {
-        "Armies Of The Lord Of The Rings": 21
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 21,
+                "initials": "AotLotR"
+            }
+        }
     },
     "version": 1.0
 }
