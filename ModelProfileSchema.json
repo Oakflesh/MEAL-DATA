@@ -1,0 +1,283 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Model Profile Schema",
+    "description": "JSON schema Model Profile object",
+    "type": "object",
+    "required": [
+        "actions",
+        "armies",
+        "magic",
+        "modelCount",
+        "mounts",
+        "name",
+        "unique",
+        "points",
+        "race",
+        "rules",
+        "stats",
+        "type",
+        "wargear",
+        "references",
+        "version"
+    ],
+    "defaultSnippets": [
+        {
+            "label": "Default Hero",
+            "body": {
+                "Armies Of The Lord Of The Rings": {
+                    "page": "$1",
+                    "initials": "AotLotR"
+                }
+            }
+        },
+        {
+            "label": "Default Warrior",
+            "body": {
+                "Armies Of The Lord Of The Rings": {
+                    "page": "$1",
+                    "initials": "AotLotR"
+                }
+            }
+        }
+    ],
+    "properties": {
+        "actions": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "object"
+            }
+        },
+        "armies": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "object",
+                "additionalProperties": {
+                    "tier": {
+                        "type": "string"
+                    },
+                    "selectableInWarband": {
+                        "type": "boolean"
+                    },
+                    "warbandSize": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "tier",
+                    "selectableInWarband",
+                    "warbandSize"
+                ]
+            }
+        },
+        "magic": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "object"
+            }
+        },
+        "modelCount": {
+            "type": "integer"
+        },
+        "mounts": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "object",
+                "additionalProperties": {
+                    "points": {
+                        "type": "integer"
+                    },
+                    "userSelected": {
+                        "type": "boolean"
+                    }
+                },
+                "required": [
+                    "points",
+                    "userSelected"
+                ]
+            }
+        },
+        "name": {
+            "type": "string"
+        },
+        "unique": {
+            "type": "boolean"
+        },
+        "uniqueName": {
+            "type": "string"
+        },
+        "points": {
+            "type": "integer"
+        },
+        "race": {
+            "type": "object"
+        },
+        "rules": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "enum": [
+                            "Active",
+                            "Default",
+                            "Passive"
+                        ]
+                    }
+                },
+                "required": [
+                    "type"
+                ]
+            }
+        },
+        "stats": {
+            "type": "object",
+            "additionalProperties": {
+                "movement": {
+                    "type": "integer"
+                },
+                "fight": {
+                    "type": "integer"
+                },
+                "range": {
+                    "type": "integer"
+                },
+                "strength": {
+                    "type": "integer"
+                },
+                "defence": {
+                    "type": "integer"
+                },
+                "attacks": {
+                    "type": "integer"
+                },
+                "wounds": {
+                    "type": "integer"
+                },
+                "courage": {
+                    "type": "integer"
+                },
+                "might": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "additional": {
+                            "type": "integer"
+                        },
+                        "points": {
+                            "type": "integer"
+                        },
+                        "value": {
+                            "type": "integer"
+                        }
+                    },
+                    "required": [
+                        "value"
+                    ]
+                },
+                "will": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "additional": {
+                            "type": "integer"
+                        },
+                        "points": {
+                            "type": "integer"
+                        },
+                        "value": {
+                            "type": "integer"
+                        }
+                    },
+                    "required": [
+                        "value"
+                    ]
+                },
+                "fate": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "additional": {
+                            "type": "integer"
+                        },
+                        "points": {
+                            "type": "integer"
+                        },
+                        "value": {
+                            "type": "integer"
+                        }
+                    },
+                    "required": [
+                        "value"
+                    ]
+                }
+            },
+            "required": [
+                "movement",
+                "fight",
+                "range",
+                "strength",
+                "defence",
+                "attacks",
+                "wounds",
+                "courage"
+            ]
+        },
+        "type": {
+            "type": "object"
+        },
+        "wargear": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "optional": {
+                        "type": "boolean"
+                    },
+                    "points": {
+                        "type": "integer"
+                    },
+                    "type": {
+                        "type": "string"
+                    },
+                    "userSelected": {
+                        "type": "boolean"
+                    },
+                    "unique": {
+                        "type": "boolean"
+                    },
+                    "asterisk": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "optional",
+                    "points",
+                    "type",
+                    "userSelected"
+                ],
+                "additionalProperties": false
+            }
+        },
+        "references": {
+            "type": "object",
+            "books": {
+                "type": "object",
+                "additionalProperties": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "page": {
+                            "type": "integer"
+                        },
+                        "initials": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "page",
+                        "initials"
+                    ]
+                }
+            }
+        },
+        "version": {
+            "type": "number"
+        }
+    }
+}

@@ -2,38 +2,33 @@
     "actions": {
         "Resolve": {},
         "March": {},
-        "Accuracy": {},
         "Strike": {},
         "Strength": {},
         "Defence": {},
         "Challenge": {}
     },
     "armies": {
-        "The Fellowship": {
-            "tier": "Hero Of Valour",
+        "Minas Tirith": {
+            "tier": "Hero Of Legend",
             "selectableInWarband": false,
-            "warbandSize": 0
-        },
-        "The Rangers": {
-            "tier": "Hero Of Valour",
-            "selectableInWarband": false,
-            "warbandSize": 15
+            "warbandSize": 18
         }
     },
     "magic": {},
     "modelCount": 1,
     "mounts": {
-        "Horse": {
-            "points": 10,
+        "Armoured Horse": {
+            "points": 15,
             "userSelected": false
         }
     },
-    "name": "Aragorn - Strider",
+    "name": "Aragorn, King Elessar",
     "unique": true,
     "uniqueName": "Aragorn",
-    "points": 160,
+    "points": 225,
     "race": {
-        "Man": {}
+        "Man": {},
+        "Gondor": {}
     },
     "rules": {
         "Horse Lord": {
@@ -42,6 +37,9 @@
         "Mighty Hero": {
             "type": "Passive",
             "asterisk": "*"
+        },
+        "Stand Men Of The West!": {
+            "type": "Passive"
         }
     },
     "stats": {
@@ -49,7 +47,7 @@
         "fight": 6,
         "range": 3,
         "strength": 4,
-        "defence": 5,
+        "defence": 7,
         "attacks": 3,
         "wounds": 3,
         "courage": 6,
@@ -74,42 +72,24 @@
         "Infantry": {}
     },
     "wargear": {
-        "Sword": {
+        "Andúril, Flame Of The West": {
             "optional": false,
             "points": 0,
             "type": "Default",
-            "userSelected": false
-        },
-        "Andúril, Flame Of The West": {
-            "optional": true,
-            "points": 40,
-            "type": "Active",
             "userSelected": false,
             "unique": true
         },
-        "Armour": {
-            "optional": true,
-            "points": 5,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Bow": {
-            "optional": true,
-            "points": 5,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Elven Cloak": {
-            "optional": true,
-            "points": 5,
-            "type": "Passive",
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
             "userSelected": false
         }
     },
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 12,
+                "page": 33,
                 "initials": "AotLotR"
             }
         }

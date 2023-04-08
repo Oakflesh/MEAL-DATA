@@ -1,0 +1,22 @@
+{
+    "The Fellowship": {
+        "bonus": "As long as Frodo is alive and on the table (or escapes the board in Scenarios where this applies), all models from The Fellowship army list gain the Fearless special rule.\\nAdditionally, a force that consists solely of models from The Fellowship army list will never be considered Broken if Frodo is alive and on the table (or escapes the board in Scenarios where this applies).",
+        "alignment": "good"
+    },
+    "The Shire": {
+        "bonus": "<b>Hobbit</b> models from this army gain the Woodland Creature Special Rule.",
+        "alignment": "good"
+    },
+    "The Rangers": {
+        "bonus": "All models from this army list gain the Woodland Creature Special Rule, and the Rangers Of The North and Dúnedain may benefit from the Stand Fast! of Arathorn, Halbarad and Aragorn - Strider. Additionally, the Rangers Of The North and the Dúnedain increase their Attacks value to 2, while they have the <b>Infantry</b> keyword.",
+        "alignment": "good"
+    },
+    "Númenor": {
+        "bonus": "Friendly <b>Númenor</b> models from this army list increase their Courage value by +1.",
+        "alignment": "good"
+    },
+    "Minas Tirith": {
+        "bonus": "Friendly <b>Gondor</b> Models",
+        "alignment": "good"
+    }
+}

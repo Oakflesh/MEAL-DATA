@@ -3,7 +3,8 @@
     "armies": {
         "The Shire": {
             "tier": "Warrior",
-            "selectableInWarband": true
+            "selectableInWarband": true,
+            "warbandSize": 0
         }
     },
     "magic": {},
