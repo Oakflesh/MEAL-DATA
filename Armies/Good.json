@@ -12,11 +12,11 @@
         "alignment": "good"
     },
     "Númenor": {
-        "bonus": "Friendly <b>Númenor</b> models from this army list increase their Courage value by +1.",
+        "bonus": "Friendly <b>Númenor</b> models from this army list increase their Courage value by 1.",
         "alignment": "good"
     },
     "Minas Tirith": {
-        "bonus": "Friendly <b>Gondor</b> Models",
+        "bonus": "Friendly <b>Gondor</b> models from this army list increase their Courage value by 1.",
         "alignment": "good"
     }
 }
