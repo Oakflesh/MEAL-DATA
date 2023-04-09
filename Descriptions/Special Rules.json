@@ -3,38 +3,8 @@
         "description": "Sauron can spend a single point of Will each turn without reducing his own store.",
         "stats": null
     },
-    "Armoured Fell Beast": {
-        "description": "This is a mount",
-        "stats": {
-            "courage": 3,
-            "strength": 6,
-            "range": 5,
-            "defence": 6,
-            "fight": 5,
-            "attacks": 2,
-            "movement": 12,
-            "wounds": 3
-        }
-    },
     "Harbinger Of Evil": {
         "description": "An enemy model within 12 inches of this model suffers a -1 penalty to its Courage.\\n<b>Note: </b>This is not cumulative with other similar penalties such as those provided by Goblin Drums, the Ancient Evil special rule, and so on.",
-        "stats": null
-    },
-    "Horse": {
-        "description": "TEST TEST HORSE",
-        "stats": {
-            "range": 0,
-            "fight": 0,
-            "strength": 3,
-            "defence": 4,
-            "movement": 10,
-            "courage": 3,
-            "wounds": 1,
-            "attacks": 0
-        }
-    },
-    "Ringwraith": {
-        "description": "Ringwraith description",
         "stats": null
     },
     "Terror": {

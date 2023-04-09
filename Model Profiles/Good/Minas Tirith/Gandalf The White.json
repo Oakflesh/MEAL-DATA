@@ -1,8 +1,129 @@
 {
-    "references": {
-        "Armies Of The Lord Of The Rings": {
-            "page": "",
-            "initials": "AotLotR"
+    "actions": {
+        "Resolve": {},
+        "Channelling": {},
+        "Strike": {}
+    },
+    "armies": {
+        "Minas Tirith": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 15
         }
-    }
+    },
+    "magic": {
+        "Blinding Light": {
+            "range": 0,
+            "casting": 2
+        },
+        "Immobilise": {
+            "range": 12,
+            "casting": 2
+        },
+        "Terrifying Aura": {
+            "range": 0,
+            "casting": 2
+        },
+        "Command": {
+            "range": 12,
+            "casting": 3
+        },
+        "Fortify Spirit": {
+            "range": 12,
+            "casting": 3
+        },
+        "Strengthen Will": {
+            "range": 12,
+            "casting": 3
+        },
+        "Banishment": {
+            "range": 12,
+            "casting": 4
+        },
+        "Sorcerous Blast": {
+            "range": 12,
+            "casting": 4
+        },
+        "Your Staff Is Broken": {
+            "range": 12,
+            "casting": 4
+        }
+    },
+    "modelCount": 1,
+    "mounts": {
+        "Shadowfax": {
+            "points": 20,
+            "userSelected": false,
+            "unique": true
+        }
+    },
+    "name": "Gandalf The White",
+    "unique": true,
+    "uniqueName": "Gandalf",
+    "points": 220,
+    "race": {
+        "Wizard": {}
+    },
+    "rules": {},
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 4,
+        "strength": 4,
+        "defence": 6,
+        "attacks": 2,
+        "wounds": 3,
+        "courage": 7,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 6,
+            "asterisk": "*"
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 3,
+            "asterisk": "**"
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Staff Of Power": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false,
+            "asterisk": "*"
+        },
+        "Glamdring": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
+            "userSelected": false
+        },
+        "Narya": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false,
+            "asterisk": "**"
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 34,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
 }
