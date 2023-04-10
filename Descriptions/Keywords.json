@@ -1,0 +1,14 @@
+{
+    "Gondor": {
+        "description": "This model has the <b>Gondor</b> keyword.",
+        "stats": null
+    },
+    "Hobbit": {
+        "description": "This model has the <b>Hobbit</b> keyword.",
+        "stats": null
+    },
+    "Ringwraith": {
+        "description": "MISSING DATA",
+        "stats": null
+    }
+}

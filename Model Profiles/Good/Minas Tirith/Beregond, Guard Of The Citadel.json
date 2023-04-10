@@ -1,0 +1,90 @@
+{
+    "actions": {
+        "Accuracy": {}
+    },
+    "armies": {
+        "Minas Tirith": {
+            "tier": "Minor Hero",
+            "selectableInWarband": false,
+            "warbandSize": 6
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Horse": {
+            "points": 5,
+            "userSelected": false
+        }
+    },
+    "name": "Beregond, Guard Of The Citadel",
+    "unique": true,
+    "uniqueName": "Beregond",
+    "points": 30,
+    "race": {
+        "Man": {},
+        "Gondor": {}
+    },
+    "rules": {
+        "Bodyguard":{
+            "type":"Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 4,
+        "range": 3,
+        "strength": 4,
+        "defence": 6,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 4,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Longbow": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 37,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

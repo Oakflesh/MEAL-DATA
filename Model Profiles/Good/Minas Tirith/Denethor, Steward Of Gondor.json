@@ -1,0 +1,80 @@
+{
+    "actions": {},
+    "armies": {
+        "Minas Tirith": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 15
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Denethor, Steward Of Gondor",
+    "unique": true,
+    "uniqueName": "Denethor",
+    "points": 35,
+    "race": {
+        "Man": {},
+        "Gondor": {}
+    },
+    "rules": {
+        "Broken Mind": {
+            "type": "Passive"
+        },
+        "The Rule Of Gondor Is Mine, And No Other's!": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 4,
+        "strength": 4,
+        "defence": 5,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 5,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 0
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 0
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 35,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}
