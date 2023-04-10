@@ -24,7 +24,7 @@
         "stats": null
     },
     "Resistant To Magic": {
-        "Description": "If this model is targeted by a Magical Power, it may use an additional 'free' dice when it makes a Resist test, even if it has no Will remaining or decides not to use any Will points",
+        "description": "If this model is targeted by a Magical Power, it may use an additional 'free' dice when it makes a Resist test, even if it has no Will remaining or decides not to use any Will points",
         "stats": null
     },
     "Woodland Creature": {
