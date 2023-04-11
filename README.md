@@ -114,7 +114,7 @@
         "Wargear Name": {
             "optional": false,
             "points": 5,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         }
     }
@@ -683,7 +683,7 @@
         "Wargear Name": {
             "optional": false,
             "points": 5, 
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         }
 }

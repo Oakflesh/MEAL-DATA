@@ -60,19 +60,19 @@
         "Whip": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         },
         "Mace": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         },
         "Armour": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         }
     },

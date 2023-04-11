@@ -41,13 +41,13 @@
         "Dagger": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         },
         "Short Bow": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         }
     },

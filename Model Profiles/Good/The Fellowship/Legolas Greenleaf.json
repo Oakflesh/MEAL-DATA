@@ -69,13 +69,13 @@
         "Elf Bow": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         },
         "Elven-Made Daggers": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         },
         "Armour": {

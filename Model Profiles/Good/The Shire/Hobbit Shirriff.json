@@ -41,7 +41,7 @@
         "Hand-And-A-Half Club": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         }
     },

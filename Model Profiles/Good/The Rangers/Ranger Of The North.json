@@ -57,19 +57,19 @@
         "Armour": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         },
         "Bow": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         },
         "Sword": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         },
         "Spear": {

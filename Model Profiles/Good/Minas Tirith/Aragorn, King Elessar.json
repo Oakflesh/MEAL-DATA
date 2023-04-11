@@ -75,14 +75,14 @@
         "Andúril, Flame Of The West": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false,
             "unique": true
         },
         "Heavy Armour": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         }
     },

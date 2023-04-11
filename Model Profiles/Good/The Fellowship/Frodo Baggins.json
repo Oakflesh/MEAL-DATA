@@ -59,14 +59,14 @@
         "The One Ring": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": true,
             "unique": true
         },
         "Dagger": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         },
         "Mithril Coat": {

@@ -63,13 +63,13 @@
         "Heavy Armour": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         },
         "Hand-And-A-Half Sword":{
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false 
         },
         "Shield":{
@@ -81,7 +81,7 @@
         "The One Ring": {
             "optional": true,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false,
             "unique": true
         }

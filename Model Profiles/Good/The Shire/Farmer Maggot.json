@@ -62,7 +62,7 @@
         "Two-Handed Scythe (Pick)": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         }
     },

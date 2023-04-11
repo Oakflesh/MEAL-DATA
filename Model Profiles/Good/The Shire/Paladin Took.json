@@ -62,7 +62,7 @@
         "Walking Cane (Club)": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         }
     },

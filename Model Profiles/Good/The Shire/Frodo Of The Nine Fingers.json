@@ -68,7 +68,7 @@
         "Unarmed" : {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         },
         "Elven Cloak": {
@@ -80,7 +80,7 @@
         "Mithril Coat": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": true,
             "unique": true
         }

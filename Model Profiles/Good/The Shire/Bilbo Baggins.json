@@ -59,13 +59,13 @@
         "Dagger": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         },
         "The One Ring": {
             "optional": true,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false,
             "unique": true
         },

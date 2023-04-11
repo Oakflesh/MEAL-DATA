@@ -132,7 +132,7 @@
         "Heavy Armour": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         },
         "Morgul Blade": {
@@ -144,7 +144,7 @@
         "Sword": {
             "optional": false,
             "points": 0,
-            "type": "Default",
+            "type": "Passive",
             "userSelected": false
         },
         "Two-Handed Flail": {

@@ -1,10 +1,10 @@
 {
     "actions": {
-        "Strike": {},
-        "Resolve": {}
+        "Resolve": {},
+        "Strike": {}
     },
     "armies": {
-        "The Shire": {
+        "Minas Tirith": {
             "tier": "Hero Of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
@@ -12,74 +12,72 @@
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {
-        "Pony": {
-            "points": 5,
-            "userSelected": false
-        }
-    },
-    "name": "Samwise The Brave",
+    "mounts": {},
+    "name": "Cirion, Lieutenant Of Amon Barad",
     "unique": true,
-    "uniqueName": "Samwise",
-    "points": 45,
+    "uniqueName": "Cirion",
+    "points": 55,
     "race": {
-        "Hobbit": {}
+        "Man": {},
+        "Gondor": {}
     },
     "rules": {
-        "Resistant To Magic": {
-            "type": "Passive"
-        },
-        "Throw Stones (Hobbit)": {
+        "Boldest Of The Bold": {
             "type": "Active"
         }
     },
     "stats": {
-        "movement": 4,
-        "fight": 3,
+        "movement": 6,
+        "fight": 4,
         "range": 3,
-        "strength": 2,
-        "defence": 3,
-        "attacks": 1,
+        "strength": 4,
+        "defence": 6,
+        "attacks": 2,
         "wounds": 2,
-        "courage": 6,
+        "courage": 4,
         "might": {
             "additional": 0,
             "points": 0,
-            "value": 2
+            "value": 3
         },
         "will": {
             "additional": 0,
             "points": 0,
-            "value": 2
+            "value": 1
         },
         "fate": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 1
         }
     },
     "type": {
         "Infantry": {}
     },
     "wargear": {
-        "Elven Cloak": {
-            "optional": true,
-            "points": 5,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Sting": {
+        "Armour": {
             "optional": false,
             "points": 0,
             "type": "Passive",
-            "userSelected": true,
-            "unique": true
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
         }
     },
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 17,
+                "page": 39,
                 "initials": "AotLotR"
             }
         }
