@@ -1,0 +1,92 @@
+{
+    "actions": {},
+    "armies": {
+        "Minas Tirith": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+    },
+    "name": "Warrior Of Minas Tirith",
+    "unique": false,
+    "points": 7,
+    "race": {
+        "Man": {},
+        "Gondor": {}
+    },
+    "rules": {
+        "Shieldwall": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 3,
+        "range": 4,
+        "strength": 3,
+        "defence": 5,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 3
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Bow": {
+            "optional": true,
+            "points": 1,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "War Horn": {
+            "optional": true,
+            "points": 30,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Banner": {
+            "optional": true,
+            "points": 25,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 1,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Spear": {
+            "optional": true,
+            "points": 1,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 41,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

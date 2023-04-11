@@ -1,6 +1,6 @@
 {
     "actions": {
-        "Strike": {}
+        "March": {}
     },
     "armies": {
         "Minas Tirith": {
@@ -11,22 +11,27 @@
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {},
-    "name": "Knight Of The White Tower",
+    "mounts": {
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Captain Of Minas Tirith",
     "unique": false,
-    "points": 60,
+    "points": 50,
     "race": {
         "Man": {},
         "Gondor": {}
     },
     "rules": {
-        "The Bladelord's Skill": {
-            "type": "Active"
+        "Shieldwall": {
+            "type": "Passive"
         }
     },
     "stats": {
         "movement": 6,
-        "fight": 5,
+        "fight": 4,
         "range": 4,
         "strength": 4,
         "defence": 6,
@@ -53,29 +58,41 @@
         "Infantry": {}
     },
     "wargear": {
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
         "Heavy Armour": {
             "optional": false,
             "points": 0,
             "type": "Passive",
             "userSelected": false
         },
-        "Dagger": {
-            "optional": false,
-            "points": 0,
+        "Bow": {
+            "optional": true,
+            "points": 5,
             "type": "Passive",
             "userSelected": false
         },
-        "White Sword Of Gondor": {
-            "optional": false,
-            "points": 0,
-            "type": "Active",
+        "Lance": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
             "userSelected": false
         }
     },
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 39,
+                "page": 40,
                 "initials": "AotLotR"
             }
         }

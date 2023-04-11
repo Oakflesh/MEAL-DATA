@@ -1,6 +1,7 @@
 {
     "actions": {
-        "Strike": {}
+        "March": {},
+        "Defence": {}
     },
     "armies": {
         "Minas Tirith": {
@@ -11,8 +12,17 @@
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {},
-    "name": "Knight Of The White Tower",
+    "mounts": {
+        "Armoured Horse": {
+            "points": 15,
+            "userSelected": false
+        },
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "King Of Men",
     "unique": false,
     "points": 60,
     "race": {
@@ -20,19 +30,17 @@
         "Gondor": {}
     },
     "rules": {
-        "The Bladelord's Skill": {
-            "type": "Active"
-        }
+
     },
     "stats": {
         "movement": 6,
         "fight": 5,
         "range": 4,
         "strength": 4,
-        "defence": 6,
+        "defence": 5,
         "attacks": 2,
         "wounds": 2,
-        "courage": 4,
+        "courage": 5,
         "might": {
             "additional": 0,
             "points": 0,
@@ -41,7 +49,7 @@
         "will": {
             "additional": 0,
             "points": 0,
-            "value": 1
+            "value": 2
         },
         "fate": {
             "additional": 0,
@@ -53,29 +61,41 @@
         "Infantry": {}
     },
     "wargear": {
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
         "Heavy Armour": {
-            "optional": false,
-            "points": 0,
+            "optional": true,
+            "points": 5,
             "type": "Passive",
             "userSelected": false
         },
-        "Dagger": {
-            "optional": false,
-            "points": 0,
+        "Lance": {
+            "optional": true,
+            "points": 5,
             "type": "Passive",
             "userSelected": false
         },
-        "White Sword Of Gondor": {
-            "optional": false,
-            "points": 0,
-            "type": "Active",
+        "Shield": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
             "userSelected": false
         }
     },
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 39,
+                "page": 40,
                 "initials": "AotLotR"
             }
         }
