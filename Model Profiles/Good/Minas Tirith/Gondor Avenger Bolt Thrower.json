@@ -23,7 +23,7 @@
         }
     },
     "siegeCrew": {
-        "captain": "Minas Tirith Engineer Captain",
+        "captain": "Minas Tirith Siege Engineer Captain",
         "veteran": "Minas Tirith Siege Veteran",
         "crew": "Minas Tirith Siege Crew",
         "additionalCrew": ""

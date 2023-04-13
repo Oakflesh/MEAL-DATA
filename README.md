@@ -14,7 +14,7 @@
     "armies": {
         "Army Name": {
             "tier": "",
-            "selectableInWarband": true
+            "selectableInWarband": true,
             "warbandSize": 0
         },
         "Army Name": {
@@ -24,7 +24,7 @@
         },
         "Army Name": {
             "tier": "",
-            "selectableInWarband": true
+            "selectableInWarband": true,
             "warbandSize": 0
         }
     },
@@ -181,7 +181,7 @@
     "armies": {
         "Army Name": {
             "tier": "",
-            "selectableInWarband": true
+            "selectableInWarband": true,
             "warbandSize": 0
         },
         "Army Name": {
@@ -191,7 +191,7 @@
         },
         "Army Name": {
             "tier": "",
-            "selectableInWarband": true
+            "selectableInWarband": true,
             "warbandSize": 0
         }
     }
@@ -201,17 +201,17 @@
     "armies": {
         "Angmar": {
             "tier": "Hero Of Legend",
-            "selectableInWarband": true
+            "selectableInWarband": true,
             "warbandSize": 18
         },
         "Barad-Dûr": {
             "tier": "Hero Of Valour",
-            "selectableInWarband": true
+            "selectableInWarband": true,
             "warbandSize": 15
         },
         "Mordor": {
             "tier": "Hero Of Legend",
-            "selectableInWarband": true
+            "selectableInWarband": true,
             "warbandSize": 18
         }
     }
