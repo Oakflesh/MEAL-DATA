@@ -94,6 +94,7 @@
             "type": {
                 "Infantry": {}
             },
+            "totalPoints": 0,
             "wargear": {
                 "Sword": {
                     "optional": false,
