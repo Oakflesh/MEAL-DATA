@@ -149,7 +149,7 @@
 
 ```JSON5
     "actions": {
-        "channelling": {},
+        "Channelling": {},
         "March": {}
     }
 ```
