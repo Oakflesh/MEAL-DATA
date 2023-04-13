@@ -138,8 +138,8 @@
             "actions": {},
             "armies": {
                 "Minas Tirith": {
-                    "minModelCount": 1,
-                    "maxModelCount": 1,
+                    "minModelCount": 2,
+                    "maxModelCount": 2,
                     "tier": "Minor Hero",
                     "selectableInWarband": false,
                     "warbandSize": 0,
@@ -147,7 +147,7 @@
                 }
             },
             "magic": {},
-            "modelCount": 1,
+            "modelCount": 2,
             "mounts": {},
             "name": "Minas Tirith Siege Veteran",
             "points": 0,
@@ -255,10 +255,10 @@
                 }
             },
             "magic": {},
-            "modelCount": 1,
+            "modelCount": 0,
             "mounts": {},
-            "name": "Minas Tirith Siege Crew",
-            "points": 0,
+            "name": "Additional Minas Tirith Siege Crew",
+            "points": 7,
             "race": {},
             "rules": {},
             "stats": {
