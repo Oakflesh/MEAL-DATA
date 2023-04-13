@@ -4,11 +4,11 @@
         "stats": null
     },
     "Harbinger Of Evil": {
-        "description": "An enemy model within 12 inches of this model suffers a -1 penalty to its Courage.\\n<b>Note: </b>This is not cumulative with other similar penalties such as those provided by Goblin Drums, the Ancient Evil special rule, and so on.",
+        "description": "An enemy model within 12 inches of this model suffers a -1 penalty to its Courage.\n<b>Note: </b>This is not cumulative with other similar penalties such as those provided by Goblin Drums, the Ancient Evil special rule, and so on.",
         "stats": null
     },
     "Terror": {
-        "description": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are afflicted are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terror in all Orc models.",
+        "description": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are afflicted are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terror in all Orc models.",
         "stats": null
     },
     "* The Lord Of The Rings": {
@@ -20,7 +20,7 @@
         "stats": null
     },
     "Will Of Evil": {
-        "description": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring-not even if other enemy models are included as part of Multiple Combat.",
+        "description": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring-not even if other enemy models are included as part of Multiple Combat.",
         "stats": null
     },
     "Resistant To Magic": {
