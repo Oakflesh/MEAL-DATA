@@ -1,0 +1,98 @@
+{
+    "actions": {},
+    "armies": {
+        "Barad-Dûr": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        },
+        "Mordor": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Orc Warrior",
+    "unique": false,
+    "points": 5,
+    "race": {
+        "Orc": {},
+        "Mordor": {}
+    },
+    "rules": {},
+    "stats": {
+        "movement": 6,
+        "fight": 3,
+        "range": 5,
+        "strength": 3,
+        "defence": 4,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 2
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Pick": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Banner": {
+            "optional": true,
+            "points": 25,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Orc Bow": {
+            "optional": true,
+            "points": 1,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 1,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Spear": {
+            "optional": true,
+            "points": 1,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Two-Handed Weapon": {
+            "optional": true,
+            "points": 1,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 119,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

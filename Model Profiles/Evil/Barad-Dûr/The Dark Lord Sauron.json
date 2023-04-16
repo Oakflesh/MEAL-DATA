@@ -4,7 +4,7 @@
         "Strike": {},
         "Strength": {},
         "Challenge": {}
-        },
+    },
     "armies": {
         "Barad-Dûr": {
             "tier": "Hero Of Legend",
@@ -107,6 +107,14 @@
         "Monster": {},
         "Infantry": {}
     },
-    "version": 1,
-    "wargear": {}
+    "wargear": {},
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 113,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1
 }

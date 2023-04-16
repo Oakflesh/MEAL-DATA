@@ -7,8 +7,16 @@
         "description": "This model has the <b>Hobbit</b> keyword.",
         "stats": null
     },
+    "Orc": {
+        "description": "This model has the <b>Orc</b> keyword.",
+        "stats": null
+    },
     "Ringwraith": {
-        "description": "MISSING DATA",
+        "description": "This model has the <b>Ringwraith</b> keyword.",
+        "stats": null
+    },
+    "Spirit": {
+        "description": "This model has the <b>Spirit</b> keyword.",
         "stats": null
     }
 }
