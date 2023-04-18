@@ -1,0 +1,93 @@
+{
+    "actions": {
+        "March": {},
+        "Strike": {}
+    },
+    "armies": {
+        "The Dead Of Dunharrow": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Warrior Of The Dead",
+    "unique": false,
+    "points": 14,
+    "race": {
+        "Spirit": {}
+    },
+    "rules": {
+        "Blades Of The Dead": {
+            "type": "Passive"
+        },
+        "Terror": {
+            "type": "Passive"
+        },
+        "Spectral Walk": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 3,
+        "range": 4,
+        "strength": 3,
+        "defence": 7,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 6
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Axe": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Banner": {
+            "optional": true,
+            "points": 25,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 1,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Spear": {
+            "optional": true,
+            "points": 1,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 54,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

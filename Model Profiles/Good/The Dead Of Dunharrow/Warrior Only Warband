@@ -1,0 +1,31 @@
+{
+    "actions": {
+
+    },
+    "armies": {
+        "The Dead Of Dunharrow": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": true,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 0,
+    "mounts": {},
+    "name": "Warrior Only Warband",
+    "unique": false,
+    "points": 0,
+    "race": {
+    },
+    "rules": {
+    },
+    "stats": {
+    },
+    "type": {
+    },
+    "wargear": {
+    },
+    "references": {
+    },
+    "version": 1.0
+}
