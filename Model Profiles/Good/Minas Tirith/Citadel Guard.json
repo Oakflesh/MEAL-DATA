@@ -64,7 +64,8 @@
             "optional": true,
             "points": 1,
             "type": "Passive",
-            "userSelected": false
+            "userSelected": false,
+            "additional": "Replaces Spear"
         }
     },
     "references": {

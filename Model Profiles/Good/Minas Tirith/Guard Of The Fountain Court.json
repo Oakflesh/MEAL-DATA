@@ -58,7 +58,8 @@
             "optional": true,
             "points": 25,
             "type": "Passive",
-            "userSelected": false
+            "userSelected": false,
+            "additional": "Replaces Spear"
         },
         "Shield": {
             "optional": true,
