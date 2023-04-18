@@ -1,0 +1,90 @@
+{
+    "actions": {},
+    "armies": {
+        "The Fiefdoms": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Armoured Horse": {
+            "points": 8,
+            "userSelected": false
+        }
+    },
+    "name": "Knight Of Dol Amroth",
+    "unique": false,
+    "points": 11,
+    "race": {
+        "Man": {},
+        "Gondor": {}
+    },
+    "rules": {
+        "Pride Of Dol Amroth": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 4,
+        "range": 4,
+        "strength": 3,
+        "defence": 6,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 4
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "War Horn": {
+            "optional": true,
+            "points": 30,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Banner": {
+            "optional": true,
+            "points": 25,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Lance": {
+            "optional": true,
+            "points": 1,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 49,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

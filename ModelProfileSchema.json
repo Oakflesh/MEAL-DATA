@@ -119,7 +119,6 @@
                     "type": {
                         "enum": [
                             "Active",
-                            "Default",
                             "Passive"
                         ]
                     }

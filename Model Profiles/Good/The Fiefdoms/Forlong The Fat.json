@@ -1,0 +1,100 @@
+{
+    "actions": {
+
+        "Strength": {}
+
+    },
+    "armies": {
+        "The Fiefdoms": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 15
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Forlong The Fat",
+    "unique": true,
+    "uniqueName": "Forlong The Fat",
+    "points": 80,
+    "race": {
+        "Man": {},
+        "Gondor": {}
+    },
+    "rules": {
+        "The Lord Of Lossarnach": {
+            "type": "Passive",
+            "asterisk": "*"
+        }
+
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 4,
+        "strength": 5,
+        "defence": 6,
+        "attacks": 2,
+        "wounds": 3,
+        "courage": 4,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "War Spear": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "War Horn": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 47,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

@@ -1,0 +1,83 @@
+{
+    "actions": {
+        "Strike": {}
+    },
+    "armies": {
+        "The Fiefdoms": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 15
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Angbor The Fearless",
+    "unique": true,
+    "uniqueName": "Angbor The Fearless",
+    "points": 65,
+    "race": {
+        "Man": {},
+        "Gondor": {}
+    },
+    "rules": {
+        "Chief Of Lamedon": {
+            "type": "Passive",
+            "asterisk": "*"
+        },
+        "Fearless": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 4,
+        "strength": 4,
+        "defence": 5,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 5,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Broadsword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 48,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

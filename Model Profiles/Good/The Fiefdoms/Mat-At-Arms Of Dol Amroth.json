@@ -1,0 +1,73 @@
+{
+    "actions": {},
+    "armies": {
+        "The Fiefdoms": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Mat-At-Arms Of Dol Amroth",
+    "unique": false,
+    "points": 9,
+    "race": {
+        "Man": {},
+        "Gondor": {}
+    },
+    "rules": {
+        "Pride Of Dol Amroth": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 4,
+        "range": 4,
+        "strength": 3,
+        "defence": 5,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 3
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Pike": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": true
+        },
+        "Banner (Replace Pike)": {
+            "optional": true,
+            "points": 25,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 50,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

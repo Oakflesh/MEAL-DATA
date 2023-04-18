@@ -1,0 +1,103 @@
+{
+    "actions": {
+        "Resolve": {},
+        "Strike": {},
+        "Strength": {},
+        "Defence": {}
+    },
+    "armies": {
+        "The Fiefdoms": {
+            "tier": "Hero Of Legend",
+            "selectableInWarband": false,
+            "warbandSize": 18
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Armoured Horse": {
+            "points": 15,
+            "userSelected": false
+        }
+    },
+    "name": "Price Imrahil Of Dol Amroth",
+    "unique": true,
+    "uniqueName": "Price Imrahil Of Dol Amroth",
+    "points": 140,
+    "race": {
+        "Man": {},
+        "Gondor": {}
+    },
+    "rules": {
+        "The Lineage Of Númenor": {
+            "type": "Active"
+        },
+        "Dol Amroth For Gondor!": {
+            "type": "Passive",
+            "asterisk": "*"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 6,
+        "range": 4,
+        "strength": 4,
+        "defence": 7,
+        "attacks": 3,
+        "wounds": 3,
+        "courage": 6,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Lance": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 47,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}
