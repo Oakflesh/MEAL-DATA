@@ -77,5 +77,13 @@
             "type": "Passive",
             "userSelected": false
         }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 116,
+                "initials": "AotLotR"
+            }
+        }
     }
 }

@@ -1,6 +1,6 @@
 {
     "Angmar": {
-        "bonus": "testing",
+        "bonus": "Friendly <b>Angmar Orc</b> models within 3\" of a friendly <b>Spirit Hero</b> model gain the Terror special rule." ,
         "alignment": "evil"
     },
     "Barad-Dûr": {
@@ -10,5 +10,8 @@
     "Mordor": {
         "bonus": "TESTING",
         "alignment": "evil"
+    },
+    "Moria" : {
+        "bonus": "TESTING"
     }
 }

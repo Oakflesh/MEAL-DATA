@@ -1,6 +1,7 @@
 {
     "actions": {
-        "March": {}
+        "Strike": {},
+        "Strength": {}
     },
     "armies": {
         "Barad-Dûr": {
@@ -16,28 +17,30 @@
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {
-        "Warg": {
-            "points": 10,
-            "userSelected": false
+    "mounts": {},
+    "name": "Mordor Troll Chieftain",
+    "unique": false,
+    "points": 140,
+    "race": {
+        "Troll": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Throw Stones (Troll)": {
+            "type": "Active"
         }
     },
-    "name": "Orc Captain",
-    "unique": false,
-    "points": 40,
-    "race": {
-        "Orc": {}
-    },
-    "rules": {},
     "stats": {
         "movement": 6,
-        "fight": 4,
+        "fight": 7,
         "range": 5,
-        "strength": 4,
-        "defence": 5,
-        "attacks": 2,
-        "wounds": 2,
-        "courage": 3,
+        "strength": 7,
+        "defence": 8,
+        "attacks": 3,
+        "wounds": 3,
+        "courage": 4,
         "might": {
             "additional": 0,
             "points": 0,
@@ -55,44 +58,27 @@
         }
     },
     "type": {
-        "Infantry": {}
+        "Infantry": {},
+        "Monster": {}
     },
     "wargear": {
-        "Shield": {
-            "optional": true,
-            "points": 5,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Orc Bow": {
-            "optional": true,
-            "points": 5,
-            "type": "Passive",
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
             "userSelected": false
         },
         "Sword": {
             "optional": false,
             "points": 0,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Pick": {
-            "optional": false,
-            "points": 0,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Armour": {
-            "optional": false,
-            "points": 0,
-            "type": "Passive",
+            "type": "Default",
             "userSelected": false
         }
     },
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 116,
+                "page": 119,
                 "initials": "AotLotR"
             }
         }
