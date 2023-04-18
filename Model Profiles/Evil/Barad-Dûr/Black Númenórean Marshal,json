@@ -75,7 +75,7 @@
             "userSelected": false
         },
         "Two-Handed weapon": {
-            "target": "Replaces Shield",
+            "additional": "Replaces Shield",
             "optional": true,
             "points": 5,
             "type": "Passive",

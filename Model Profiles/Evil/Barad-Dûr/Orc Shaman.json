@@ -22,7 +22,7 @@
         "Fury": {
             "range": 6,
             "casting": 3,
-            "target": "Mordor Orc"
+            "additional": "Mordor Orc"
         }
     },
     "modelCount": 1,

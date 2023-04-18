@@ -52,7 +52,7 @@
     },
     "wargear": {
         "War Drum": {
-            "target": "Mordor Orc",
+            "additional": "Mordor Orc",
             "optional": false,
             "points": 0,
             "type": "Passive",

@@ -54,11 +54,12 @@
             "type": "Passive",
             "userSelected": true
         },
-        "Banner (Replace Pike)": {
+        "Banner": {
             "optional": true,
             "points": 25,
             "type": "Passive",
-            "userSelected": false
+            "userSelected": false,
+            "additional": "Replaces Pike"
         }
     },
     "references": {
