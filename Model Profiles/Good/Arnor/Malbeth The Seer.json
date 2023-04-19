@@ -1,0 +1,73 @@
+{
+    "actions": {
+        "Resolve": {}
+    },
+    "armies": {
+        "Arnor": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Malbeth The Seer",
+    "unique": true,
+    "uniqueName": "Malbeth",
+    "points": 70,
+    "race": {
+        "Man": {},
+        "Arnor": {}
+    },
+    "rules": {
+        "Gift Of Foresight": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 3,
+        "range": 4,
+        "strength": 3,
+        "defence": 4,
+        "attacks": 1,
+        "wounds": 2,
+        "courage": 5,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Staff": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 57,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

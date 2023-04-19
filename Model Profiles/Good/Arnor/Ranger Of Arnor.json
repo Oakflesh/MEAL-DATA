@@ -1,11 +1,6 @@
 {
     "actions": {},
     "armies": {
-        "The Shire": {
-            "tier": "Warrior",
-            "selectableInWarband": true,
-            "warbandSize": 0
-        },
         "Arnor": {
             "tier": "Warrior",
             "selectableInWarband": true,
@@ -15,26 +10,21 @@
     "magic": {},
     "modelCount": 1,
     "mounts": {},
-    "name": "Hobbit Archer",
+    "name": "Ranger Of Arnor",
     "unique": false,
-    "points": 5,
+    "points": 8,
     "race": {
-        "Hobbit": {}
+        "Man": {},
+        "Arnor": {}
     },
     "rules": {
-        "Resistant To Magic": {
-            "type": "Passive"
-        },
-        "Throw Stones (Hobbit)": {
-            "type": "Active"
-        }
     },
     "stats": {
-        "movement": 4,
-        "fight": 2,
+        "movement": 6,
+        "fight": 4,
         "range": 3,
-        "strength": 2,
-        "defence": 3,
+        "strength": 3,
+        "defence": 4,
         "attacks": 1,
         "wounds": 1,
         "courage": 3
@@ -43,24 +33,29 @@
         "Infantry": {}
     },
     "wargear": {
-        "Dagger": {
+        "Armour": {
             "optional": false,
             "points": 0,
             "type": "Passive",
             "userSelected": false
         },
-        "Short Bow": {
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Bow": {
             "optional": false,
             "points": 0,
             "type": "Passive",
             "userSelected": false
         }
     },
-    "warband": {},
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 22,
+                "page": 59,
                 "initials": "AotLotR"
             }
         }

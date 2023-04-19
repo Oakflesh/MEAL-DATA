@@ -1,0 +1,92 @@
+{
+    "actions": {
+        "March": {}
+    },
+    "armies": {
+        "Arnor": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Captain Of Arnor",
+    "unique": false,
+    "points": 55,
+    "race": {
+        "Man": {},
+        "Arnor": {}
+    },
+    "rules": {
+        "Hatred": {
+            "type": "Passive",
+            "additional": "Angmar"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 4,
+        "strength": 4,
+        "defence": 7,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 3,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Bow": {
+            "optional": true,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false,
+            "additional": "Replaces Shield"
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 58,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

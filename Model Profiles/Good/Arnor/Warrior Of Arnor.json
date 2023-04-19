@@ -1,0 +1,81 @@
+{
+    "actions": {},
+    "armies": {
+        "Arnor": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Warrior Of Arnor",
+    "unique": false,
+    "points": 8,
+    "race": {
+        "Man": {},
+        "Arnor": {}
+    },
+    "rules": {
+        "Hatred": {
+            "type": "Passive",
+            "additional": "Angmar"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 4,
+        "range": 4,
+        "strength": 3,
+        "defence": 6,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 2
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Spear": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Banner": {
+            "optional": true,
+            "points": 25,
+            "type": "Passive",
+            "userSelected": false,
+            "additional": "Replaces Spear & Shield"
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 58,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}
