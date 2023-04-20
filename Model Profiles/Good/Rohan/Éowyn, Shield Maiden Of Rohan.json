@@ -1,0 +1,104 @@
+{
+    "actions": {
+        "Resolve": {},
+        "Strike": {},
+        "Strength": {}
+    },
+    "armies": {
+        "Rohan": {
+            "tier": "Minor Hero",
+            "selectableInWarband": false,
+            "warbandSize": 6
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Éowyn, Shield Maiden Of Rohan",
+    "unique": true,
+    "uniqueName": "Éowyn",
+    "points": 40,
+    "race": {
+        "Woman": {},
+        "Rohan": {}
+    },
+    "rules": {
+        "Expert Rider": {
+            "type": "Passive"
+        },
+        "Horse Lord": {
+            "type": "Passive"
+        },
+        "I Shall Kill You If You Touch Him": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 4,
+        "strength": 3,
+        "defence": 3,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 5,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Armour": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Throwing Spears": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 63,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

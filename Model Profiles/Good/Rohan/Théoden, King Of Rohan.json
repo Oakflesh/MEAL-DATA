@@ -1,0 +1,112 @@
+{
+    "actions": {
+        "March": {},
+        "Strike": {},
+        "Challenge": {}
+    },
+    "armies": {
+        "Rohan": {
+            "tier": "Hero Of Legend",
+            "selectableInWarband": false,
+            "warbandSize": 18
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Armoured Horse": {
+            "points": 15,
+            "userSelected": false
+        },
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Théoden, King Of Rohan",
+    "unique": true,
+    "uniqueName": "Théoden",
+    "points": 75,
+    "race": {
+        "Man": {},
+        "Rohan": {}
+    },
+    "rules": {
+        "Horse Lord": {
+            "type": "Passive"
+        },
+        "Expert Rider": {
+            "type": "Passive"
+        },
+        "The Will Of Men Is Easily Corrupted": {
+            "type": "Passive"
+        },
+        "Forth, And Fear No Darkness": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 4,
+        "strength": 4,
+        "defence": 5,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 5,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Herugrim": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "unique": true,
+            "userSelected": false
+        },
+        "Heavy Armour": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 61,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

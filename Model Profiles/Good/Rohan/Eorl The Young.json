@@ -1,0 +1,108 @@
+{
+    "actions": {
+        "Resolve": {},
+        "Strike": {},
+        "Strength": {},
+        "Defence": {}
+    },
+    "armies": {
+        "Rohan": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 15
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Felaróf": {
+            "optional": false,
+            "points": 0,
+            "userSelected": true
+        }
+    },
+    "name": "Eorl The Young",
+    "unique": true,
+    "uniqueName": "Eorl The Young",
+    "points": 115,
+    "race": {
+        "Man": {},
+        "Rohan": {}
+    },
+    "rules": {
+        "Expert Rider": {
+            "type": "Passive"
+        },
+        "Horse Lord": {
+            "type": "Passive"
+        },
+        "Legendary Hero": {
+            "type": "Passive",
+            "asterisk": "*"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 4,
+        "strength": 4,
+        "defence": 7,
+        "attacks": 3,
+        "wounds": 3,
+        "courage": 5,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3,
+            "asterisk": "*"
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Throwing Spears": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 66,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

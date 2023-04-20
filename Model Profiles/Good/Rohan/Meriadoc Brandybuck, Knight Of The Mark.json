@@ -1,0 +1,98 @@
+{
+    "actions": {
+        "Strike": {}    },
+    "armies": {
+        "Rohan": {
+            "tier": "Independent Hero",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Pony": {
+            "points": 5,
+            "userSelected": false
+        }
+    },
+    "name": "Meriadoc Brandybuck, Knight Of The Mark",
+    "unique": true,
+    "uniqueName": "Meriadoc",
+    "points": 25,
+    "race": {
+        "Hobbit": {},
+        "Rohan": {}
+    },
+    "rules": {
+        "Resistant To Magic": {
+            "type": "Passive"
+        },
+        "Throw Stones (Hobbit)": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 4,
+        "fight": 3,
+        "range": 3,
+        "strength": 2,
+        "defence": 4,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 4,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Dagger": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Elven Cloak": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 63,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

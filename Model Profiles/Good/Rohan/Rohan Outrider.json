@@ -1,0 +1,75 @@
+{
+    "actions": {},
+    "armies": {
+        "Rohan": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Horse": {
+            "points": 5,
+            "userSelected": false
+        }
+    },
+    "name": "Rohan Outrider",
+    "unique": false,
+    "points": 8,
+    "race": {
+        "Man": {},
+        "Rohan": {}
+    },
+    "rules": {
+        "Expert Rider": {
+            "type": "Passive"
+        },
+        "Vanguard": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 3,
+        "range": 3,
+        "strength": 3,
+        "defence": 4,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 3
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Bow": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 69,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

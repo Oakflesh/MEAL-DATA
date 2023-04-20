@@ -1,0 +1,84 @@
+{
+    "actions": {
+        "Accuracy": {}
+    },
+    "armies": {
+        "Rohan": {
+            "tier": "Minor Hero",
+            "selectableInWarband": false,
+            "warbandSize": 6
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "King's Huntsman",
+    "unique": false,
+    "points": 50,
+    "race": {
+        "Man": {},
+        "Rohan": {}
+    },
+    "rules": {
+        "Master Archer": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 3,
+        "range": 3,
+        "strength": 4,
+        "defence": 5,
+        "attacks": 1,
+        "wounds": 2,
+        "courage": 4,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Longbow": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 66,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}
