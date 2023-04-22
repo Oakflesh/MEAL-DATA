@@ -1,0 +1,70 @@
+{
+    "actions": {},
+    "armies": {
+        "Lothlόrien": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Wood Elf Sentinel",
+    "unique": false,
+    "points": 25,
+    "race": {
+        "Elf": {},
+        "Lόrien": {}
+    },
+    "rules": {
+        "Woodland Creature": {
+            "type": "Passive"
+        },
+        "Enchanting Song": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 3,
+        "strength": 3,
+        "defence": 3,
+        "attacks": 2,
+        "wounds": 1,
+        "courage": 5
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Elven-Made Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Elf Bow": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Elven Cloak": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 89,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

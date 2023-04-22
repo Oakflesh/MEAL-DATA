@@ -1,0 +1,64 @@
+{
+    "actions": {},
+    "armies": {
+        "Fangorn": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Ent",
+    "unique": false,
+    "points": 120,
+    "race": {
+        "Ent": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Throw Stones (Ent)": {
+            "type": "Passive"
+        },
+        "Woodland Creature": {
+            "type": "Passive"
+        },
+        "Bludgeon": {
+            "type": "Brutal Power Attack"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 7,
+        "range": 4,
+        "strength": 8,
+        "defence": 8,
+        "attacks": 3,
+        "wounds": 3,
+        "courage": 6
+    },
+    "type": {
+        "Monster": {},
+        "Infantry": {}
+    },
+    "wargear": {
+        "Roots & Branches": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 92,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1
+}

@@ -1,0 +1,71 @@
+{
+    "actions": {},
+    "armies": {
+        "Lothlόrien": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Guard Of The Galadhrim Court",
+    "unique": false,
+    "points": 12,
+    "race": {
+        "Elf": {},
+        "Lόrien": {}
+    },
+    "rules": {
+        "Woodland Creature": {
+            "type": "Passive"
+        },
+        "Caras Galadhorn Fighting Style": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 6,
+        "range": 3,
+        "strength": 3,
+        "defence": 5,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 6
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Pike": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Banner": {
+            "optional": true,
+            "points": 25,
+            "type": "Passive",
+            "userSelected": false,
+            "additional": "Replaces Pike"
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 88,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

@@ -1,0 +1,90 @@
+{
+    "actions": {
+        "Strike": {},
+        "Strength": {},
+        "Defence": {}
+    },
+    "armies": {
+        "Fangorn": {
+            "tier": "Hero Of Legend",
+            "selectableInWarband": false,
+            "warbandSize": 18
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Treebeard",
+    "unique": true,
+    "uniqueName": "Treebeard",
+    "points": 190,
+    "race": {
+        "Ent": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Throw Stones (Ent)": {
+            "type": "Passive"
+        },
+        "Woodland Creature": {
+            "type": "Passive"
+        },
+        "Bludgeon": {
+            "type": "Brutal Power Attack"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 8,
+        "range": 4,
+        "strength": 8,
+        "defence": 8,
+        "attacks": 3,
+        "wounds": 3,
+        "courage": 7,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 6
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        }
+    },
+    "type": {
+        "Monster": {},
+        "Infantry": {}
+    },
+    "wargear": {
+        "Roots & Branches": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Merry & Pippin": {
+            "optional": true,
+            "points": 10,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 91,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1
+}

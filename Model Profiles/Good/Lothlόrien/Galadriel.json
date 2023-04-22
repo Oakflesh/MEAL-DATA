@@ -1,0 +1,114 @@
+{
+    "actions": {
+        "Resolve": {},
+        "Channeling": {},
+        "Defence": {}
+    },
+    "armies": {
+        "Lothlόrien": {
+            "tier": "Hero Of Legend",
+            "selectableInWarband": false,
+            "warbandSize": 18
+        }
+    },
+    "magic": {
+        "Blinding Light": {
+            "range": 0,
+            "casting": 2
+        },
+        "Blessing Of The Valar": {
+            "range": 12,
+            "casting": 3
+        },
+        "Immoblise": {
+            "range": 12,
+            "casting": 3
+        },
+        "Command": {
+            "range": 12,
+            "casting": 4
+        }
+    },
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Galadriel",
+    "unique": true,
+    "uniqueName": "Galadriel",
+    "points": 130,
+    "race": {
+        "Elf": {},
+        "Lόrien": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Woodland Creature": {
+            "type": "Passive"
+        },
+        "The Lady Of Lothlόrien": {
+            "type": "Active",
+            "asterisk": "*"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 6,
+        "range": 3,
+        "strength": 3,
+        "defence": 3,
+        "attacks": 1,
+        "wounds": 3,
+        "courage": 7,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 6,
+            "asterisk": "*"
+
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Unarmed": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Nenya": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false,
+            "unique": true
+        },
+        "Mirror Of Galadriel": {
+            "optional": true,
+            "points": 25,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 83,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

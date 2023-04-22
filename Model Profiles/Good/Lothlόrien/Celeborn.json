@@ -1,0 +1,116 @@
+{
+    "actions": {
+        "Channeling": {},
+        "Strike": {},
+        "Defence": {}
+    },
+    "armies": {
+        "Lothlόrien": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 15
+        }
+    },
+    "magic": {
+        "Aura Of Command": {
+            "range": 0,
+            "casting": 2
+        },
+        "Enchanted Blades": {
+            "range": 6,
+            "casting": 3
+        },
+        "Immoblise": {
+            "range": 12,
+            "casting": 3
+        }
+    },
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Celeborn",
+    "unique": true,
+    "uniqueName": "Celeborn",
+    "points": 130,
+    "race": {
+        "Elf": {},
+        "Lόrien": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Woodland Creature": {
+            "type": "Passive"
+        },
+        "Lord Of The West": {
+            "type": "Active"
+        },
+        "Lord Of Lόrien": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 6,
+        "range": 3,
+        "strength": 4,
+        "defence": 4,
+        "attacks": 3,
+        "wounds": 3,
+        "courage": 7,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Unarmed": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Heavy Armour": {
+            "optional": true,
+            "points": 10,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Elven-Made Hand-And-A-Half Sword": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 84,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

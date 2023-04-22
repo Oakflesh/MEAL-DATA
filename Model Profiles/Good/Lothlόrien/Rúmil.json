@@ -1,0 +1,94 @@
+{
+    "actions": {
+        "Defence": {}
+    },
+    "armies": {
+        "Lothlόrien": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Rúmil",
+    "unique": true,
+    "uniqueName": "Rúmil",
+    "points": 85,
+    "race": {
+        "Elf": {},
+        "Lόrien": {}
+    },
+    "rules": {
+        "Woodland Creature": {
+            "type": "Passive"
+        },
+        "Swift Parry": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 6,
+        "range": 3,
+        "strength": 4,
+        "defence": 7,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 6,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Elven-Made Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Elven Cloak": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 84,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

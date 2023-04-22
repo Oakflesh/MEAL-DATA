@@ -1,0 +1,96 @@
+{
+    "actions": {
+        "Channeling": {}
+    },
+    "armies": {
+        "Lothlόrien": {
+            "tier": "Minor Hero",
+            "selectableInWarband": false,
+            "warbandSize": 6
+        }
+    },
+    "magic": {
+        "Call Winds": {
+            "range": 12,
+            "casting": 3
+        },
+        "Enchanted Blades": {
+            "range": 6,
+            "casting": 4
+        }
+    },
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Galadhrim Stormcaller",
+    "unique": false,
+    "points": 60,
+    "race": {
+        "Elf": {},
+        "Lόrien": {}
+    },
+    "rules": {
+        "Woodland Creature": {
+            "type": "Passive"
+        },
+        "Powers Of Nature": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 3,
+        "strength": 3,
+        "defence": 4,
+        "attacks": 1,
+        "wounds": 2,
+        "courage": 5,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Elven-Made Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Staff": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 86,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

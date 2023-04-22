@@ -1,0 +1,105 @@
+{
+    "actions": {
+        "March": {}
+    },
+    "armies": {
+        "Lothlόrien": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {
+        "Call Winds": {
+            "range": 12,
+            "casting": 3
+        },
+        "Enchanted Blades": {
+            "range": 6,
+            "casting": 4
+        }
+    },
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Wood Elf Captain",
+    "unique": false,
+    "points": 65,
+    "race": {
+        "Elf": {},
+        "Lόrien": {}
+    },
+    "rules": {
+        "Woodland Creature": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 6,
+        "range": 3,
+        "strength": 4,
+        "defence": 4,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 6,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Elven Cloak": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Elven-Made Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Elf Bow": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Throwing Daggers": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Wood Elf Spear": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 86,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

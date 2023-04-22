@@ -1,0 +1,91 @@
+{
+    "actions": {},
+    "armies": {
+        "Lothlόrien": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Armoured Horse": {
+            "optional": false,
+            "points": 0,
+            "userSelected": true
+        }
+    },
+    "name": "Galadhrim Knight",
+    "unique": false,
+    "points": 18,
+    "race": {
+        "Elf": {},
+        "Lόrien": {}
+    },
+    "rules": {
+        "Expert Rider": {
+            "type": "Passive"
+        },
+        "Fleetfoot": {
+            "type": "Passive"
+        },
+        "Woodland Creature": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 3,
+        "strength": 3,
+        "defence": 5,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 5
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Elven-Made Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Banner": {
+            "optional": true,
+            "points": 25,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Elf Bow": {
+            "optional": true,
+            "points": 2,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 1,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 87,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

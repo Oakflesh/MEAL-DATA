@@ -3,6 +3,14 @@
         "bonus": "Friendly <b>Arnor</b> models automatically pass Courage tests whilst within 6\" of Arvedui, Last King Of Arnor",
         "alignment": "good"
     },
+    "Fangorn": {
+        "bonus": "<b>Ent</b> models from this army list gain the Fearless special Rule. Additionally, <b>Ent</b> models are completely unaffected by any Magical Powers or special rules that would prevent them from moving or move them against their will (the only exception being Sorcerous Blast, but will suffer no further effects). Additionally, <b>Ent</b> models are immune to Nature's Wrath and the Wrath Of Bruinen Magical Powers.",
+        "alignment": "good"
+    },
+    "Lothlόrien": {
+        "bonus": "Friendly <b>Lothlόrien</b> models gain the Resistant To Magic Special Rule",
+        "alignment": "good"
+    },
     "Minas Tirith": {
         "bonus": "Friendly <b>Gondor</b> models from this army list increase their Courage value by 1.",
         "alignment": "good"

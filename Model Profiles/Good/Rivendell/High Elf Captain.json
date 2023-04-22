@@ -1,0 +1,104 @@
+{
+    "actions": {
+        "March": {}
+    },
+    "armies": {
+        "Rivendell": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "High Elf Captain",
+    "unique": false,
+    "points": 75,
+    "race": {
+        "Elf": {},
+        "Rivendell": {}
+    },
+    "rules": {
+        "Expert Rider": {
+            "type": "Passive"
+        },
+        "Woodland Creature": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 6,
+        "range": 3,
+        "strength": 4,
+        "defence": 6,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 6,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Elven-Made Hand-And-A-Half Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Elf Bow": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Lance": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 79,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}
