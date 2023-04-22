@@ -1,50 +1,64 @@
 {
     "actions": {
-        "Resolve": {}
+        "Resolve": {},
+        "Strike": {},
+        "Strength": {},
+        "Defence": {},
+        "Challenge": {}
     },
     "armies": {
-        "The Shire": {
-            "tier": "Hero Of Fortitude",
-            "selectableInWarband": false,
-            "warbandSize": 12
-        },
         "Rivendell": {
-            "tier": "Independent Hero",
-            "selectableInWarband": true,
-            "warbandSize": 0
+            "tier": "Hero Of Legend",
+            "selectableInWarband": false,
+            "warbandSize": 18
         }
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {},
-    "name": "Bilbo Baggins",
+    "mounts": {
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Gil-Galad, High King Of The Elves",
     "unique": true,
-    "uniqueName": "Bilbo",
-    "points": 40,
+    "uniqueName": "Gil-Galad",
+    "points": 170,
     "race": {
-        "Hobbit": {}
+        "Elf": {},
+        "Rivendell": {}
     },
     "rules": {
-        "Resistant To Magic": {
+        "Blood And Glory": {
             "type": "Passive"
         },
-        "Throw Stones (Hobbit)": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Woodland Creature": {
+            "type": "Passive"
+        },
+        "High King Of The Elves": {
+            "type": "Active"
+        },
+        "Lord Of The West": {
             "type": "Active"
         }
     },
     "stats": {
-        "movement": 4,
-        "fight": 3,
+        "movement": 6,
+        "fight": 9,
         "range": 3,
-        "strength": 2,
-        "defence": 2,
-        "attacks": 1,
-        "wounds": 2,
-        "courage": 6,
+        "strength": 4,
+        "defence": 7,
+        "attacks": 3,
+        "wounds": 3,
+        "courage": 7,
         "might": {
             "additional": 0,
             "points": 0,
-            "value": 1
+            "value": 3
         },
         "will": {
             "additional": 0,
@@ -54,45 +68,37 @@
         "fate": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 1
         }
     },
     "type": {
         "Infantry": {}
     },
     "wargear": {
-        "Dagger": {
+        "Heavy Armour": {
             "optional": false,
             "points": 0,
             "type": "Passive",
             "userSelected": false
         },
-        "The One Ring": {
-            "optional": true,
+        "Aiglos": {
+            "optional": false,
             "points": 0,
-            "type": "Passive",
+            "type": "Active",
             "userSelected": false,
             "unique": true
         },
-        "Mithril Coat": {
-            "optional": true,
-            "points": 15,
-            "type": "Passive",
-            "userSelected": false,
-            "unique": true
-        },
-        "Sting": {
+        "Shield": {
             "optional": true,
             "points": 5,
             "type": "Passive",
-            "userSelected": false,
-            "unique": true
+            "userSelected": false
         }
     },
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 21,
+                "page": 73,
                 "initials": "AotLotR"
             }
         }

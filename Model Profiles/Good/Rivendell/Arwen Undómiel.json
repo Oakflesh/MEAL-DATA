@@ -1,43 +1,56 @@
 {
     "actions": {
-        "Resolve": {}
+        "Resolve": {},
+        "Channeling": {},
+        "Defence": {}
     },
     "armies": {
-        "The Shire": {
+        "Rivendell": {
             "tier": "Hero Of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
-        },
-        "Rivendell": {
-            "tier": "Independent Hero",
-            "selectableInWarband": true,
-            "warbandSize": 0
         }
     },
-    "magic": {},
+    "magic": {
+        "Wrath Of Bruinen": {
+            "range": 0,
+            "casting": 4
+        }
+    },
     "modelCount": 1,
-    "mounts": {},
-    "name": "Bilbo Baggins",
+    "mounts": {
+        "Asfaloth": {
+            "points": 10,
+            "userSelected": false,
+            "unique": true
+        },
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Arwen Undómiel",
     "unique": true,
-    "uniqueName": "Bilbo",
-    "points": 40,
+    "uniqueName": "Arwen",
+    "points": 60,
     "race": {
-        "Hobbit": {}
+        "Elf": {},
+        "Rivendell": {}
     },
     "rules": {
-        "Resistant To Magic": {
+        "Expert Rider": {
             "type": "Passive"
         },
-        "Throw Stones (Hobbit)": {
-            "type": "Active"
+        "Woodland Creature": {
+            "type": "Passive"
         }
     },
     "stats": {
-        "movement": 4,
-        "fight": 3,
+        "movement": 6,
+        "fight": 6,
         "range": 3,
-        "strength": 2,
-        "defence": 2,
+        "strength": 3,
+        "defence": 3,
         "attacks": 1,
         "wounds": 2,
         "courage": 6,
@@ -49,50 +62,35 @@
         "will": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 4
         },
         "fate": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 1
         }
     },
     "type": {
         "Infantry": {}
     },
     "wargear": {
-        "Dagger": {
+        "Elven-Made Sword": {
             "optional": false,
             "points": 0,
             "type": "Passive",
             "userSelected": false
         },
-        "The One Ring": {
-            "optional": true,
-            "points": 0,
-            "type": "Passive",
-            "userSelected": false,
-            "unique": true
-        },
-        "Mithril Coat": {
-            "optional": true,
-            "points": 15,
-            "type": "Passive",
-            "userSelected": false,
-            "unique": true
-        },
-        "Sting": {
+        "Elven Cloak": {
             "optional": true,
             "points": 5,
             "type": "Passive",
-            "userSelected": false,
-            "unique": true
+            "userSelected": false
         }
     },
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 21,
+                "page": 76,
                 "initials": "AotLotR"
             }
         }

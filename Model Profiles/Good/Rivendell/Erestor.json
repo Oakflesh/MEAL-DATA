@@ -1,98 +1,79 @@
 {
     "actions": {
-        "Resolve": {}
+        "Strike": {}
     },
     "armies": {
-        "The Shire": {
+        "Rivendell": {
             "tier": "Hero Of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
-        },
-        "Rivendell": {
-            "tier": "Independent Hero",
-            "selectableInWarband": true,
-            "warbandSize": 0
         }
     },
     "magic": {},
     "modelCount": 1,
     "mounts": {},
-    "name": "Bilbo Baggins",
+    "name": "Erestor",
     "unique": true,
-    "uniqueName": "Bilbo",
-    "points": 40,
+    "uniqueName": "Erestor",
+    "points": 85,
     "race": {
-        "Hobbit": {}
+        "Elf": {},
+        "Rivendell": {}
     },
     "rules": {
-        "Resistant To Magic": {
+        "Terror": {
             "type": "Passive"
         },
-        "Throw Stones (Hobbit)": {
-            "type": "Active"
+        "Woodland Creature": {
+            "type": "Passive"
         }
     },
     "stats": {
-        "movement": 4,
-        "fight": 3,
+        "movement": 6,
+        "fight": 6,
         "range": 3,
-        "strength": 2,
-        "defence": 2,
-        "attacks": 1,
+        "strength": 4,
+        "defence": 7,
+        "attacks": 2,
         "wounds": 2,
         "courage": 6,
         "might": {
             "additional": 0,
             "points": 0,
-            "value": 1
+            "value": 2
         },
         "will": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 2
         },
         "fate": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 2
         }
     },
     "type": {
         "Infantry": {}
     },
     "wargear": {
-        "Dagger": {
+        "Heavy Armour": {
             "optional": false,
             "points": 0,
             "type": "Passive",
             "userSelected": false
         },
-        "The One Ring": {
-            "optional": true,
+        "Noldorin Daggers": {
+            "optional": false,
             "points": 0,
             "type": "Passive",
-            "userSelected": false,
-            "unique": true
-        },
-        "Mithril Coat": {
-            "optional": true,
-            "points": 15,
-            "type": "Passive",
-            "userSelected": false,
-            "unique": true
-        },
-        "Sting": {
-            "optional": true,
-            "points": 5,
-            "type": "Passive",
-            "userSelected": false,
-            "unique": true
+            "userSelected": false
         }
     },
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 21,
+                "page": 76,
                 "initials": "AotLotR"
             }
         }

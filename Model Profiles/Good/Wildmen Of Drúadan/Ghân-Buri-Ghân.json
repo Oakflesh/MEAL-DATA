@@ -1,0 +1,92 @@
+{
+    "actions": {
+        "March": {},
+        "Accuracy": {}
+    },
+    "armies": {
+        "Wildmen Of Drúadan": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 15
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Ghân-Buri-Ghân",
+    "unique": true,
+    "uniqueName": "Ghân-Buri-Ghân",
+    "points": 65,
+    "race": {
+        "Man": {}
+    },
+    "rules": {
+        "Hatred": {
+            "type": "Passive",
+            "additional": "Goblin, Orc & Uruk-Hai"
+        },
+        "Stalk Unseen": {
+            "type": "Passive"
+        },
+        "Woodland Creature": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 4,
+        "range": 3,
+        "strength": 4,
+        "defence": 4,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 4,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Dagger": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Spear": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Poisoned Blowpipe": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 71,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

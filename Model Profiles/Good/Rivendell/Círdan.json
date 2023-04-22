@@ -1,43 +1,64 @@
 {
     "actions": {
+        "Channeling": {},
         "Resolve": {}
     },
     "armies": {
-        "The Shire": {
+        "Rivendell": {
             "tier": "Hero Of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
-        },
-        "Rivendell": {
-            "tier": "Independent Hero",
-            "selectableInWarband": true,
-            "warbandSize": 0
         }
     },
-    "magic": {},
+    "magic": {
+        "Aura Of Command": {
+            "range": 0,
+            "casting": 2
+        },
+        "Blinding Light": {
+            "range": 0,
+            "casting": 2
+        },
+        "Enchanted Blades": {
+            "range": 6,
+            "casting": 4
+        },
+        "Aura Of Dismay": {
+            "range": 0,
+            "casting": 5
+        }
+    },
     "modelCount": 1,
     "mounts": {},
-    "name": "Bilbo Baggins",
+    "name": "Círdan",
     "unique": true,
-    "uniqueName": "Bilbo",
-    "points": 40,
+    "uniqueName": "Círdan",
+    "points": 80,
     "race": {
-        "Hobbit": {}
+        "Elf": {},
+        "Rivendell": {}
     },
     "rules": {
         "Resistant To Magic": {
             "type": "Passive"
         },
-        "Throw Stones (Hobbit)": {
-            "type": "Active"
+        "Woodland Creature": {
+            "type": "Passive"
+        },
+        "Terror": {
+            "type": "Passive"
+        },
+        "The Shipwright's Power": {
+            "type": "Passive",
+            "asterisk": "*"
         }
     },
     "stats": {
-        "movement": 4,
-        "fight": 3,
+        "movement": 6,
+        "fight": 5,
         "range": 3,
-        "strength": 2,
-        "defence": 2,
+        "strength": 4,
+        "defence": 4,
         "attacks": 1,
         "wounds": 2,
         "courage": 6,
@@ -49,50 +70,30 @@
         "will": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 4,
+            "asterisk": "*"
         },
         "fate": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 1
         }
     },
     "type": {
         "Infantry": {}
     },
     "wargear": {
-        "Dagger": {
+        "Unarmed": {
             "optional": false,
             "points": 0,
             "type": "Passive",
             "userSelected": false
-        },
-        "The One Ring": {
-            "optional": true,
-            "points": 0,
-            "type": "Passive",
-            "userSelected": false,
-            "unique": true
-        },
-        "Mithril Coat": {
-            "optional": true,
-            "points": 15,
-            "type": "Passive",
-            "userSelected": false,
-            "unique": true
-        },
-        "Sting": {
-            "optional": true,
-            "points": 5,
-            "type": "Passive",
-            "userSelected": false,
-            "unique": true
         }
     },
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 21,
+                "page": 78,
                 "initials": "AotLotR"
             }
         }

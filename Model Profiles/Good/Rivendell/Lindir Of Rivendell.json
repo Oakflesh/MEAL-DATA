@@ -1,43 +1,45 @@
 {
-    "actions": {
-        "Resolve": {}
-    },
+    "actions": {},
     "armies": {
-        "The Shire": {
+        "Rivendell": {
             "tier": "Hero Of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
-        },
-        "Rivendell": {
-            "tier": "Independent Hero",
-            "selectableInWarband": true,
-            "warbandSize": 0
         }
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {},
-    "name": "Bilbo Baggins",
+    "mounts": {
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Lindir Of Rivendell",
     "unique": true,
-    "uniqueName": "Bilbo",
-    "points": 40,
+    "uniqueName": "Lindir",
+    "points": 65,
     "race": {
-        "Hobbit": {}
+        "Elf": {},
+        "Rivendell": {}
     },
     "rules": {
-        "Resistant To Magic": {
+        "Woodland Creature": {
             "type": "Passive"
         },
-        "Throw Stones (Hobbit)": {
-            "type": "Active"
+        "Song To Elbereth": {
+            "type": "Passive"
+        },
+        "Wise Council": {
+            "type": "Passive"
         }
     },
     "stats": {
-        "movement": 4,
-        "fight": 3,
+        "movement": 6,
+        "fight": 5,
         "range": 3,
-        "strength": 2,
-        "defence": 2,
+        "strength": 4,
+        "defence": 4,
         "attacks": 1,
         "wounds": 2,
         "courage": 6,
@@ -54,45 +56,30 @@
         "fate": {
             "additional": 0,
             "points": 0,
-            "value": 3
+            "value": 1
         }
     },
     "type": {
         "Infantry": {}
     },
     "wargear": {
-        "Dagger": {
+        "Elven-Made Sword": {
             "optional": false,
             "points": 0,
             "type": "Passive",
             "userSelected": false
         },
-        "The One Ring": {
+        "Heavy Armour": {
             "optional": true,
-            "points": 0,
+            "points": 10,
             "type": "Passive",
-            "userSelected": false,
-            "unique": true
-        },
-        "Mithril Coat": {
-            "optional": true,
-            "points": 15,
-            "type": "Passive",
-            "userSelected": false,
-            "unique": true
-        },
-        "Sting": {
-            "optional": true,
-            "points": 5,
-            "type": "Passive",
-            "userSelected": false,
-            "unique": true
+            "userSelected": false
         }
     },
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 21,
+                "page": 78,
                 "initials": "AotLotR"
             }
         }

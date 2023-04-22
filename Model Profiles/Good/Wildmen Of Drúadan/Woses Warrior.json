@@ -1,0 +1,74 @@
+{
+    "actions": {
+    },
+    "armies": {
+        "Wildmen Of Drúadan": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Woses Warrior",
+    "unique": false,
+    "points": 9,
+    "race": {
+        "Man": {}
+    },
+    "rules": {
+        "Hatred": {
+            "type": "Passive",
+            "additional": "Goblin, Orc & Uruk-Hai"
+        },
+        "Stalk Unseen": {
+            "type": "Passive"
+        },
+        "Woodland Creature": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 3,
+        "range": 3,
+        "strength": 3,
+        "defence": 4,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 3
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Dagger": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Spear": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Poisoned Blowpipe": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 71,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

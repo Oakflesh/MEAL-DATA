@@ -1,31 +1,23 @@
 {
-    "actions": {
-
-    },
+    "actions": {},
     "armies": {
         "The Dead Of Dunharrow": {
             "tier": "Hero Of Fortitude",
-            "selectableInWarband": true,
+            "selectableInWarband": false,
             "warbandSize": 12
         }
     },
     "magic": {},
     "modelCount": 0,
     "mounts": {},
-    "name": "Warrior Only Warband",
+    "name": "Warrior Warband (TDOD)",
     "unique": false,
     "points": 0,
-    "race": {
-    },
-    "rules": {
-    },
-    "stats": {
-    },
-    "type": {
-    },
-    "wargear": {
-    },
-    "references": {
-    },
+    "race": {},
+    "rules": {},
+    "stats": {},
+    "type": {},
+    "wargear": {},
+    "references": {},
     "version": 1.0
 }

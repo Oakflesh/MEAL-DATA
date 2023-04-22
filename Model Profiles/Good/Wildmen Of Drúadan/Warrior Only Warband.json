@@ -1,0 +1,23 @@
+{
+    "actions": {},
+    "armies": {
+        "Wildmen Of Drúadan": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 0,
+    "mounts": {},
+    "name": "Warrior Warband (WOD)",
+    "unique": false,
+    "points": 0,
+    "race": {},
+    "rules": {},
+    "stats": {},
+    "type": {},
+    "wargear": {},
+    "references": {},
+    "version": 1.0
+}
