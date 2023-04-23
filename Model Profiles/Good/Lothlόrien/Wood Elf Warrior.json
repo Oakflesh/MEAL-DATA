@@ -52,8 +52,7 @@
             "optional": true,
             "points": 25,
             "type": "Passive",
-            "userSelected": false,
-            "additional": "Replaces Pike"
+            "userSelected": false
         },
         "Elf Bow": {
             "optional": true,
