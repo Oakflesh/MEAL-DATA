@@ -1,0 +1,83 @@
+{
+    "actions": {
+        "Resolve": {},
+        "March": {},
+        "Strike": {},
+        "Defence": {}
+    },
+    "armies": {
+        "The Kingdom Of Khazad-Dûm": {
+            "tier": "Hero Of Legend",
+            "selectableInWarband": false,
+            "warbandSize": 18
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Balin The Dwarf, King Of Moria",
+    "unique": true,
+    "uniqueName": "Balin",
+    "points": 110,
+    "race": {
+        "Dwarf": {},
+        "Moria": {}
+    },
+    "rules": {
+        "Longbeard": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 5,
+        "fight": 6,
+        "range": 4,
+        "strength": 4,
+        "defence": 8,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 6,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Dwarf Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Durin's Axe": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
+            "userSelected": false,
+            "unique": true
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 99,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}
