@@ -3,7 +3,7 @@
         "March": {}
     },
     "armies": {
-        "Lothlόrien": {
+        "Lothlórien": {
             "tier": "Hero Of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12

@@ -5,7 +5,7 @@
         "Defence": {}
     },
     "armies": {
-        "Lothlόrien": {
+        "Lothlórien": {
             "tier": "Hero Of Valour",
             "selectableInWarband": false,
             "warbandSize": 15

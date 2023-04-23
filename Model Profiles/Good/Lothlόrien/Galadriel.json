@@ -5,7 +5,7 @@
         "Defence": {}
     },
     "armies": {
-        "Lothlόrien": {
+        "Lothlórien": {
             "tier": "Hero Of Legend",
             "selectableInWarband": false,
             "warbandSize": 18
@@ -46,7 +46,7 @@
         "Woodland Creature": {
             "type": "Passive"
         },
-        "The Lady Of Lothlόrien": {
+        "The Lady Of Lothlórien": {
             "type": "Active",
             "asterisk": "*"
         }

@@ -3,7 +3,7 @@
         "Channeling": {}
     },
     "armies": {
-        "Lothlόrien": {
+        "Lothlórien": {
             "tier": "Minor Hero",
             "selectableInWarband": false,
             "warbandSize": 6
