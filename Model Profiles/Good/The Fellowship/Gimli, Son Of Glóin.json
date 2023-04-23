@@ -8,12 +8,17 @@
             "tier": "Hero Of Valour",
             "selectableInWarband": false,
             "warbandSize": 0
+        },
+        "The Kingdom Of Khazad-Dûm": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
         }
     },
     "magic": {},
     "modelCount": 1,
     "mounts": {},
-    "name": "Gimli Son Of Glóin",
+    "name": "Gimli, Son Of Glóin",
     "unique": true,
     "uniqueName": "Gimli",
     "points": 100,

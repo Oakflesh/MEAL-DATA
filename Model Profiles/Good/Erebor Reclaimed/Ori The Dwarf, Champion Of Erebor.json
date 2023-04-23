@@ -1,0 +1,29 @@
+{
+    "actions": {},
+    "armies": {
+        "The Kingdom Of Khazad-Dûm": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Ori The Dwarf, Champion Of Erebor",
+    "unique": true,
+    "uniqueName": "Óin",
+    "points": 0,
+    "race": {
+        "Dwarf": {},
+        "Erebor": {}
+    },
+    "rules": {},
+    "stats": {},
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {},
+    "references": {},
+    "version": 1.0
+}
