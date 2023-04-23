@@ -39,6 +39,14 @@
         "bonus": "Special Rules marked with <b>*</b> affect all models in this army list, not just the ones listed.",
         "alignment": "good"
     },
+    "The Kingdom Of Khazad-Dûm":{
+        "bonus": "Friendly <b>Dwarf</b> models with either the <b>Khazad-Dûm</b> or <b>Moria</b> keyword may re-roll To Wound rolls of a 1 when fighting in close combat.",
+        "alignment": "good"
+    },
+    "The Misty Mountains": {
+        "bonus": "<b>Eagle</b> models from this army list gain a bonus of +1 Strength on a turn in which they charged.",
+        "alignment": "good"
+    },
     "The Rangers": {
         "bonus": "All models from this army list gain the Woodland Creature Special Rule, and the Rangers Of The North and Dúnedain may benefit from the Stand Fast! of Arathorn, Halbarad and Aragorn - Strider. Additionally, the Rangers Of The North and the Dúnedain increase their Attacks value to 2, while they have the <b>Infantry</b> keyword.",
         "alignment": "good"

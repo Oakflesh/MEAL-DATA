@@ -1,0 +1,104 @@
+{
+    "actions": {
+        "Strike": {},
+        "Defence": {},
+        "Challenge": {}
+    },
+    "armies": {
+        "The Kingdom Of Khazad-Dûm": {
+            "tier": "Hero Of Legend",
+            "selectableInWarband": false,
+            "warbandSize": 18
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Durin, King Of Khazad-Dûm",
+    "unique": true,
+    "uniqueName": "Durin",
+    "points": 160,
+    "race": {
+        "Dwarf": {},
+        "Khazad-Dûm": {}
+    },
+    "rules": {
+        "Fearless": {
+            "type": "Active"
+        },
+        "Terror": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 5,
+        "fight": 6,
+        "range": 4,
+        "strength": 4,
+        "defence": 9,
+        "attacks": 3,
+        "wounds": 3,
+        "courage": 6,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Mithril Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Durin's Axe": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
+            "userSelected": false,
+            "unique": true
+        },
+        "The Ring Of Durin": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false,
+            "unique": true
+        },
+        "The Crown Of Kings": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "The Horn Of Zirakzigil": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 97,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

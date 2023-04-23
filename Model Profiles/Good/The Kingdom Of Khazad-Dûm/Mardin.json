@@ -1,0 +1,81 @@
+{
+    "actions": {
+        "Strength": {}
+    },
+    "armies": {
+        "The Kingdom Of Khazad-Dûm": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Mardin",
+    "unique": true,
+    "uniqueName": "Mardin",
+    "points": 75,
+    "race": {
+        "Dwarf": {},
+        "Khazad-Dûm": {}
+    },
+    "rules": {
+        "Sworn Protector": {
+            "type": "Active",
+            "additional": "Durin"
+        }
+    },
+    "stats": {
+        "movement": 5,
+        "fight": 5,
+        "range": 4,
+        "strength": 4,
+        "defence": 7,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 5,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Dwarf Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Torozûl": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
+            "userSelected": false,
+            "unique": true
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 98,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

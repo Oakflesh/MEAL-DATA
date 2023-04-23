@@ -1,0 +1,84 @@
+{
+    "actions": {
+        "Strike": {},
+        "Strength": {},
+        "Defence": {}
+    },
+    "armies": {
+        "The Misty Mountain": {
+            "tier": "Hero Of Legend",
+            "selectableInWarband": false,
+            "warbandSize": 18
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Gwaihir",
+    "unique": true,
+    "uniqueName": "Gwaihir",
+    "points": 150,
+    "race": {
+        "Eagle": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Fly": {
+            "type": "Passive"
+        },
+        "Monstrous Charge": {
+            "type": "Active"
+        },
+        "Lord Of The Eagles": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 3,
+        "fight": 8,
+        "range": 4,
+        "strength": 6,
+        "defence": 8,
+        "attacks": 2,
+        "wounds": 3,
+        "courage": 6,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 3
+        }
+    },
+    "type": {
+        "Monster": {},
+        "Infantry": {}
+    },
+    "wargear": {
+        "Claws & Beak": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 95,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1
+}

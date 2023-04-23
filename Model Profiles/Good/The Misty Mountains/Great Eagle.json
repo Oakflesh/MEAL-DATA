@@ -1,0 +1,61 @@
+{
+    "actions": {},
+    "armies": {
+        "The Misty Mountain": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Great Eagle",
+    "unique": false,
+    "points": 100,
+    "race": {
+        "Eagle": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Fly": {
+            "type": "Passive"
+        },
+        "Monstrous Charge": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 3,
+        "fight": 7,
+        "range": 4,
+        "strength": 6,
+        "defence": 8,
+        "attacks": 2,
+        "wounds": 3,
+        "courage": 6
+    },
+    "type": {
+        "Monster": {},
+        "Infantry": {}
+    },
+    "wargear": {
+        "Claws & Beak": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 95,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1
+}
