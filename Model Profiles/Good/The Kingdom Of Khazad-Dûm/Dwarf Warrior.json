@@ -3,7 +3,7 @@
     "armies": {
         "The Kingdom Of Khazad-Dûm": {
             "tier": "Warrior",
-            "selectableInWarband": false,
+            "selectableInWarband": true,
             "warbandSize": 0
         }
     },
