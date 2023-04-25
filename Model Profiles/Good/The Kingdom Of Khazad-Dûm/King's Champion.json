@@ -1,0 +1,178 @@
+{
+    "actions": {
+        "Strike": {},
+        "Strength": {}
+    },
+    "armies": {
+        "The Kingdom Of Khazad-Dûm": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "King's Champion",
+    "unique": false,
+    "points": 140,
+    "race": {
+        "Dwarf": {},
+        "Khazad-Dûm": {}
+    },
+    "rules": {
+        "The Herald's Duty": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 5,
+        "fight": 6,
+        "range": 4,
+        "strength": 5,
+        "defence": 7,
+        "attacks": 3,
+        "wounds": 2,
+        "courage": 5,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Dwarf Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Two Axes": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
+            "userSelected": false
+        }
+    },
+    "warband": {
+        "Hearlds": {
+            "actions": {
+                "Strike": {},
+                "Strength": {}
+            },
+            "armies": {
+                "The Kingdom Of Khazad-Dûm": {
+                    "minModelCount": 2,
+                    "maxModelCount": 2,
+                    "tier": "Independent Hero",
+                    "selectableInWarband": false,
+                    "warbandSize": 0,
+                    "removeFromWarband": false
+                }
+            },
+            "magic": {},
+            "modelCount": 2,
+            "mounts": {},
+            "name": "Herald",
+            "unique": false,
+            "points": 0,
+            "race": {
+                "Dwarf": {},
+                "Khazad-Dûm": {}
+            },
+            "rules": {
+                "The Herald's Duty": {
+                    "type": "Active"
+                },
+                "The Life Guard": {
+                    "type": "Active"
+                }
+            },
+            "stats": {
+                "movement": 5,
+                "fight": 4,
+                "range": 4,
+                "strength": 4,
+                "defence": 7,
+                "attacks": 1,
+                "wounds": 1,
+                "courage": 4,
+                "might": {
+                    "additional": 0,
+                    "points": 0,
+                    "value": 0
+                },
+                "will": {
+                    "additional": 0,
+                    "points": 0,
+                    "value": 1
+                },
+                "fate": {
+                    "additional": 0,
+                    "points": 0,
+                    "value": 2
+                }
+            },
+            "type": {
+                "Infantry": {}
+            },
+            "wargear": {
+                "Dwarf Armour": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Passive",
+                    "userSelected": false
+                },
+                "Shield": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Active",
+                    "userSelected": false
+                },
+                "Axe": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Active",
+                    "userSelected": false
+                },
+                "Banner": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Active",
+                    "userSelected": false
+                }
+            },
+            "references": {
+                "books": {
+                    "Armies Of The Lord Of The Rings": {
+                        "page": 101,
+                        "initials": "AotLotR"
+                    }
+                }
+            },
+            "version": 1.0
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 101,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

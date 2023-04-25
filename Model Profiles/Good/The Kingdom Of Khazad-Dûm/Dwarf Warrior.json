@@ -1,0 +1,88 @@
+{
+    "actions": {},
+    "armies": {
+        "The Kingdom Of Khazad-Dûm": {
+            "tier": "Warrior",
+            "selectableInWarband": false,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Dwarf Warrior",
+    "unique": false,
+    "points": 8,
+    "race": {
+        "Dwarf": {},
+        "Khazad-Dûm": {}
+    },
+    "rules": {},
+    "stats": {
+        "movement": 5,
+        "fight": 4,
+        "range": 4,
+        "strength": 3,
+        "defence": 6,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 4
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Dwarf Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Axe": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
+            "userSelected": false
+        },
+        "War Horn": {
+            "optional": true,
+            "points": 30,
+            "type": "Active",
+            "userSelected": false
+        },
+        "Banner": {
+            "optional": true,
+            "points": 25,
+            "type": "Active",
+            "userSelected": false
+        },
+        "Dwarf Bow": {
+            "optional": true,
+            "points": 1,
+            "type": "Active",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 1,
+            "type": "Active",
+            "userSelected": false
+        },
+        "Two Handed Axe & Dagger": {
+            "optional": true,
+            "points": 1,
+            "type": "Active",
+            "userSelected": false,
+            "additional": "Replaces Axe"
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 102,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

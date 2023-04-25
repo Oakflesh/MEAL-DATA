@@ -1,7 +1,7 @@
 {
     "actions": {},
     "armies": {
-        "Minas Tirith": {
+        "The Kingdom Of Khazad-Dûm": {
             "tier": "Siege Engine",
             "selectableInWarband": false,
             "warbandSize": 6
@@ -10,32 +10,29 @@
     "magic": {},
     "modelCount": 1,
     "mounts": {},
-    "name": "Gondor Battlecry Trebuchet",
+    "name": "Dwarf Ballista",
     "unique": false,
-    "points": 80,
+    "points": 60,
     "race": {},
     "rules": {
-        "Indirect Fire": {
+        "Piercing Shot": {
             "type": "Passive"
         },
-        "Area Effect": {
-            "type": "Passive"
-        },
-        "Wall-Breaker": {
+        "Accurate": {
             "type": "Passive"
         }
     },
     "siegeCrew": {
-        "captain": "Minas Tirith Siege Engineer Captain",
-        "veteran": "Minas Tirith Siege Veteran",
-        "crew": "Minas Tirith Siege Crew",
+        "captain": "Dwarf Siege Engineer Captain",
+        "veteran": "Dwarf Siege Veteran",
+        "crew": "Dwarf Siege Crew",
         "additionalCrew": ""
     },
     "stats": {
         "movement": 0,
         "fight": 0,
         "range": 0,
-        "strength": 10,
+        "strength": 9,
         "defence": 10,
         "attacks": 0,
         "wounds": 3,
@@ -43,12 +40,12 @@
     },
     "type": {},
     "warband": {
-        "Minas Tirith Siege Engineer Captain": {
+        "Dwarf Siege Engineer Captain": {
             "actions": {
                 "March": {}
             },
             "armies": {
-                "Minas Tirith": {
+                "The Kingdom Of Khazad-Dûm": {
                     "minModelCount": 1,
                     "maxModelCount": 1,
                     "tier": "Hero Of Fortitude",
@@ -60,24 +57,23 @@
             "magic": {},
             "modelCount": 0,
             "mounts": {},
-            "name": "Minas Tirith Siege Engineer Captain",
+            "name": "Dwarf Siege Engineer Captain",
             "unique": false,
             "points": 0,
             "race": {
-                "Man": {},
-                "Gondor": {}
+                "Dwarf": {},
+                "Khazad-Dûm": {}
             },
-            "rules": {
-            },
+            "rules": {},
             "stats": {
-                "movement": 6,
-                "fight": 4,
+                "movement": 5,
+                "fight": 5,
                 "range": 4,
                 "strength": 4,
-                "defence": 6,
+                "defence": 7,
                 "attacks": 2,
                 "wounds": 2,
-                "courage": 4,
+                "courage": 5,
                 "might": {
                     "additional": 0,
                     "points": 0,
@@ -99,45 +95,51 @@
             },
             "totalPoints": 0,
             "wargear": {
-                "Sword": {
+                "Dwarf Armour": {
                     "optional": false,
                     "points": 0,
                     "type": "Passive",
                     "userSelected": false
                 },
-                "Heavy Armour": {
+                "Axe": {
                     "optional": false,
                     "points": 0,
-                    "type": "Passive",
-                    "userSelected": false
-                },
-                "Bow": {
-                    "optional": true,
-                    "points": 5,
-                    "type": "Passive",
+                    "type": "Active",
                     "userSelected": false
                 },
                 "Shield": {
                     "optional": true,
                     "points": 5,
-                    "type": "Passive",
+                    "type": "Active",
+                    "userSelected": false
+                },
+                "Throwing Axes": {
+                    "optional": true,
+                    "points": 5,
+                    "type": "Active",
+                    "userSelected": false
+                },
+                "Two-Handed Axe": {
+                    "optional": true,
+                    "points": 5,
+                    "type": "Active",
                     "userSelected": false
                 }
             },
             "references": {
                 "books": {
                     "Armies Of The Lord Of The Rings": {
-                        "page": 40,
+                        "page": 100,
                         "initials": "AotLotR"
                     }
                 }
             },
             "version": 1.0
         },
-        "Minas Tirith Siege Veteran": {
+        "Dwarf Siege Veteran": {
             "actions": {},
             "armies": {
-                "Minas Tirith": {
+                "The Kingdom Of Khazad-Dûm": {
                     "minModelCount": 1,
                     "maxModelCount": 1,
                     "tier": "Minor Hero",
@@ -149,19 +151,19 @@
             "magic": {},
             "modelCount": 1,
             "mounts": {},
-            "name": "Minas Tirith Siege Veteran",
+            "name": "Dwarf Siege Veteran",
             "points": 0,
             "race": {},
             "rules": {},
             "stats": {
-                "movement": 6,
-                "fight": 3,
+                "movement": 5,
+                "fight": 4,
                 "range": 4,
                 "strength": 3,
-                "defence": 5,
+                "defence": 6,
                 "attacks": 1,
                 "wounds": 1,
-                "courage": 3,
+                "courage": 4,
                 "might": {
                     "value": 1
                 },
@@ -177,23 +179,36 @@
             },
             "totalPoints": 0,
             "warband": {},
-            "wargear": {},
+            "wargear": {
+                "Dwarf Armour": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Passive",
+                    "userSelected": false
+                },
+                "Axe": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Active",
+                    "userSelected": false
+                }
+            },
             "references": {
                 "books": {
                     "Armies Of The Lord Of The Rings": {
-                        "page": 44,
+                        "page": 105,
                         "initials": "AotLotR"
                     }
                 }
             },
             "version": 1.0
         },
-        "Minas Tirith Siege Crew": {
+        "Dwarf Siege Crew": {
             "actions": {},
             "armies": {
-                "Minas Tirith": {
-                    "minModelCount": 2,
-                    "maxModelCount": 2,
+                "The Kingdom Of Khazad-Dûm": {
+                    "minModelCount": 1,
+                    "maxModelCount": 1,
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
@@ -201,53 +216,57 @@
                 }
             },
             "magic": {},
-            "modelCount": 2,
+            "modelCount": 1,
             "mounts": {},
-            "name": "Minas Tirith Siege Crew",
+            "name": "Dwarf Siege Crew",
             "points": 0,
             "race": {},
             "rules": {},
             "stats": {
-                "movement": 6,
-                "fight": 3,
+                "movement": 5,
+                "fight": 4,
                 "range": 4,
                 "strength": 3,
-                "defence": 5,
+                "defence": 6,
                 "attacks": 1,
                 "wounds": 1,
-                "courage": 3,
-                "might": {
-                    "value": 1
-                },
-                "will": {
-                    "value": 1
-                },
-                "fate": {
-                    "value": 1
-                }
+                "courage": 4
             },
             "type": {
                 "Infantry": {}
             },
             "totalPoints": 0,
             "warband": {},
-            "wargear": {},
+            "wargear": {
+                "Dwarf Armour": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Passive",
+                    "userSelected": false
+                },
+                "Axe": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Active",
+                    "userSelected": false
+                }
+            },
             "references": {
                 "books": {
                     "Armies Of The Lord Of The Rings": {
-                        "page": 44,
+                        "page": 105,
                         "initials": "AotLotR"
                     }
                 }
             },
             "version": 1.0
         },
-        "Additional Minas Tirith Siege Crew": {
+        "Additional Dwarf Siege Crew": {
             "actions": {},
             "armies": {
-                "Minas Tirith": {
+                "The Kingdom Of Khazad-Dûm": {
                     "minModelCount": 0,
-                    "maxModelCount": 3,
+                    "maxModelCount": 4,
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
@@ -257,39 +276,43 @@
             "magic": {},
             "modelCount": 0,
             "mounts": {},
-            "name": "Additional Minas Tirith Siege Crew",
-            "points": 7,
+            "name": "Additional Dwarf Siege Crew",
+            "points": 8,
             "race": {},
             "rules": {},
             "stats": {
-                "movement": 6,
-                "fight": 3,
+                "movement": 5,
+                "fight": 4,
                 "range": 4,
                 "strength": 3,
-                "defence": 5,
+                "defence": 6,
                 "attacks": 1,
                 "wounds": 1,
-                "courage": 3,
-                "might": {
-                    "value": 1
-                },
-                "will": {
-                    "value": 1
-                },
-                "fate": {
-                    "value": 1
-                }
+                "courage": 4
             },
             "type": {
                 "Infantry": {}
             },
-            "totalPoints": 7,
+            "totalPoints": 0,
             "warband": {},
-            "wargear": {},
+            "wargear": {
+                "Dwarf Armour": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Passive",
+                    "userSelected": false
+                },
+                "Axe": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Active",
+                    "userSelected": false
+                }
+            },
             "references": {
                 "books": {
                     "Armies Of The Lord Of The Rings": {
-                        "page": 44,
+                        "page": 105,
                         "initials": "AotLotR"
                     }
                 }
@@ -306,7 +329,7 @@
         },
         "Engineer Captain": {
             "optional": true,
-            "points": 50,
+            "points": 60,
             "type": "Passive",
             "userSelected": false
         }

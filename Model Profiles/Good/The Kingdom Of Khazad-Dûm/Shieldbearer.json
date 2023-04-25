@@ -1,0 +1,86 @@
+{
+    "actions": {
+    },
+    "armies": {
+        "The Kingdom Of Khazad-Dûm": {
+            "tier": "Minor Hero",
+            "selectableInWarband": false,
+            "warbandSize": 6
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Shieldbearer",
+    "unique": false,
+    "points": 60,
+    "race": {
+        "Dwarf": {},
+        "Khazad-Dûm": {}
+    },
+    "rules": {
+        "In Defence Of The King":{
+            "type": "Active"
+        },
+        "Lead By Example":{
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 5,
+        "fight": 5,
+        "range": 4,
+        "strength": 4,
+        "defence": 8,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 4,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 0
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 0
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Dwarf Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Axe": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 100,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

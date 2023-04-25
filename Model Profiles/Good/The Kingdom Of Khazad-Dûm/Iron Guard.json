@@ -1,0 +1,63 @@
+{
+    "actions": {},
+    "armies": {
+        "The Kingdom Of Khazad-Dûm": {
+            "tier": "Warrior",
+            "selectableInWarband": false,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Iron Guard",
+    "unique": false,
+    "points": 15,
+    "race": {
+        "Dwarf": {},
+        "Khazad-Dûm": {}
+    },
+    "rules": {},
+    "stats": {
+        "movement": 5,
+        "fight": 4,
+        "range": 4,
+        "strength": 4,
+        "defence": 6,
+        "attacks": 2,
+        "wounds": 1,
+        "courage": 4
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Dwarf Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
+            "userSelected": false
+        },
+        "Throwing Axes": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 103,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

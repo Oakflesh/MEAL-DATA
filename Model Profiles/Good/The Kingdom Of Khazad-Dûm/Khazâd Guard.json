@@ -1,0 +1,67 @@
+{
+    "actions": {},
+    "armies": {
+        "The Kingdom Of Khazad-Dûm": {
+            "tier": "Warrior",
+            "selectableInWarband": false,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Khazâd Guard",
+    "unique": false,
+    "points": 11,
+    "race": {
+        "Dwarf": {},
+        "Khazad-Dûm": {}
+    },
+    "rules": {
+        "Bodyguard": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 5,
+        "fight": 4,
+        "range": 4,
+        "strength": 4,
+        "defence": 7,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 4
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Dwarf Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Two-Handed Axe": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
+            "userSelected": false
+        },
+        "Axe": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 103,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}

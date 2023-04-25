@@ -1,0 +1,94 @@
+{
+    "actions": {
+        "March": {}
+
+    },
+    "armies": {
+        "The Kingdom Of Khazad-Dûm": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Dwarf Captain",
+    "unique": false,
+    "points": 60,
+    "race": {
+        "Dwarf": {},
+        "Khazad-Dûm": {}
+    },
+    "rules": {
+    },
+    "stats": {
+        "movement": 5,
+        "fight": 5,
+        "range": 4,
+        "strength": 4,
+        "defence": 7,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 5,
+        "might": {
+            "additional": 0,
+            "points": 0,
+            "value": 2
+        },
+        "will": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        },
+        "fate": {
+            "additional": 0,
+            "points": 0,
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Dwarf Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Axe": {
+            "optional": false,
+            "points": 0,
+            "type": "Active",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 5,
+            "type": "Active",
+            "userSelected": false
+        },
+        "Throwing Axes": {
+            "optional": true,
+            "points": 5,
+            "type": "Active",
+            "userSelected": false
+        },
+        "Two-Handed Axe": {
+            "optional": true,
+            "points": 5,
+            "type": "Active",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 100,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}
