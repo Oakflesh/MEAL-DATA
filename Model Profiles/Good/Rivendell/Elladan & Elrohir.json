@@ -6,7 +6,7 @@
         "Rivendell": {
             "tier": "Hero Of Fortitude",
             "selectableInWarband": false,
-            "warbandSize": 12
+            "warbandSize": 11
         }
     },
     "magic": {},
