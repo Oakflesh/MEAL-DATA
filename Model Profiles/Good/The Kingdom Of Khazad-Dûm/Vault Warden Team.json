@@ -9,6 +9,7 @@
     },
     "magic": {},
     "modelCount": 2,
+    "modelCountAmount": 2,
     "mounts": {},
     "name": "Vault Warden Team",
     "unique": false,
@@ -17,41 +18,14 @@
         "Dwarf": {},
         "Khazad-Dûm": {}
     },
-    "rules": {},
-    "stats": {},
-    "type": {
-        "Infantry": {}
+    "rules": {
+        "Spear & Shield": {
+            "type": "Passive"
+        }
     },
-    "wargear": {},
-    "warband": {
-        "Iron Shield": {
-            "actions": {},
-            "armies": {
-                "The Kingdom Of Khazad-Dûm": {
-                    "minModelCount": 0,
-                    "maxModelCount": 0,
-                    "tier": "Warrior",
-                    "selectableInWarband": false,
-                    "warbandSize": 0,
-                    "removeFromWarband": false
-                }
-            },
-            "magic": {},
-            "modelCount": 0,
-            "mounts": {},
-            "name": "Iron Shield",
-            "unique": false,
-            "points": 0,
-            "race": {
-                "Dwarf": {},
-                "Khazad-Dûm": {}
-            },
-            "rules": {
-                "Spear & Shield": {
-                    "type": "Passive"
-                }
-            },
-            "stats": {
+    "stats": [
+        {
+            "Iron Shield": {
                 "movement": 5,
                 "fight": 4,
                 "range": 4,
@@ -61,10 +35,24 @@
                 "wounds": 1,
                 "courage": 4
             },
-            "type": {
-                "Infantry": {}
-            },
-            "wargear": {
+            "Foe Spear": {
+                "movement": 5,
+                "fight": 4,
+                "range": 4,
+                "strength": 4,
+                "defence": 6,
+                "attacks": 1,
+                "wounds": 1,
+                "courage": 4
+            }
+        }
+    ],
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": [
+        {
+            "Iron Shield": {
                 "Heavy Dwarf Armour": {
                     "optional": false,
                     "points": 0,
@@ -84,53 +72,7 @@
                     "userSelected": false
                 }
             },
-            "references": {
-                "books": {
-                    "Armies Of The Lord Of The Rings": {
-                        "page": 104,
-                        "initials": "AotLotR"
-                    }
-                }
-            },
-            "version": 1.0
-        },
-        "Foe Spear": {
-            "actions": {},
-            "armies": {
-                "The Kingdom Of Khazad-Dûm": {
-                    "minModelCount": 0,
-                    "maxModelCount": 0,
-                    "tier": "Warrior",
-                    "selectableInWarband": false,
-                    "warbandSize": 0,
-                    "removeFromWarband": false
-                }
-            },
-            "magic": {},
-            "modelCount": 0,
-            "mounts": {},
-            "name": "Foe Spear",
-            "unique": false,
-            "points": 0,
-            "race": {
-                "Dwarf": {},
-                "Khazad-Dûm": {}
-            },
-            "rules": {},
-            "stats": {
-                "movement": 5,
-                "fight": 4,
-                "range": 4,
-                "strength": 4,
-                "defence": 6,
-                "attacks": 1,
-                "wounds": 1,
-                "courage": 4
-            },
-            "type": {
-                "Infantry": {}
-            },
-            "wargear": {
+            "Foe Spear": {
                 "Dwarf Armour": {
                     "optional": false,
                     "points": 0,
@@ -143,18 +85,10 @@
                     "type": "Active",
                     "userSelected": false
                 }
-            },
-            "references": {
-                "books": {
-                    "Armies Of The Lord Of The Rings": {
-                        "page": 104,
-                        "initials": "AotLotR"
-                    }
-                }
-            },
-            "version": 1.0
+            }
         }
-    },
+    ],
+    "warband": {},
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
