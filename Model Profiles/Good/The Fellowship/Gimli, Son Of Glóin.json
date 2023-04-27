@@ -69,11 +69,12 @@
             "type": "Passive",
             "userSelected": false
         },
-        "Master Forged Two-Handed Axe": {
+        "Two-Handed Axe": {
             "optional": false,
             "points": 0,
             "type": "Passive",
-            "userSelected": false
+            "userSelected": false,
+            "additional": "Master Forged"
         },
         "Two Axes": {
             "optional": false,
