@@ -1,0 +1,150 @@
+{
+    "actions": [
+        {
+            "Múrin": {
+                "Strike": {}
+            },
+            "Drár": {
+                "Accuracy": {}
+            }
+        }
+    ],
+    "armies": {
+        "Wanders In The Wild": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 11
+        }
+    },
+    "magic": {},
+    "modelCount": 2,
+    "mounts": {},
+    "name": "Múrin & Drár",
+    "unique": true,
+    "uniqueName": "Múrin & Drár",
+    "points": 140,
+    "race": {
+        "Dwarf": {},
+        "Iron Hills": {}
+    },
+    "rules": [
+        {
+            "Múrin": {},
+            "Drár": {
+                "Expert Shot": {
+                    "type": "Passive"
+                }
+            }
+        }
+    ],
+    "stats": [
+        {
+            "Múrin": {
+                "movement": 5,
+                "fight": 5,
+                "range": 4,
+                "strength": 4,
+                "defence": 8,
+                "attacks": 2,
+                "wounds": 2,
+                "courage": 5,
+                "might": {
+                    "additional": 0,
+                    "points": 0,
+                    "value": 3
+                },
+                "will": {
+                    "additional": 0,
+                    "points": 0,
+                    "value": 1
+                },
+                "fate": {
+                    "additional": 0,
+                    "points": 0,
+                    "value": 1
+                }
+            },
+            "Drár": {
+                "movement": 5,
+                "fight": 5,
+                "range": 4,
+                "strength": 4,
+                "defence": 7,
+                "attacks": 2,
+                "wounds": 2,
+                "courage": 5,
+                "might": {
+                    "additional": 0,
+                    "points": 0,
+                    "value": 3
+                },
+                "will": {
+                    "additional": 0,
+                    "points": 0,
+                    "value": 1
+                },
+                "fate": {
+                    "additional": 0,
+                    "points": 0,
+                    "value": 1
+                }
+            }
+        }
+    ],
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": [
+        {
+            "Múrin": {
+                "Dwarf Armour": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Passive",
+                    "userSelected": false
+                },
+                "Shield": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Active",
+                    "userSelected": false
+                },
+                "Kalazâl": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Active",
+                    "userSelected": false
+                }
+            },
+            "Drár": {
+                "Dwarf Armour": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Passive",
+                    "userSelected": false
+                },
+                "Dwarf Bow": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Active",
+                    "userSelected": false
+                },
+                "Axe": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Active",
+                    "userSelected": false
+                }
+            }
+        }
+    ],
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 107,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}
