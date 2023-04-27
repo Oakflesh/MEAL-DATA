@@ -1,0 +1,28 @@
+{
+    "Bash": {
+        "description": "\nA model armed with a Mace, Maul or Hammer may opt to Bash. If the bashing model's side win the Duel roll then they may attempt to knock a single opponent (bashing players choice) prone. Both sides roll 1D6 and add model Strength values. Bashing models gain +1 to this total if using Two-Handed weapons. The bashing model must score equal or higher than the opponents value to be successful.",
+        "weaponType": null,
+        "stats": null,
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 88,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Feint Or Stab": {
+        "description": "\nA model armed with a Dagger or Sword and equal or higher Fight value may opt to Feint. The model Feinting reduces their Fight value by 1D3 when resolving the Fight. If the Feinting model wins the Duel they may re-roll any To Wound rolls of a natural 1.\nA model armed with a Dagger or Sword and equal or lower Fight value may opt to Stab. If the Stabbing model wins the Duel they may re-roll any To Wound rolls of a natural 1. If they lose the Duel they will immediately take one Strength 2 hit after the fight is resolved (This only affects the rider if a <b>Cavalry</b> model).",
+        "weaponType": null,
+        "stats": null,
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 89,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    }
+}

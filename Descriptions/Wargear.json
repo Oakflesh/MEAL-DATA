@@ -1,7 +1,9 @@
 {
     "Glamdring": {
-        "description": "Glamdring is an Elven-Made Hand-And-A-Half sword.\nAdditionally, Glamdring increases Gandalf's Strength by 1 when making strikes with it.",
-        "stats": null
+        "description": "Glamdring is an Elven-Made Hand-And-A-Half Sword.\nAdditionally, Glamdring increases Gandalf's Strength by 1 when making strikes with it.",
+        "weaponType": "Hand-And-A-Half Sword",
+        "stats": null,
+        "additional": "Elven-Made"
     },
     "Narya": {
         "description": "Gandalf may re-roll his dice when making Fate rolls.",
@@ -9,6 +11,7 @@
     },
     "Unarmed": {
         "description": "While Unarmed this model will suffer -1 to their Duel and To Wound rolls.",
+        "weaponType": "Unarmed",
         "stats": null,
         "references": {
             "books": {
@@ -21,6 +24,7 @@
     },
     "Spear": {
         "description": "<b>Infantry</b> models my assist friendly models with the same size base or smaller as long as they are in base contact. The model with a spear may then contribute a single attack to the Fight using its own Fight Value and Strength.\nModels with a spear may use it as a hand weapon, but may not make special strikes when using it. In multiple combat the model using a spear may strike a different target to the model they are supporting.",
+        "specialStrike": null,
         "stats": null,
         "references": {
             "books": {
@@ -33,6 +37,7 @@
     },
     "War Spear": {
         "description": "A war spear follows the rules for spears for <b>Infantry</b> models, and lances for <b>Cavalry</b> models.",
+        "specialStrike": null,
         "stats": null,
         "references": {
             "books": {
@@ -45,30 +50,7 @@
     },
     "Pike": {
         "description": "<b>Infantry</b> models with pikes follow the same rules as spears, although models may support in base contact two models deep. Models supporting in this way will be unable to Back Away if they lose the combat. \nPikes require two hands to use and as such if a model is also equipped with a shield, bow or crossbow it will suffer a -1 penalty to Duel rolls.",
-        "stats": null,
-        "references": {
-            "books": {
-                "Rules Manual (Eye Of Sauron)": {
-                    "page": 87,
-                    "initials": "RM (Eye Of Sauron)"
-                }
-            }
-        }
-    },
-    "Elven-Made": {
-        "description": "\nIn a combat where the fight is a draw the wielder of an Elven-Made weapon will win on the roll of a 3-6 (Good) and 1-4 (Evil). If both sides have Elven-Made weapons neither may benefit from this advantage.",
-        "stats": null,
-        "references": {
-            "books": {
-                "Rules Manual (Eye Of Sauron)": {
-                    "page": 87,
-                    "initials": "RM (Eye Of Sauron)"
-                }
-            }
-        }
-    },
-    "Master Forged": {
-        "description": "\nIn a combat where the fight is a draw the wielder of an Elven-Made weapon will win on the roll of a 3-6 (Good) and 1-4 (Evil). If both sides have Elven-Made weapons neither may benefit from this advantage.",
+        "specialStrike": null,
         "stats": null,
         "references": {
             "books": {
@@ -81,6 +63,7 @@
     },
     "Daggers": {
         "description": "Daggers",
+        "specialStrike": "Feint Or Stab",
         "stats": null,
         "references": {
             "books": {
