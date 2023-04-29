@@ -1,18 +1,7 @@
 {
-    "Glamdring": {
-        "description": "Glamdring is an Elven-Made Hand-And-A-Half Sword.\nAdditionally, Glamdring increases Gandalf's Strength by 1 when making strikes with it.",
-        "weaponType": "Hand-And-A-Half Sword",
-        "stats": null,
-        "additional": "Elven-Made"
-    },
-    "Narya": {
-        "description": "Gandalf may re-roll his dice when making Fate rolls.",
-        "stats": null
-    },
     "Unarmed": {
         "description": "While Unarmed this model will suffer -1 to their Duel and To Wound rolls.",
         "weaponType": "Unarmed",
-        "stats": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -23,9 +12,8 @@
         }
     },
     "Spear": {
-        "description": "<b>Infantry</b> models my assist friendly models with the same size base or smaller as long as they are in base contact. The model with a spear may then contribute a single attack to the Fight using its own Fight Value and Strength.\nModels with a spear may use it as a hand weapon, but may not make special strikes when using it. In multiple combat the model using a spear may strike a different target to the model they are supporting.",
+        "description": "A Spear is a Single-Handed weapon. <b>Infantry</b> models may assist friendly models with the same size base or smaller as long as they are in base contact. The model with a spear may then contribute a single attack to the Fight using its own Fight Value and Strength.\nModels with a spear may use it as a hand weapon, but may not make special strikes when using it. In multiple combat the model using a spear may strike a different target to the model they are supporting.",
         "specialStrike": null,
-        "stats": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -35,10 +23,21 @@
             }
         }
     },
-    "War Spear": {
-        "description": "A war spear follows the rules for spears for <b>Infantry</b> models, and lances for <b>Cavalry</b> models.",
+    "Lance": {
+        "description": "A Lance is a Single-Handed weapon. <b>Cavalry</b> models using a Lance adds +1 to their To Wound rolls. (Other rules that allow for re-rolls on natural 1's apply before this bonus). This additional bonus applies to other <b>Cavalry</b> models as long as the model wielding the LAnce charged this turn (and it is not within Difficult Terrain). <b>Cavalry</b> models will normally replace their Lance with normal Weaponry if dismounted.",
         "specialStrike": null,
-        "stats": null,
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 88,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "War Spear": {
+        "description": "A War Spear is a Single-Handed weapon. A war spear follows the rules for spears for <b>Infantry</b> models, and lances for <b>Cavalry</b> models.",
+        "specialStrike": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -48,10 +47,69 @@
             }
         }
     },
+    "Sword": {
+        "description": "A Sword is a Single-Handed weapon",
+        "specialStrike": "Feint Or Stab",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 88,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Axe": {
+        "description": "A Axe is a Single-Handed weapon",
+        "specialStrike": "Feint Or Stab",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 88,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Pick": {
+        "description": "A Pick is a Single-Handed weapon",
+        "specialStrike": "Feint Or Stab",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 88,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Two-Handed Axe": {
+        "description": "A Two-Handed Axe is a Two-Handed weapon",
+        "specialStrike": "Piercing Strike",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 88,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Whip": {
+        "description": "A Whip is a Throwing Weapon with a range of 2\" and Strength 1",
+        "specialStrike": "Whirl",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 88,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
     "Pike": {
-        "description": "<b>Infantry</b> models with pikes follow the same rules as spears, although models may support in base contact two models deep. Models supporting in this way will be unable to Back Away if they lose the combat. \nPikes require two hands to use and as such if a model is also equipped with a shield, bow or crossbow it will suffer a -1 penalty to Duel rolls.",
+        "description": "A Pike is a Two-Handed weapon. <b>Infantry</b> models with pikes follow the same rules as spears, although models may support in base contact two models deep. Models supporting in this way will be unable to Back Away if they lose the combat. \nPikes require two hands to use and as such if a model is also equipped with a shield, bow or crossbow it will suffer a -1 penalty to Duel rolls.",
         "specialStrike": null,
-        "stats": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -62,13 +120,36 @@
         }
     },
     "Dagger": {
-        "description": "123",
+        "description": "A Dagger is a Single-Handed weapon.",
         "specialStrike": "Feint Or Stab",
-        "stats": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
                     "page": 87,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Staff": {
+        "description": "A Staff is a Single-Handed weapon.",
+        "specialStrike": "Stun",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 85,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Staff Of Power": {
+        "description": "A Staff Of Power is a Hand-And-A-Half weapon (declare its use as a Single-Handed or Two-Handed weapon before the start of a Fight), the bearer can expend 1 point of Will per turn without reducing their own Will store.",
+        "specialStrike": "Stun",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 88,
                     "initials": "RM (Eye Of Sauron)"
                 }
             }

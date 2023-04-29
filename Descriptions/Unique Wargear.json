@@ -1,0 +1,10 @@
+{
+    "Glamdring": {
+        "description": "Glamdring is an Elven-Made Hand-And-A-Half Sword (declare its use as a Single-Handed or Two-Handed weapon before the start of a Fight).\nAdditionally, Glamdring increases Gandalf's Strength by 1 when making strikes with it.",
+        "specialStrike": "Feint Or Stab",
+        "additional": "Elven-Made"
+    },
+    "Narya": {
+        "description": "Gandalf may re-roll his dice when making Fate rolls."
+    }
+}
