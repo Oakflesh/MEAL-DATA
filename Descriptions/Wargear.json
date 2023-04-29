@@ -73,18 +73,5 @@
                 }
             }
         }
-    },
-    "Daggers": {
-        "description": "456",
-        "specialStrike": "Feint Or Stab",
-        "stats": null,
-        "references": {
-            "books": {
-                "Rules Manual (Eye Of Sauron)": {
-                    "page": 87,
-                    "initials": "RM (Eye Of Sauron)"
-                }
-            }
-        }
     }
 }

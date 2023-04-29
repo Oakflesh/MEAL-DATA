@@ -72,12 +72,13 @@
             "type": "Passive",
             "userSelected": false
         },
-        "Daggers": {
+        "Dagger": {
             "optional": false,
             "points": 0,
             "type": "Passive",
             "userSelected": false,
-            "additional": "Elven-Made"
+            "additional": "Elven-Made",
+            "multiple": true
         },
         "Armour": {
             "optional": true,
