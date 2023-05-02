@@ -154,5 +154,185 @@
                 }
             }
         }
+    },
+    "Blowpipe": {
+        "description": "Blowpipes have a range of 12\" and a Strength of 2.",
+        "specialStrike": "BlowpipeRule",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Bow": {
+        "description": "Bows have a range of 24\" and a Strength of 2.",
+        "specialStrike": "BowRule",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Crossbow": {
+        "description": "Crossbows have a range of 24\" and a Strength of 4.",
+        "specialStrike": "BowRule",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Dwarf Bow": {
+        "description": "Dwarf Bows have a range of 18\" and a Strength of 3.",
+        "specialStrike": "BowRule",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Dwarf Longbow": {
+        "description": "Dwarf Longbows have a range of 24\" and a Strength of 2.",
+        "specialStrike": "BowRule",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Elf Bow": {
+        "description": "Elf Bows have a range of 24\" and a Strength of 3.",
+        "specialStrike": "BowRule",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Esgaroth Bow": {
+        "description": "Esgaroth Bows have a range of 24\" and a Strength of 3.",
+        "specialStrike": "BowRule",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Great Bow": {
+        "description": "Great Bows have a range of 24\" and a Strength of 4.",
+        "specialStrike": "BowRule",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Longbow": {
+        "description": "Longbows have a range of 24\" and a Strength of 3.",
+        "specialStrike": "BowRule",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Orc Bow": {
+        "description": "Orc Bows have a range of 18\" and a Strength of 2.",
+        "specialStrike": "BowRule",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Short Bow": {
+        "description": "Short Bows have a range of 18\" and a Strength of 2.",
+        "specialStrike": "BowRule",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Slingshot": {
+        "description": "Slingshots have a range of 12\" and a Strength of 1.",
+        "specialStrike": "SlingshotRule",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Throwing Spear": {
+        "description": "Throwing Spears have a range of 8\" and a Strength of 3.",
+        "specialStrike": "ThrowingWeaponRule",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Throwing Weapon": {
+        "description": "Throwing Weapons have a range of 6\" and a Strength of 3.",
+        "specialStrike": "SlingshotRule",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Uruk-Hai Bow": {
+        "description": "Uruk-Hai Bows have a range of 18\" and a Strength of 3.",
+        "specialStrike": "BowRule",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
     }
 }
