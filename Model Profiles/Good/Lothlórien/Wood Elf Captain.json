@@ -80,11 +80,12 @@
             "type": "Passive",
             "userSelected": false
         },
-        "Throwing Daggers": {
+        "Throwing Dagger": {
             "optional": true,
             "points": 5,
             "type": "Passive",
-            "userSelected": false
+            "userSelected": false,
+            "multiple": true
         },
         "Wood Elf Spear": {
             "optional": true,

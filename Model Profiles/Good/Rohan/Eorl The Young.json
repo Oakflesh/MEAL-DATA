@@ -89,11 +89,12 @@
             "type": "Passive",
             "userSelected": false
         },
-        "Throwing Spears": {
+        "Throwing Spear": {
             "optional": false,
             "points": 0,
             "type": "Passive",
-            "userSelected": false
+            "userSelected": false,
+            "multiple": true
         }
     },
     "references": {
