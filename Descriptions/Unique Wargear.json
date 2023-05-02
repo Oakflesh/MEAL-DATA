@@ -24,7 +24,7 @@
         }
     },
     "Noldorin Dagger": {
-        "description": "A Noldorin Dagger is a Single-Handed weapon that can be used as a Throwing Weapon. The model making strikes (combat or thrown) with this weapon may re-roll failed To Wound rolls.",
+        "description": "A Noldorin Dagger is a Single-Handed weapon that can be used as a Throwing Weapon (Range 6\" & Strength 3). The model making strikes (combat or thrown) with this weapon may re-roll failed To Wound rolls.",
         "specialStrike": "Feint Or Stab & ThrowingWeaponRule",
         "references": {
             "books": {
