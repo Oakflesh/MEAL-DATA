@@ -55,7 +55,7 @@
         }
     },
     "BowRule": {
-        "description": "\n<b>Bows</b></br>A model using a Bow can only shoot in the Shoot phase if they haven't moved more than half of their movement in the Move Phase.",
+        "description": "\n<b>Bows</b></br>A model using a Bow can only shoot in the Shoot phase if they haven't moved more than half of their movement in the Move Phase, any movement will decrease the models Shoot value by -1.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -66,7 +66,7 @@
         }
     },
     "BlowpipeRule": {
-        "description": "\n<b>Blowpipes</b></br>A model using a Blowpipe can only shoot in the Shoot phase if they haven't moved more than half of their movement in the Move Phase. They also gain the Poisoned Weapon special rule.",
+        "description": "\n<b>Blowpipes</b></br>A model using a Blowpipe can only shoot in the Shoot phase if they haven't moved more than half of their movement in the Move Phase, any movement will decrease the models Shoot value by -1. They also gain the Poisoned Weapon special rule.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -88,7 +88,7 @@
         }
     },
     "ThrowingWeaponRule": {
-        "description": "\n<b>Throwing Weapons</b></br>A model using a Throwing Weapon can throw it in the Shoot phase even if they moved in the Move Phase and didn't throw it in the last Move Phase. \nOnce per turn it can also be thrown while charging into combat in the Move Phase. The model must charge like normal and stop 1\" away from the model before throwing their weapon. If the model is slain the model may carry on their move like normal.",
+        "description": "\n<b>Throwing Weapons</b></br>A model using a Throwing Weapon can throw it in the Shoot phase even if they moved in the Move Phase and didn't throw it in the last Move Phase, any movement will decrease the models Shoot value by -1. \nOnce per turn it can also be thrown while charging into combat in the Move Phase. The model must charge like normal and stop 1\" away from the model before throwing their weapon, this movement doesn't impose the -1 decrease to the models Shoot value. If the model is slain the model may carry on their move like normal.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -99,7 +99,7 @@
         }
     },
     "SlingshotRule": {
-        "description": "\n<b>Slingshots</b></br>A model using a Slingshot can shoot in the Shoot phase twice if they haven't moved, once if they have moved less than half of their movement, or not at all if they move over half their movement in the Move Phase.",
+        "description": "\n<b>Slingshots</b></br>A model using a Slingshot can shoot in the Shoot phase twice if they haven't moved, once if they have moved less than half of their movement, or not at all if they move over half their movement in the Move Phase. Any movement will decrease the models Shoot value by -1.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
