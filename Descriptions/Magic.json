@@ -9,10 +9,10 @@
     },
     "Banishment": {
         "description": "Target one enemy spirit model in range, they suffer 1 Wound. If the target is a <b>Cavalry</b> model, the mount or the rider must be chosen.\n<b>Channelled</b></br>Target suffers 1D3 Wounds instead of 1.",
-        "type": "Exhaustion"
+        "type": "Instant"
     },
     "Black Dart": {
         "description": "Target one enemy model in range, they suffer 1 Strength 9 hit that automatically hits, even if the model is in combat. If the target is a <b>Cavalry</b> model, the mount or the rider must be chosen.\n<b>Channelled</b></br>Target suffers 1D3 Wounds instead of 1.",
-        "type": "Exhaustion"
+        "type": "Instant"
     }
 }
