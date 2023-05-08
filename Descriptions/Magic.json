@@ -1,0 +1,18 @@
+{
+    "Aura Of Command": {
+        "description": "Whilst in effect, the caster and all friendly models within 6\" pass all courage tests automatically.\n<b>Channelled</b></br>Range is increased to 12\".",
+        "type": "Exhaustion"
+    },
+    "Aura Of Dismay": {
+        "description": "Whilst in effect, the caster and all friendly models within 6\" cause Terror.\n<b>Channelled</b></br>Range is increased to 12\".",
+        "type": "Exhaustion"
+    },
+    "Banishment": {
+        "description": "Target one enemy spirit model in range, they suffer 1 Wound. If the target is a <b>Cavalry</b> model, the mount or the rider must be chosen.\n<b>Channelled</b></br>Target suffers 1D3 Wounds instead of 1.",
+        "type": "Exhaustion"
+    },
+    "Black Dart": {
+        "description": "Target one enemy model in range, they suffer 1 Strength 9 hit that automatically hits, even if the model is in combat. If the target is a <b>Cavalry</b> model, the mount or the rider must be chosen.\n<b>Channelled</b></br>Target suffers 1D3 Wounds instead of 1.",
+        "type": "Exhaustion"
+    }
+}
