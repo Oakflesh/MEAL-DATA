@@ -48,7 +48,7 @@
         }
     },
     "Sword": {
-        "description": "A Sword is a Single-Handed weapon",
+        "description": "A Sword is a Single-Handed weapon.",
         "specialStrike": "Feint Or Stab",
         "references": {
             "books": {
@@ -60,7 +60,7 @@
         }
     },
     "Axe": {
-        "description": "A Axe is a Single-Handed weapon",
+        "description": "A Axe is a Single-Handed weapon.",
         "specialStrike": "Feint Or Stab",
         "references": {
             "books": {
@@ -72,7 +72,7 @@
         }
     },
     "Pick": {
-        "description": "A Pick is a Single-Handed weapon",
+        "description": "A Pick is a Single-Handed weapon.",
         "specialStrike": "Feint Or Stab",
         "references": {
             "books": {
@@ -84,7 +84,7 @@
         }
     },
     "Two-Handed Axe": {
-        "description": "A Two-Handed Axe is a Two-Handed weapon",
+        "description": "A Two-Handed Axe is a Two-Handed weapon.",
         "specialStrike": "Piercing Strike",
         "references": {
             "books": {
@@ -150,6 +150,46 @@
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
                     "page": 88,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Banner": {
+        "description": "A banner doesn't count as a weapon and as such imposes a -1 penalty to duel rolls for the wielder. The Banner has a 3\" range in all direction and allows for a single re-roll of a duel roll if a firendly model in the fight is within range. (1 re-roll per fight max). The Banner wielder must be standing to enable the banner effect, and may be passed to a friendly <b>Warrior</b> model if slain.",
+        "specialStrike": null,
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 91,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Elven Cloak": {
+        "description": "A model wearing an elven cloak gains the Stalk Unseen special rule.",
+        "specialStrike": null,
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron) - Elven Cloak": {
+                    "page": 91,
+                    "initials": "RM (Eye Of Sauron)"
+                },
+                "Rules Manual (Eye Of Sauron) - Stalk Unseen": {
+                    "page": 110,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "War Drum": {
+        "description": "At the start of the Move Phase a model equppied with a War Drum may declare they are sounding the advance. All models within 12\" of the drummer add 3\" for <b>Infantry</b> or 5\" for <b>Cavalry</b> / <b>Fly</b> to their maximum Move distance. Models affected by a War Drum may not Charge this turn.",
+        "specialStrike": null,
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 91,
                     "initials": "RM (Eye Of Sauron)"
                 }
             }
