@@ -63,11 +63,13 @@
             "type": "Passive",
             "userSelected": false
         },
-        "Noldorin Daggers": {
+        "Noldorin Dagger": {
             "optional": false,
             "points": 0,
             "type": "Passive",
-            "userSelected": false
+            "additional": "Elven-Made",
+            "userSelected": false,
+            "multiple": true
         }
     },
     "references": {

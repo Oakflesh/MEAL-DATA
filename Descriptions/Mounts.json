@@ -1,6 +1,6 @@
 {
     "Armoured Fell Beast": {
-        "description": "This is a mount",
+        "description": "Armoured Fell Beasts have the following stat profile: ",
         "stats": {
             "courage": 3,
             "strength": 6,
@@ -12,21 +12,86 @@
             "wounds": 3
         }
     },
-    "Horse": {
-        "description": "Horses have the following stats: ",
+    "Fell Beast": {
+        "description": "Fell Beasts have the following stat profile: ",
         "stats": {
-            "range": 0,
-            "fight": 0,
+            "courage": 3,
+            "strength": 6,
+            "range": 5,
+            "defence": 6,
+            "fight": 5,
+            "attacks": 2,
+            "movement": 12,
+            "wounds": 3
+        }
+    },
+    "Armoured Horse": {
+        "description": "Armoured Horses have the following stat profile: ",
+        "stats": {
+            "movement": 10,
+            "fight": 3,
+            "range": 6,
+            "strength": 3,
+            "defence": 5,
+            "attacks": 0,
+            "wounds": 1,
+            "courage": 3
+        }
+    },
+    "Horse": {
+        "description": "Horses have the following stat profile: ",
+        "stats": {
+            "movement": 10,
+            "fight": 3,
+            "range": 6,
             "strength": 3,
             "defence": 4,
-            "movement": 10,
-            "courage": 3,
+            "attacks": 0,
             "wounds": 1,
-            "attacks": 0
+            "courage": 3
+        }
+    },
+    "Pony": {
+        "description": "Ponies unlike other mounts must pass a courage test before charging, but gain no bonuses for doing so if they pass. If the courage test is failed they may move as normal.\nPonies have the following stat profile:",
+        "stats": {
+            "movement": 8,
+            "fight": 2,
+            "range": 6,
+            "strength": 2,
+            "defence": 3,
+            "attacks": 0,
+            "wounds": 1,
+            "courage": 2
+        }
+    },
+    "Warg": {
+        "description": "Wargs have the following stat profile: ",
+        "stats": {
+            "movement": 10,
+            "fight": 3,
+            "range": 5,
+            "strength": 4,
+            "defence": 4,
+            "attacks": 1,
+            "wounds": 1,
+            "courage": 2
+        }
+    },
+    "Fell Warg": {
+        "description": "Fell Wargs have the following stat profile: ",
+        "stats": {
+            "movement": 10,
+            "fight": 3,
+            "range": 5,
+            "strength": 4,
+            "defence": 4,
+            "attacks": 1,
+            "wounds": 1,
+            "courage": 2
         }
     },
     "Shadowfax": {
-        "description": "Shadowfax is a mount that uses the following profile:",
+        "description": "Shadowfax is unique Horse that uses the following stat profile:",
         "stats": {
             "movement": 12,
             "fight": 0,
@@ -45,6 +110,19 @@
             "fate": {
                 "value": 1
             }
+        }
+    },
+    "Asfaloth": {
+        "description": "Asfaloth is unique Horse that uses the following stat profile:",
+        "stats": {
+            "movement": 10,
+            "fight": 3,
+            "range": 6,
+            "strength": 3,
+            "defence": 4,
+            "attacks": 0,
+            "wounds": 1,
+            "courage": 3
         }
     }
 }

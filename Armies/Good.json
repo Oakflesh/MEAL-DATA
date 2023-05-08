@@ -55,6 +55,14 @@
         "bonus": "<b>Hobbit</b> models from this army gain the Woodland Creature Special Rule.",
         "alignment": "good"
     },
+    "Wanderers In The Wild (Múrin & Drár)": {
+        "bonus": "There is no army bonus for this army list.",
+        "alignment": "good"
+    },
+    "Wanderers In The Wild (Tom & Goldberry)": {
+        "bonus": "There is no army bonus for this army list.",
+        "alignment": "good"
+    },
     "Wildmen Of Drúadan": {
         "bonus": "Models from this army list gain the Mountain Dweller Special Rule. Additionally, enemy models do not gain any benefits from the Stalk Unseen special rule, or any such special rules that give similar benefits, against models from this army list. Additionally, warbands from this army list, that contain between 9 and 12 Models do not need a <b>Hero</b> to be the captain of the warband. Instead, one of the <b>Warrior</b> models within the warband takes on the role of the warband's captain for the purpose of deployement.",
         "alignment":"good"
