@@ -195,6 +195,18 @@
             }
         }
     },
+    "War Horn": {
+        "description": "As long as one or more models have a War Horn on the battlefield all models in your force have +1 Courage.",
+        "specialStrike": null,
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 91,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
     "Blowpipe": {
         "description": "Blowpipes have a range of 12\" and a Strength of 2.",
         "specialStrike": "BlowpipeRule",
@@ -370,6 +382,66 @@
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
                     "page": 90,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Armour": {
+        "description": "A model upgraded to wear Armour gains +1 Defence.",
+        "specialStrike": null,
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 93,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Heavy Armour": {
+        "description": "A model upgraded to wear Heavy Armour gains +2 Defence or +1 Defence if they are already wearing Armour.",
+        "specialStrike": null,
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 93,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Dwarf Armour": {
+        "description": "A model upgraded to wear Dwarf Armour gains +2 Defence or +1 Defence if they are already wearing Armour.",
+        "specialStrike": null,
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 93,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Heavy Dwarf Armour": {
+        "description": "A model upgraded to wear Dwarf Heavt Armour gains +3 Defence, +2 Defence if they are already wearing Armour or +1 if they are wearing Heavy Armour Or Dwarf Armour.",
+        "specialStrike": null,
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 93,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Shield": {
+        "description": "A model equipped with a shield gains +1 Defence unless they carrying a Bow, Crossbow, Two-Handed Weapon, Pike or using a Hand-And-A-Half Sword with Two hands.\n",
+        "specialStrike": "Shielding",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 93,
                     "initials": "RM (Eye Of Sauron)"
                 }
             }
