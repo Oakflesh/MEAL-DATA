@@ -8,7 +8,7 @@
         "alignment": "evil"
     },
     "Mordor": {
-        "bonus": "TESTING",
+        "bonus": "Whilst you have more models in play than your opponent, friendly <b>Mordor Warrior</b> models gain +1 courage and may re-roll natural 1's To Wound when making strikes.",
         "alignment": "evil"
     },
     "Moria" : {

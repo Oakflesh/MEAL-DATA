@@ -1,0 +1,87 @@
+{
+    "actions": {},
+    "armies": {
+        "Mordor": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Morannon Orc",
+    "unique": false,
+    "points": 7,
+    "race": {
+        "Orc": {},
+        "Mordor": {}
+    },
+    "rules": {},
+    "stats": {
+        "movement": 6,
+        "fight": 3,
+        "range": 5,
+        "strength": 4,
+        "defence": 5,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 2
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Mace": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Axe": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Banner": {
+            "optional": true,
+            "points": 25,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 1,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Spear": {
+            "optional": true,
+            "points": 1,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 147,
+                "initials": "AotLotR"
+            }
+        }
+    },
+    "version": 1.0
+}
