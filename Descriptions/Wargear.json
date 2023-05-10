@@ -13,7 +13,7 @@
     },
     "Spear": {
         "description": "A Spear is a Single-Handed weapon. <b>Infantry</b> models may assist friendly models with the same size base or smaller as long as they are in base contact. The model with a spear may then contribute a single attack to the Fight using its own Fight Value and Strength.\nModels with a spear may use it as a hand weapon, but may not make special strikes when using it. In multiple combat the model using a spear may strike a different target to the model they are supporting.",
-        "specialStrike": null,
+        "additionalDescription": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -25,7 +25,7 @@
     },
     "Lance": {
         "description": "A Lance is a Single-Handed weapon. <b>Cavalry</b> models using a Lance adds +1 to their To Wound rolls. (Other rules that allow for re-rolls on natural 1's apply before this bonus). This additional bonus applies to other <b>Cavalry</b> models as long as the model wielding the LAnce charged this turn (and it is not within Difficult Terrain). <b>Cavalry</b> models will normally replace their Lance with normal Weaponry if dismounted.",
-        "specialStrike": null,
+        "additionalDescription": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -37,7 +37,7 @@
     },
     "War Spear": {
         "description": "A War Spear is a Single-Handed weapon. A war spear follows the rules for spears for <b>Infantry</b> models, and lances for <b>Cavalry</b> models.",
-        "specialStrike": null,
+        "additionalDescription": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -49,7 +49,7 @@
     },
     "Sword": {
         "description": "A Sword is a Single-Handed weapon.",
-        "specialStrike": "Feint Or Stab",
+        "additionalDescription": "Feint Or Stab",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -61,7 +61,7 @@
     },
     "Axe": {
         "description": "A Axe is a Single-Handed weapon.",
-        "specialStrike": "Feint Or Stab",
+        "additionalDescription": "Feint Or Stab",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -73,7 +73,7 @@
     },
     "Pick": {
         "description": "A Pick is a Single-Handed weapon.",
-        "specialStrike": "Feint Or Stab",
+        "additionalDescription": "Feint Or Stab",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -85,7 +85,7 @@
     },
     "Two-Handed Axe": {
         "description": "A Two-Handed Axe is a Two-Handed weapon.",
-        "specialStrike": "Piercing Strike",
+        "additionalDescription": "Piercing Strike",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -97,7 +97,7 @@
     },
     "Whip": {
         "description": "A Whip is a Throwing Weapon with a range of 2\" and Strength 1",
-        "specialStrike": "Whirl",
+        "additionalDescription": "Whirl",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -109,7 +109,7 @@
     },
     "Pike": {
         "description": "A Pike is a Two-Handed weapon. <b>Infantry</b> models with pikes follow the same rules as spears, although models may support in base contact two models deep. Models supporting in this way will be unable to Back Away if they lose the combat. \nPikes require two hands to use and as such if a model is also equipped with a shield, bow or crossbow it will suffer a -1 penalty to Duel rolls.",
-        "specialStrike": null,
+        "additionalDescription": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -121,7 +121,7 @@
     },
     "Dagger": {
         "description": "A Dagger is a Single-Handed weapon.",
-        "specialStrike": "Feint Or Stab",
+        "additionalDescription": "Feint Or Stab",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -133,7 +133,7 @@
     },
     "Staff": {
         "description": "A Staff is a Single-Handed weapon.",
-        "specialStrike": "Stun",
+        "additionalDescription": "Stun",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -145,7 +145,7 @@
     },
     "Staff Of Power": {
         "description": "A Staff Of Power is a Hand-And-A-Half weapon (declare its use as a Single-Handed or Two-Handed weapon before the start of a Fight), the bearer can expend 1 point of Will per turn without reducing their own Will store.",
-        "specialStrike": "Stun",
+        "additionalDescription": "Stun",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -157,7 +157,7 @@
     },
     "Banner": {
         "description": "A banner doesn't count as a weapon and as such imposes a -1 penalty to duel rolls for the wielder. The Banner has a 3\" range in all direction and allows for a single re-roll of a duel roll if a firendly model in the fight is within range. (1 re-roll per fight max). The Banner wielder must be standing to enable the banner effect, and may be passed to a friendly <b>Warrior</b> model if slain.",
-        "specialStrike": null,
+        "additionalDescription": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -169,7 +169,7 @@
     },
     "Elven Cloak": {
         "description": "A model wearing an elven cloak gains the Stalk Unseen special rule.",
-        "specialStrike": null,
+        "additionalDescription": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron) - Elven Cloak": {
@@ -185,7 +185,7 @@
     },
     "War Drum": {
         "description": "At the start of the Move Phase a model equppied with a War Drum may declare they are sounding the advance. All models within 12\" of the drummer add 3\" for <b>Infantry</b> or 5\" for <b>Cavalry</b> / <b>Fly</b> to their maximum Move distance. Models affected by a War Drum may not Charge this turn.",
-        "specialStrike": null,
+        "additionalDescription": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -197,7 +197,7 @@
     },
     "War Horn": {
         "description": "As long as one or more models have a War Horn on the battlefield all models in your force have +1 Courage.",
-        "specialStrike": null,
+        "additionalDescription": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -209,7 +209,7 @@
     },
     "Blowpipe": {
         "description": "Blowpipes have a range of 12\" and a Strength of 2.",
-        "specialStrike": "BlowpipeRule",
+        "additionalDescription": "BlowpipeRule",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -221,7 +221,7 @@
     },
     "Bow": {
         "description": "Bows have a range of 24\" and a Strength of 2.",
-        "specialStrike": "BowRule",
+        "additionalDescription": "BowRule",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -233,7 +233,7 @@
     },
     "Crossbow": {
         "description": "Crossbows have a range of 24\" and a Strength of 4.",
-        "specialStrike": "BowRule",
+        "additionalDescription": "BowRule",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -245,7 +245,7 @@
     },
     "Dwarf Bow": {
         "description": "Dwarf Bows have a range of 18\" and a Strength of 3.",
-        "specialStrike": "BowRule",
+        "additionalDescription": "BowRule",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -257,7 +257,7 @@
     },
     "Dwarf Longbow": {
         "description": "Dwarf Longbows have a range of 24\" and a Strength of 2.",
-        "specialStrike": "BowRule",
+        "additionalDescription": "BowRule",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -269,7 +269,7 @@
     },
     "Elf Bow": {
         "description": "Elf Bows have a range of 24\" and a Strength of 3.",
-        "specialStrike": "BowRule",
+        "additionalDescription": "BowRule",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -281,7 +281,7 @@
     },
     "Esgaroth Bow": {
         "description": "Esgaroth Bows have a range of 24\" and a Strength of 3.",
-        "specialStrike": "BowRule",
+        "additionalDescription": "BowRule",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -293,7 +293,7 @@
     },
     "Great Bow": {
         "description": "Great Bows have a range of 24\" and a Strength of 4.",
-        "specialStrike": "BowRule",
+        "additionalDescription": "BowRule",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -305,7 +305,7 @@
     },
     "Longbow": {
         "description": "Longbows have a range of 24\" and a Strength of 3.",
-        "specialStrike": "BowRule",
+        "additionalDescription": "BowRule",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -317,7 +317,7 @@
     },
     "Orc Bow": {
         "description": "Orc Bows have a range of 18\" and a Strength of 2.",
-        "specialStrike": "BowRule",
+        "additionalDescription": "BowRule",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -329,7 +329,7 @@
     },
     "Short Bow": {
         "description": "Short Bows have a range of 18\" and a Strength of 2.",
-        "specialStrike": "BowRule",
+        "additionalDescription": "BowRule",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -341,7 +341,7 @@
     },
     "Slingshot": {
         "description": "Slingshots have a range of 12\" and a Strength of 1.",
-        "specialStrike": "SlingshotRule",
+        "additionalDescription": "SlingshotRule",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -353,7 +353,7 @@
     },
     "Throwing Spear": {
         "description": "Throwing Spears have a range of 8\" and a Strength of 3.",
-        "specialStrike": "ThrowingWeaponRule",
+        "additionalDescription": "ThrowingWeaponRule",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -365,7 +365,7 @@
     },
     "Throwing Weapon": {
         "description": "Throwing Weapons have a range of 6\" and a Strength of 3.",
-        "specialStrike": "SlingshotRule",
+        "additionalDescription": "SlingshotRule",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -377,7 +377,7 @@
     },
     "Uruk-Hai Bow": {
         "description": "Uruk-Hai Bows have a range of 18\" and a Strength of 3.",
-        "specialStrike": "BowRule",
+        "additionalDescription": "BowRule",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -389,7 +389,7 @@
     },
     "Armour": {
         "description": "A model upgraded to wear Armour gains +1 Defence.",
-        "specialStrike": null,
+        "additionalDescription": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -401,7 +401,7 @@
     },
     "Heavy Armour": {
         "description": "A model upgraded to wear Heavy Armour gains +2 Defence or +1 Defence if they are already wearing Armour.",
-        "specialStrike": null,
+        "additionalDescription": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -413,7 +413,7 @@
     },
     "Dwarf Armour": {
         "description": "A model upgraded to wear Dwarf Armour gains +2 Defence or +1 Defence if they are already wearing Armour.",
-        "specialStrike": null,
+        "additionalDescription": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -425,7 +425,7 @@
     },
     "Heavy Dwarf Armour": {
         "description": "A model upgraded to wear Dwarf Heavt Armour gains +3 Defence, +2 Defence if they are already wearing Armour or +1 if they are wearing Heavy Armour Or Dwarf Armour.",
-        "specialStrike": null,
+        "additionalDescription": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -437,7 +437,7 @@
     },
     "Shield": {
         "description": "A model equipped with a shield gains +1 Defence unless they carrying a Bow, Crossbow, Two-Handed Weapon, Pike or using a Hand-And-A-Half Sword with Two hands.\n",
-        "specialStrike": "Shielding",
+        "additionalDescription": "Shielding",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {

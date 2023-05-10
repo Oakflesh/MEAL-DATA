@@ -134,5 +134,16 @@
                 }
             }
         }
+    },
+    "HatredRule": {
+        "description": "\n<b>Hatred</b></br>A model with this Special Rule adds +1 to their To Wound rolls when fighting against a model with the relevant Keyword as listed on their profile.",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 109,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
     }
 }

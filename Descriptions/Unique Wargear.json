@@ -1,7 +1,7 @@
 {
     "Glamdring": {
         "description": "Glamdring is an Elven-Made Hand-And-A-Half Sword (declare its use as a Single-Handed or Two-Handed weapon before the start of a Fight).\nAdditionally, Glamdring increases Gandalf's Strength by 1 when making strikes with it.",
-        "specialStrike": "Feint Or Stab",
+        "additionalDescription": "Feint Or Stab",
         "additional": "Elven-Made",
         "references": {
             "books": {
@@ -25,7 +25,7 @@
     },
     "Noldorin Dagger": {
         "description": "A Noldorin Dagger is a Single-Handed weapon that can be used as a Throwing Weapon (Range 6\" & Strength 3). The model making strikes (combat or thrown) with this weapon may re-roll failed To Wound rolls.",
-        "specialStrike": "Feint Or Stab & ThrowingWeaponRule",
+        "additionalDescription": "Feint Or Stab & ThrowingWeaponRule",
         "references": {
             "books": {
                 "Armies Of The Lord Of The Rings": {

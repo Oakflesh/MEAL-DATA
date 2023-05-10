@@ -1,50 +1,50 @@
 {
     "* The Lord Of The Rings": {
-        "description": "Sauron can spend a single point of Will each turn without reducing his own store.",
-        "stats": null
+        "description": "Sauron can spend a single point of Will each turn without reducing his own store."
     },
     "Bodyguard": {
-        "description": "All Warrior and Hero models from the same army list with this special rule will automatically Bodyguard the Hero from the same army list with the highest Heroic Tier. If there is more than one Hero with the highest Heroic Tier, the controlling player may choose. As long as the bodyguarded model is alive on the battlefield, this model passes all Courage tests.\nModels that are part of an allied contingent must select a model from their own army list.",
-        "stats": null
+        "description": "All Warrior and Hero models from the same army list with this special rule will automatically Bodyguard the Hero from the same army list with the highest Heroic Tier. If there is more than one Hero with the highest Heroic Tier, the controlling player may choose. As long as the bodyguarded model is alive on the battlefield, this model passes all Courage tests.\nModels that are part of an allied contingent must select a model from their own army list."
     },
     "Harbinger Of Evil": {
-        "description": "An enemy model within 12 inches of this model suffers a -1 penalty to its Courage.\n<b>Note: </b>This is not cumulative with other similar penalties such as those provided by Goblin Drums, the Ancient Evil special rule, and so on.",
-        "stats": null
+        "description": "An enemy model within 12 inches of this model suffers a -1 penalty to its Courage.\n<b>Note: </b>This is not cumulative with other similar penalties such as those provided by Goblin Drums, the Ancient Evil special rule, and so on."
     },
     "Resistant To Magic": {
-        "description": "If this model is targeted by a Magical Power, it may use an additional 'free' dice when it makes a Resist test, even if it has no Will remaining or decides not to use any Will points",
-        "stats": null
+        "description": "If this model is targeted by a Magical Power, it may use an additional 'free' dice when it makes a Resist test, even if it has no Will remaining or decides not to use any Will points"
     },
     "Terror": {
-        "description": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are afflicted are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terror in all Orc models.",
-        "stats": null
+        "description": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are afflicted are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terror in all Orc models."
     },
     "Throw Stones (Hobbit)": {
-        "description": "If this model does not move at all during the Move phase, then in the Shoot phase it may make a shooting attack with Strength 1 and range 8\".",
-        "stats": null
+        "description": "If this model does not move at all during the Move phase, then in the Shoot phase it may make a shooting attack with Strength 1 and range 8\"."
     },
     "Will Of Evil": {
-        "description": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring-not even if other enemy models are included as part of Multiple Combat.",
-        "stats": null
+        "description": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring-not even if other enemy models are included as part of Multiple Combat."
     },
     "Woodland Creature": {
-        "description": "An <b>Infantry</b> model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.",
-        "stats": null
+        "description": "An <b>Infantry</b> model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles."
     },
     "Master Of Battle": {
-        "description": "If an enemy <b>Hero</b> model calls a heroic action within 6\", this model may call the same heroic action for free.\nSometime this ability will be activated on the roll of 1D6 as noted in the model's stat profile.",
-        "stats": null
+        "description": "If an enemy <b>Hero</b> model calls a heroic action within 6\" this model may call the same heroic action for free.\nSometime this ability will be activated on the roll of 1D6 as noted in the model's stat profile."
     },
     "The Age Of Men Is Over": {
         "description": "All model within 3\" gain the Hatred (Man) Special Rule.",
-        "stats": null
+        "additionalDescription": "HatredRule"
     },
     "The Time Of The Orc Has Come": {
-        "description": "Once per game, at the start of the Fight Phase, all friendly <b>Mordor</b> models within 12\" can re-roll failed To Wound rolls for the rest of the turn when making strikes.",
-        "stats": null
+        "description": "Once per game, at the start of the Fight Phase, all friendly <b>Mordor</b> models within 12\" can re-roll failed To Wound rolls for the rest of the turn when making strikes."
     },
     "Orcish Brawler": {
-        "description": "If this model is outnumbered in a fight (excluding supporting models), they gain a +1 to Fight and Attack Values.",
-        "stats": null
+        "description": "If this model is outnumbered in a fight (excluding supporting models), they gain a +1 to Fight and Attack Values."
+    },
+    "Hatred": {
+        "description": "A model with this Special Rule adds +1 to their To Wound rolls when fighting against a model with the relevant Keyword as listed on their profile.",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 109,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
     }
 }
