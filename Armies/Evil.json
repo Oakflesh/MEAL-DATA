@@ -12,6 +12,7 @@
         "alignment": "evil"
     },
     "Moria" : {
-        "bonus": "TESTING"
+        "bonus": "TESTING",
+        "alignment": "evil"
     }
 }
