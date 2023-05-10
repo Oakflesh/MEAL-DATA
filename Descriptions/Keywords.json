@@ -1,4 +1,12 @@
 {
+    "Man": {
+        "description": "This model has the <b>Man</b> keyword.",
+        "stats": null
+    },
+    "Woman": {
+        "description": "This model has the <b>Woman</b> keyword.",
+        "stats": null
+    },
     "Gondor": {
         "description": "This model has the <b>Gondor</b> keyword.",
         "stats": null
@@ -42,5 +50,13 @@
                 }
             }
         }
+    },
+    "Mordor": {
+        "description": "This model has the <b>Mordor</b> keyword.",
+        "stats": null
+    },
+    "Warrior": {
+        "description": "This model has the <b>Warrior</b> keyword.",
+        "stats": null
     }
 }

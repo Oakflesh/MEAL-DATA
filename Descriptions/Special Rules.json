@@ -30,5 +30,21 @@
     "Woodland Creature": {
         "description": "An <b>Infantry</b> model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.",
         "stats": null
+    },
+    "Master Of Battle": {
+        "description": "If an enemy <b>Hero</b> model calls a heroic action within 6\", this model may call the same heroic action for free.\nSometime this ability will be activated on the roll of 1D6 as noted in the model's stat profile.",
+        "stats": null
+    },
+    "The Age Of Men Is Over": {
+        "description": "All model within 3\" gain the Hatred (Man) Special Rule.",
+        "stats": null
+    },
+    "The Time Of The Orc Has Come": {
+        "description": "Once per game, at the start of the Fight Phase, all friendly <b>Mordor</b> models within 12\" can re-roll failed To Wound rolls for the rest of the turn when making strikes.",
+        "stats": null
+    },
+    "Orcish Brawler": {
+        "description": "If this model is outnumbered in a fight (excluding supporting models), they gain a +1 to Fight and Attack Values.",
+        "stats": null
     }
 }
