@@ -41,12 +41,12 @@
     },
     "Command": {
         "description": "Target one enemy model within range, the caster may move the model up to half its maximum move distance, even if it has already moved, but not move it out of combat. The move cannot force the target to traverse obstacles. The target can move into difficult terrain and/or combat (no courage tests required). The caster can also force the target to drop objects (not wargear) or put on The One Ring (if they carry it). The target may move no further this turn.\n<b>Channelled</b></br>Whilst this Magical Power is in effect, the target halves their Fight and Attack Values (rounding up), and may not strike if they win the combat.",
-        "additionalDescription" : "Immobilise",
+        "additionalDescription": "Immobilise",
         "duration": "Temporary"
     },
     "Compel": {
         "description": "Target one enemy model within range, the caster may move the model up to half its maximum move distance, even if it has already moved, but not move it out of combat. The move cannot force the target to traverse obstacles. The target can move into difficult terrain and/or combat (no courage tests required). The caster can also force the target to drop objects (not wargear) or put on The One Ring (if they carry it). The target may move no further this turn.\n<b>Channelled</b></br>Whilst this Magical Power is in effect, the target halves their Fight and Attack Values (rounding up), and may not strike if they win the combat.",
-        "additionalDescription" : "Transfix",
+        "additionalDescription": "Transfix",
         "duration": "Temporary"
     },
     "Curse": {
@@ -88,6 +88,62 @@
     },
     "Instill Fear": {
         "description": "Target all enemy models within range that can be moved against their will, each must take a Courage Test in order decided by the caster. If the target fails they move their maximum Move distance directly away from the caster in a straight line (target does not leave combat). If the model comes into contact with an obstacle or another model they will stop 1\" away form it. The target may move no further this turn.\n<b>Channelled</b></br>Target rolls 3D6 when taking Courage Tests and discards the highest result.",
+        "duration": "Instant"
+    },
+    "Nature's Wrath": {
+        "description": "Target all enemy models within 3\", targets are knocked prone. <b>Cavalry</b> models are treated as having received a Knocked Flying Result on the Thrown Rider chart, and then knocked prone.\n<b>Channelled</b></br>All targets take one Strength 2 hit after being knocked prone.",
+        "duration": "Instant"
+    },
+    "Panic Steed": {
+        "description": "Target one enemy <b>Cavalry</b> model within range, target rider is immediately thrown and the mount flees. Target must roll 1D6 on the Thrown Rider chart.\n<b>Channelled</b></br>All <b>Cavalry</b> models within 3\" of the target are also affected.",
+        "duration": "Instant"
+    },
+    "Paralyse": {
+        "description": "Target one enemy model within range, they become immediately Paralysed, knocked prone and can do nothing until they recover. The target has no combat abilities (won't contribute its Fight Value) and cannot make Duel rolls, it will automatically lose combats unless fighting with friendly models. During the End Phase, target must roll 1D6, on a 6 the model recovers and stands up. Friendly models may spend their turn in contact with the Paralysed model to try and revive them, roll 1D6 per friendly model helping (Might Points can be used to influence these rolls).\n<b>Channelled</b></br>Target suffers one Strength 5 hit at the end of each turn they are Paralysed.",
+        "duration": "Instant"
+    },
+    "Protection Of The Valar": {
+        "description": "Target one friendly model within 3\" (including the caster), the target may not be targeted by Magical Powers or Special Rules that target this model specifically. All other Magical Powers or Special Rules will still affect this model. If the Magical Power or Special Rule targets multiple models, this model is unaffected.\n<b>Channelled</b></br>Target all friendly models within 3\".",
+        "duration": "Temporary"
+    },
+    "Refreshing Song": {
+        "description": "Target one friendly model within range, target recovers one lost Wound and recover one Might, Will and Fate Point (if possible).\n<b>Channelled</b></br>Target recovers all lost Wounds.",
+        "duration": "Instant"
+    },
+    "Renew": {
+        "description": "Target one friendly model within range, target recovers one lost Wound. If the target is a <b>Cavalry</b> model, the mount or the rider must be chosen.\n<b>Channelled</b></br>Target recovers 1D3 Wounds.",
+        "duration": "Instant"
+    },
+    "Sap Will": {
+        "description": "Target one enemy model within range, target immediately loses 1D3 Will Points. If the target is a <b>Cavalry</b> model, the mount or the rider must be chosen.\n<b>Channelled</b></br>Target loses 1D6 Will Points.",
+        "duration": "Instant"
+    },
+    "Shatter": {
+        "description": "Target one enemy model within range, select and destroy one piece of equipped wargear (can't target mounts, living creatures, Wargear naturally attached to the model, Staffs Of Power or The One Ring).\n<b>Channelled</b></br>Target suffers one Strength 6 hit.",
+        "duration": "Instant"
+    },
+    "Shroud Of Shadows": {
+        "description": "Target one friendly model within range (doesn't effect <b>War Beasts</b>), target becomes invisible and no longer targetable or considered as In The Way when resolving Ranged attacks. While the model is invisible they have no Control Zone and ignore enemy Control Zones, the model and enemy models may not end their turns overlapping each other. All enemy models, even if they normally pass them, must take a courage test to simulate being able to see the invisible model if they want to interact with it. Invisible models may still use Heroic Actions, but may not involve friendly models.\n<b>Channelled</b></br>During the Fight Phase enemy models engaged in combat with the model halves its Fight Value.",
+        "duration": "Temporary"
+    },
+    "Sorcerous Blast": {
+        "description": "Target one enemy model within range, the target is blasted 1D6\" directly away from the caster and be knocked prone, this can blast a model out of combat. If it comes into contact with another model that is Strength 5 or less it will immediately stop and both models will be knocked prone. If the target or one of the other models is in combat then they are also knocked prone. The target suffers one Strength 5 hit and other models knocked prone suffer one Strength 3 hit each. <b>Cavalry</b> models are treated as having received a Knocked Flying Result on the Thrown Rider chart.\nIf it comes into contact with a solid obstacle or another model that is Strength 6 or higher it will immediately stop and only the target model will be knocked prone. The target and other models that it hits suffer one Strength 3 hit each. Might can be used to improve the To Wound of the Target Model only.\n<b>Channelled</b></br>Target suffers one Strength 6 hit and all other models suffer one Strength 4 hit.",
+        "duration": "Instant"
+    },
+    "REPLACE": {
+        "description": "REPLACE\n<b>Channelled</b></br>REPLACE",
+        "duration": "REPLACE"
+    },
+    "REPLACE": {
+        "description": "REPLACE\n<b>Channelled</b></br>REPLACE",
+        "duration": "REPLACE"
+    },
+    "REPLACE": {
+        "description": "REPLACE\n<b>Channelled</b></br>REPLACE",
+        "duration": "REPLACE"
+    },
+    "REPLACE": {
+        "description": "REPLACE\n<b>Channelled</b></br>REPLACE",
         "duration": "REPLACE"
     }
 }
