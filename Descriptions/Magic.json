@@ -130,20 +130,28 @@
         "description": "Target one enemy model within range, the target is blasted 1D6\" directly away from the caster and be knocked prone, this can blast a model out of combat. If it comes into contact with another model that is Strength 5 or less it will immediately stop and both models will be knocked prone. If the target or one of the other models is in combat then they are also knocked prone. The target suffers one Strength 5 hit and other models knocked prone suffer one Strength 3 hit each. <b>Cavalry</b> models are treated as having received a Knocked Flying Result on the Thrown Rider chart.\nIf it comes into contact with a solid obstacle or another model that is Strength 6 or higher it will immediately stop and only the target model will be knocked prone. The target and other models that it hits suffer one Strength 3 hit each. Might can be used to improve the To Wound of the Target Model only.\n<b>Channelled</b></br>Target suffers one Strength 6 hit and all other models suffer one Strength 4 hit.",
         "duration": "Instant"
     },
-    "REPLACE": {
-        "description": "REPLACE\n<b>Channelled</b></br>REPLACE",
-        "duration": "REPLACE"
+    "Strengthen Will": {
+        "description": "Target one friendly <b>Hero</b> model within range, give them 1 Will Point. This can increase their Will Store above its starting value, even if that was 0.\n<b>Channelled</b></br>Target receives 1D3 Will Points.",
+        "duration": "Instant"
     },
-    "REPLACE": {
-        "description": "REPLACE\n<b>Channelled</b></br>REPLACE",
-        "duration": "REPLACE"
+    "Terrifying Aura": {
+        "description": "This power targets the caster themselves. Whilst in effect the caster causes Terror.\n<b>Channelled</b></br>Models wishing to Charge the caster must roll 3D6 when taking Courage Tests and discards the highest result.",
+        "duration": "Exhaustion"
     },
-    "REPLACE": {
-        "description": "REPLACE\n<b>Channelled</b></br>REPLACE",
-        "duration": "REPLACE"
+    "Tremor": {
+        "description": "Target one enemy model within range, the target and all models in a 1D6\" line from the target directly away from the caster suffer one Strength 6 hit and knocked prone. If a model that is affected is in combat, all models in that combat are affected. <b>Cavalry</b> models are treated as having received a Knocked Flying Result on the Thrown Rider chart, and then knocked prone. One model may attempt to resist this power in the usual manner.\n<b>Channelled</b></br>Line extends to 2D6\" away from target.",
+        "duration": "Instant"
     },
-    "REPLACE": {
-        "description": "REPLACE\n<b>Channelled</b></br>REPLACE",
-        "duration": "REPLACE"
+    "Wither": {
+        "description": "Target one enemy model within range, targets Strength Value is reduced by 1 Point (to a minimum of 1) for the rest of the game. If the target is a <b>Cavalry</b> model, the mount or the rider must be chosen.\n<b>Channelled</b></br>Targets Strength is reduced by 1D3 Points.",
+        "duration": "Instant"
+    },
+    "Wrath Of Bruinen": {
+        "description": "Target all enemy models within range, targets within 3\" are knocked prone and suffer one Strength 2 hit or one Strength 8 hit if they are standing in a body of water. <b>Cavalry</b> models are treated as having received a Knocked Flying Result on the Thrown Rider chart, and then knocked prone.\n<b>Channelled</b></br>Targets suffer one Strength 3 hit or one Strength 9 hit if they are standing in a body of water.",
+        "duration": "Instant"
+    },
+    "Your Staff Is Broken": {
+        "description": "Target one enemy model within range that has a staff, targets staff is destroyed immediately and all bonuses and combat stats associated with it are lost.\n<b>Channelled</b></br>Target suffers one Strength 7 hit.",
+        "duration": "Instant"
     }
 }
