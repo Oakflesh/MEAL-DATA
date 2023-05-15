@@ -2,6 +2,9 @@
     "* The Lord Of The Rings": {
         "description": "Sauron can spend a single point of Will each turn without reducing his own store."
     },
+    "Ancient Enemies": {
+        "description": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile."
+    },
     "Bodyguard": {
         "description": "All Warrior and Hero models from the same army list with this special rule will automatically Bodyguard the Hero from the same army list with the highest Heroic Tier. If there is more than one Hero with the highest Heroic Tier, the controlling player may choose. As long as the bodyguarded model is alive on the battlefield, this model passes all Courage tests.\nModels that are part of an allied contingent must select a model from their own army list."
     },
