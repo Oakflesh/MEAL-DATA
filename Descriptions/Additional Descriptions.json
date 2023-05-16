@@ -125,7 +125,7 @@
         }
     },
     "Shielding": {
-        "description": "\n<b>Shielding</b></br>A model armed with a Shield may declare they are Shielding. The model doubles their dice when rolling their Duel roll dice, but can make no strikes if they win. The model doesn't gain any other wargear bonuses while Shielding. In multiple combat all friendly models must be Sheilding for any to use this rule. <b>Cavalry</b> models that are Immobilised or Transfixed cannot use the Shielding rule.",
+        "description": "\n<b>Shielding</b></br>A model armed with a Shield may declare they are Shielding. The model doubles their dice when rolling their Duel roll dice, but can make no strikes if they win. The model doesn't gain any other wargear bonuses while Shielding. In multiple combat all friendly models must be Shielding for any to use this rule. <b>Cavalry</b> models that are Immobilised or Transfixed cannot use the Shielding rule.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {

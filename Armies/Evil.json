@@ -4,7 +4,7 @@
         "alignment": "evil"
     },
     "Barad-Dûr": {
-        "bonus": "Sauron's Warband size is increased to 24. Additionally, a force that consists solely of models from the Barad-dûr army list will never be considered broken if Sauron has 3 or more Wounds remaining. Should Sauron have 2 or fewer wounds remaining, the army will break as normal. Should Sauron be slain, the army will immediately count as bring Broken.",
+        "bonus": "Sauron's Warband size is increased to 24. Additionally, a force that consists solely of models from the Barad-Dûr army list will never be considered broken if Sauron has 3 or more Wounds remaining. Should Sauron have 2 or fewer wounds remaining, the army will break as normal. Should Sauron be slain, the army will immediately count as bring Broken.",
         "alignment": "evil"
     },
     "Mordor": {

@@ -1,35 +1,30 @@
 {
     "Man": {
-        "description": "This model has the <b>Man</b> keyword.",
-        "stats": null
+        "description": "This model has the <b>Man</b> keyword."
     },
     "Woman": {
-        "description": "This model has the <b>Woman</b> keyword.",
-        "stats": null
+        "description": "This model has the <b>Woman</b> keyword."
     },
     "Gondor": {
-        "description": "This model has the <b>Gondor</b> keyword.",
-        "stats": null
+        "description": "This model has the <b>Gondor</b> keyword."
     },
     "Hobbit": {
-        "description": "This model has the <b>Hobbit</b> keyword.",
-        "stats": null
+        "description": "This model has the <b>Hobbit</b> keyword."
     },
     "Orc": {
-        "description": "This model has the <b>Orc</b> keyword.",
-        "stats": null
+        "description": "This model has the <b>Orc</b> keyword."
     },
     "Ringwraith": {
-        "description": "This model has the <b>Ringwraith</b> keyword.",
-        "stats": null
+        "description": "This model has the <b>Ringwraith</b> keyword."
     },
     "Spirit": {
-        "description": "This model has the <b>Spirit</b> keyword.",
-        "stats": null
+        "description": "This model has the <b>Spirit</b> keyword."
+    },
+    "Wizard": {
+        "description": "This model has the <b>Wizard</b> keyword."
     },
     "Elven-Made": {
         "description": "\n<b>Elven-Made</b>\nIn a combat where the fight is a draw the wielder of an Elven-Made weapon will win on the roll of a 3-6 (Good) and 1-4 (Evil). If both sides have Elven-Made weapons neither may benefit from this advantage.",
-        "stats": null,
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
