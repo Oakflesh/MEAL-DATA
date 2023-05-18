@@ -3,10 +3,112 @@
         "description": "Sauron can spend a single point of Will each turn without reducing his own store."
     },
     "Ancient Enemies": {
-        "description": "A model with this special rule re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile."
+        "description": "This model re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 107,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Ancient Evil": {
+        "description": "Enemy models within 18\" of this model suffer a -1 penalty to its Courage Value (does not stack with other negative Courage Value penalty effects).",
+        "type": "Passive",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 107,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Backstabbers": {
+        "description": "This model receives +1 to their To Wound rolls when making strikes against Trapped models (this bonus stacks with other similar effects).",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 107,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Bane Of Kings": {
+        "description": "This model must re-roll all failed To Wound rolls when making strikes in combat.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 107,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Venom": {
+        "description": "This model must re-roll all failed To Wound rolls when making strikes in combat.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 107,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Bane": {
+        "description": "Bane Weapons cause 1D3 Wounds per successful strike in combat against models with the keywords listed in the brackets in its profile.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 107,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Blades Of The Dead": {
+        "description": "This model uses the enemies Courage Value instead of Defence Value on the Wound Chart. This model cannot use Special Strikes.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 107,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Blood And Glory": {
+        "description": "This model recovers one used Might Point (if possible) when they kill an enemy <b>Hero</b> in combat.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 107,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
     },
     "Bodyguard": {
-        "description": "All Warrior and Hero models from the same army list with this special rule will automatically Bodyguard the Hero from the same army list with the highest Heroic Tier. If there is more than one Hero with the highest Heroic Tier, the controlling player may choose. As long as the bodyguarded model is alive on the battlefield, this model passes all Courage tests.\nModels that are part of an allied contingent must select a model from their own army list."
+        "description": "All Warrior and Hero models from the same army list with this special rule will automatically Bodyguard the Hero from the same army list with the highest Heroic Tier. If there is more than one Hero with the highest Heroic Tier, the controlling player may choose. As long as the bodyguarded model is alive on the battlefield, this model passes all Courage tests.\nModels that are part of an allied contingent must select a model from their own army list.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 107,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
     },
     "Harbinger Of Evil": {
         "description": "An enemy model within 12 inches of this model suffers a -1 penalty to its Courage.\n<b>Note: </b>This is not cumulative with other similar penalties such as those provided by Goblin Drums, the Ancient Evil special rule, and so on."
