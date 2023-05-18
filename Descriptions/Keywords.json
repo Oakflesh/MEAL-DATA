@@ -60,6 +60,12 @@
     "Infantry": {
         "description": "This model has the <b>Infantry</b> keyword."
     },
+    "Cavalry": {
+        "description": "This model has the <b>Cavalry</b> keyword."
+    },
+    "Monster": {
+        "description": "This model has the <b>Monster</b> keyword."
+    },
     "Woman": {
         "description": "This model has the <b>Woman</b> keyword."
     },
