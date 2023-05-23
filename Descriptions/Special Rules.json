@@ -1,6 +1,15 @@
 {
     "* The Lord Of The Rings": {
-        "description": "Sauron can spend a single point of Will each turn without reducing his own store."
+        "description": "Sauron can spend a single point of Will each turn without reducing his own store.",
+        "type": "Passive",
+        "references": {
+            "books": {
+                "Armies Of The Lord Of The Rings": {
+                    "page": 113,
+                    "initials": "AotLotR"
+                }
+            }
+        }
     },
     "Ancient Enemies": {
         "description": "This model re-rolls 1s To Wound when fighting in combat against models with the keywords listed in the brackets in its profile.",
@@ -105,6 +114,110 @@
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
                     "page": 107,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Burly": {
+        "description": "This model does not suffer a -1 penalty to their duel roll when fighting with a Two-Handed Weapon. Additionally, they may move their full Move Value when carrying Heavy Objects.",
+        "type": "Passive",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 108,
+                    "initials": "RM (Eye Of Sauron)"
+                },
+                "Rules Manual (Eye Of Sauron) - Heavy Object": {
+                    "page": 114,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Cave Dweller": {
+        "description": "This model adds +1 to all, Jump, Leap and Climb tests. This model also suffers no penalties for fighting in the dark.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 108,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Expert Rider": {
+        "description": "Whilst this model is mounted it may re-roll the dice when making Jump, Swim and Thrown Rider tests. If this model is carrying a Shield and Bow they will still receive the +1 to Defence from the Shield, if they dismount they lose this bonus. Additionally, this model can pick up Light Objects without having to dismount.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 108,
+                    "initials": "RM (Eye Of Sauron)"
+                },
+                "Rules Manual (Eye Of Sauron) - Light Object": {
+                    "page": 114,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Expert Shot": {
+        "description": "This model may shoot twice during the Shoot Phase, the model may shoot the same target twice or two different targets.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 108,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Fearless": {
+        "description": "This model passes courage tests automatically.",
+        "type": "Passive",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 108,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Fell Sight": {
+        "description": "This model does not need Line Of Sight to Charge other models. Additionally, this model can target models with the Stalk Unseen Special Rule without penalty.",
+        "type": "Passive",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 108,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Fleetfoot": {
+        "description": "A model that has both this and the Woodland Creature Special Rule will also apply the Woodland creature Special Rule to its Mount.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 108,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Fly": {
+        "description": "This model may move up to 12\", but may not end its move on even terrain that its base can't sit on. They may fly over enemy model control zones without penalty or the need to Charge as long as the move ends outside of the Control Zones. The model may use its Movement Value when moving instead but gains no bonuses when doing so, but is able to enter terrain they would otherwise Fly over. When entering terrain and obstacles in this way, the model must leave fully before being able to Fly again. Models with the Fly Special Rule that are on top of terrain, also have a 1\" control zone directly below them, the Flying model can Charge enemies in this way also.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 108,
                     "initials": "RM (Eye Of Sauron)"
                 }
             }
