@@ -95,5 +95,8 @@
     },
     "Uruk-Hai": {
         "description": "This model has the <b>Uruk-Hai</b> keyword."
+    },
+    "Eagle": {
+        "description": "This model has the <b>Eagle</b> keyword."
     }
 }
