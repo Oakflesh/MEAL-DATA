@@ -133,7 +133,7 @@
     },
     "The Age Of Men Is Over": {
         "description": "All model within 3\" gain the Hatred (Man) Special Rule.",
-        "additionalDescription": "HatredRule"
+        "additionalDescription": "Hatred"
     },
     "The Time Of The Orc Has Come": {
         "description": "Once per game, at the start of the Fight Phase, all friendly <b>Mordor</b> models within 12\" can re-roll failed To Wound rolls for the rest of the turn when making strikes."

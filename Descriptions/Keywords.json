@@ -95,28 +95,5 @@
     },
     "Uruk-Hai": {
         "description": "This model has the <b>Uruk-Hai</b> keyword."
-    },
-    "Elven-Made": {
-        "description": "\n<b>Elven-Made</b>\nIn a combat where the fight is a draw the wielder of an Elven-Made weapon will win on the roll of a 3-6 (Good) and 1-4 (Evil). If both sides have Elven-Made weapons neither may benefit from this advantage.",
-        "references": {
-            "books": {
-                "Rules Manual (Eye Of Sauron)": {
-                    "page": 87,
-                    "initials": "RM (Eye Of Sauron)"
-                }
-            }
-        }
-    },
-    "Master Forged": {
-        "description": "\n<b>Master Forged</b>\nIn a combat where the fight is a draw the wielder of an Elven-Made weapon will win on the roll of a 3-6 (Good) and 1-4 (Evil). If both sides have Elven-Made weapons neither may benefit from this advantage.",
-        "stats": null,
-        "references": {
-            "books": {
-                "Rules Manual (Eye Of Sauron)": {
-                    "page": 88,
-                    "initials": "RM (Eye Of Sauron)"
-                }
-            }
-        }
     }
 }
