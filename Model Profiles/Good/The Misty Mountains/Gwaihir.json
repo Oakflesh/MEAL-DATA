@@ -5,7 +5,7 @@
         "Defence": {}
     },
     "armies": {
-        "The Misty Mountain": {
+        "The Misty Mountains": {
             "tier": "Hero Of Legend",
             "selectableInWarband": false,
             "warbandSize": 18

@@ -1,7 +1,7 @@
 {
     "actions": {},
     "armies": {
-        "The Misty Mountain": {
+        "The Misty Mountains": {
             "tier": "Warrior",
             "selectableInWarband": true,
             "warbandSize": 0
