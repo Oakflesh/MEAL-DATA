@@ -224,7 +224,75 @@
         }
     },
     "Harbinger Of Evil": {
-        "description": "An enemy model within 12 inches of this model suffers a -1 penalty to its Courage.\n<b>Note: </b>This is not cumulative with other similar penalties such as those provided by Goblin Drums, the Ancient Evil special rule, and so on."
+        "description": "An enemy model within 12 inches of this model suffers a -1 penalty to its Courage.\n<b>Note: </b>This is not cumulative with other similar penalties such as those provided by Goblin Drums, the Ancient Evil special rule, and so on.",
+        "type": "Passive",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 109,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Hatred": {
+        "description": "This model adds +1 to their To Wound rolls when fighting against a model with the relevant Keyword as listed on their profile.",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 109,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Horse Lord": {
+        "description": "This model can use their Fate Points to prevent Wounds to their Mount.",
+        "type": "Passive",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 109,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Master Of Battle": {
+        "description": "If an enemy <b>Hero</b> model calls a heroic action within 6\" this model may call the same heroic action for free (even if they can't normally call it).\nSometimes this ability will be activated on the roll of 1D6 as noted in the model's stat profile.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 109,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Mighty Blow": {
+        "description": "This model inflicts 2 Wounds instead of 1 when successfully Wounding in combat.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 109,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Mighty Hero": {
+        "description": "This model may expend 1 Might Point without reducing their own Might store, even if they have no Might remaining.",
+        "type": "Passive",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 109,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
     },
     "Resistant To Magic": {
         "description": "If this model is targeted by a Magical Power, it may use an additional 'free' dice when it makes a Resist test, even if it has no Will remaining or decides not to use any Will points"
@@ -241,9 +309,7 @@
     "Woodland Creature": {
         "description": "An <b>Infantry</b> model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles."
     },
-    "Master Of Battle": {
-        "description": "If an enemy <b>Hero</b> model calls a heroic action within 6\" this model may call the same heroic action for free.\nSometime this ability will be activated on the roll of 1D6 as noted in the model's stat profile."
-    },
+
     "The Age Of Men Is Over": {
         "description": "All model within 3\" gain the Hatred (Man) Special Rule.",
         "additionalDescription": "Hatred"
@@ -253,16 +319,5 @@
     },
     "Orcish Brawler": {
         "description": "If this model is outnumbered in a fight (excluding supporting models), they gain a +1 to Fight and Attack Values."
-    },
-    "Hatred": {
-        "description": "A model with this Special Rule adds +1 to their To Wound rolls when fighting against a model with the relevant Keyword as listed on their profile.",
-        "references": {
-            "books": {
-                "Rules Manual (Eye Of Sauron)": {
-                    "page": 109,
-                    "initials": "RM (Eye Of Sauron)"
-                }
-            }
-        }
     }
 }
