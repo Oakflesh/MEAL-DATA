@@ -294,14 +294,173 @@
             }
         }
     },
+    "Monstrous Charge": {
+        "description": "If this model charges into combat it gains the Knock To The Ground and Extra Attack bonuses as if it were <b>Cavalry</b>. This model will Knock To The Ground any model that it charges or subsequently charges it, including <b>Cavalry</b> and <b>Monster</b> models) that have a lower strength value (after modifiers), even if the charged model has a Strength of 6 or higher. Additionally, this model will still get the Extra Attack bonus if it charges or is subsequently charged by a <b>Cavalry</b> or another model with this Special Rule. IF this model is mounted the rider is hit on a roll of 5-6 and the mount on a roll of 1-4.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 110,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Mountain Dweller": {
+        "description": "This model may re-roll any Jump, Leap and Climb tests. Additionally they may move through rocky areas classified as difficult terrain as if it were open ground.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 110,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Poisoned Weapons": {
+        "description": "Models that have Poisoned Weapons must re-roll To Wound rolls of a 1 when that weapon is being used. The Poisoned Weapons Special Rule only applies to the named weapons in their profile.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 110,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
     "Resistant To Magic": {
-        "description": "If this model is targeted by a Magical Power, it may use an additional 'free' dice when it makes a Resist test, even if it has no Will remaining or decides not to use any Will points"
+        "description": "If this model is targeted by a Magical Power, it may use an additional 'free' dice when it makes a Resist test, even if it has no Will remaining or decides not to use any Will points",
+        "type": "Passive",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 110,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Set Ablaze": {
+        "description": "A model that is Set Ablaze immediately suffers one Strength 9 hit, if the model survives, it will suffer a additional Strength 5 hit at the end of each turn until the blaze is extinguished. To extinguish the blaze the model must either lie down and crawl 1\" or enter a water feature at which point the blaze is put out.",
+        "type": "Passive",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 110,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Shieldwall": {
+        "description": "If this model has a shield and is in base contact with two or more non-prone models that also have this Special Rule and shields, this model gains +1 Defence. This bonus only applies while the model is on foot.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 110,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Stalk Unseen": {
+        "description": "If this model is partially concealed from view by a piece of terrain, they cannot be seen or targeted at distances over 6\", this includes enemy Charges, Range Attacks, Magical Powers or Special Rules.",
+        "type": "Passive",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 110,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Survival Instinct": {
+        "description": "This model must take a Courage test every time they suffer a Wound, if they fail they are removed from the game as a casualty.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 111,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Swift Movement": {
+        "description": "This model can climb on any surface regardless of angle, they can move at full speed over any difficult terrain and ignore obstacles. They must still jump gaps and chasms as normal and may not end its move on uneven terrain that its base can't sit on safely.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 111,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Sworn Protector": {
+        "description": "This model automatically passes all Courage tests while the model listed in the brackets in its profile is still alive and in play.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 111,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
     },
     "Terror": {
-        "description": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are afflicted are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terror in all Orc models."
+        "description": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are afflicted are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terror in all Orc models.",
+        "type": "Passive",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 111,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
     },
     "Throw Stones (Hobbit)": {
-        "description": "If this model does not move at all during the Move phase, then in the Shoot phase it may make a shooting attack with Strength 1 and range 8\"."
+        "description": "If this model does not move at all during the Move phase, then in the Shoot phase it may make a shooting attack with Strength 1 and range 8\".",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 110,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Throw Stones (Ent)": {
+        "description": "If this model does not move at all during the Move phase, then in the Shoot phase it may make a shooting attack with Strength 10 and range 18\".",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 111,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "Throw Stones (Troll)": {
+        "description": "If this model does not move at all during the Move phase, then in the Shoot phase it may make a shooting attack with Strength 8 and range 12\".",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 111,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
     },
     "Will Of Evil": {
         "description": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring-not even if other enemy models are included as part of Multiple Combat."
@@ -309,7 +468,6 @@
     "Woodland Creature": {
         "description": "An <b>Infantry</b> model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles."
     },
-
     "The Age Of Men Is Over": {
         "description": "All model within 3\" gain the Hatred (Man) Special Rule.",
         "additionalDescription": "Hatred"

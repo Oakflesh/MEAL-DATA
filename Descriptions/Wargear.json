@@ -207,9 +207,10 @@
             }
         }
     },
-    "Blowpipe": {
+    "Poisoned Blowpipe": {
         "description": "Blowpipes have a range of 12\" and a Strength of 2.",
-        "additionalDescription": "BlowpipeRule",
+        "additional":"BlowpipeRule",
+        "additionalDescription": "Poisoned Weapons",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
