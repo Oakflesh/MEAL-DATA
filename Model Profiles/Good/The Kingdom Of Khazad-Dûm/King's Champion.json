@@ -60,15 +60,16 @@
             "type": "Passive",
             "userSelected": false
         },
-        "Two Axes": {
+        "Axe": {
             "optional": false,
             "points": 0,
             "type": "Active",
-            "userSelected": false
+            "userSelected": false,
+            "multiple": true
         }
     },
     "warband": {
-        "Hearlds": {
+        "Heralds": {
             "actions": {
                 "Strike": {},
                 "Strength": {}

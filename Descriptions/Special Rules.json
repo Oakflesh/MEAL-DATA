@@ -462,11 +462,41 @@
             }
         }
     },
+    "Unyielding Combat Stance": {
+        "description": "If this model is knocked Prone roll 1D6, on a roll of 4+ this model keeps their footing and not knocked Prone. If they are mounted and they pass the roll they will remain on their feet but they will still be separated from their mount. If this model has automatically receives the knocked flying result on the Thrown Rider chart, they can still make the roll, if successful they will not suffer any of its effects.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 111,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
     "Will Of Evil": {
-        "description": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring-not even if other enemy models are included as part of Multiple Combat."
+        "description": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring-not even if other enemy models are included as part of Multiple Combat.",
+        "type": "Passive",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 111,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
     },
     "Woodland Creature": {
-        "description": "An <b>Infantry</b> model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles."
+        "description": "An <b>Infantry</b> model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.",
+        "type": "Active",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 111,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
     },
     "The Age Of Men Is Over": {
         "description": "All model within 3\" gain the Hatred (Man) Special Rule.",
