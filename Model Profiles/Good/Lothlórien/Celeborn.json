@@ -20,7 +20,7 @@
             "range": 6,
             "casting": 3
         },
-        "Immoblise": {
+        "Immobilise": {
             "range": 12,
             "casting": 3
         }
@@ -91,7 +91,8 @@
             "type": "Passive",
             "userSelected": false
         },
-        "Elven-Made Hand-And-A-Half Sword": {
+        "Hand-And-A-Half Sword": {
+            "additional": "Elven-Made",
             "optional": true,
             "points": 5,
             "type": "Passive",
