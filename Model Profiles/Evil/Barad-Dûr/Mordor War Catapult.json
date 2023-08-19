@@ -1,6 +1,11 @@
 {
     "actions": {},
     "armies": {
+        "Barad-Dûr": {
+            "tier": "Siege Engine",
+            "selectableInWarband": false,
+            "warbandSize": 6
+        },
         "Mordor": {
             "tier": "Siege Engine",
             "selectableInWarband": false,
@@ -210,16 +215,16 @@
             "actions": {},
             "armies": {
                 "Barad-Dûr": {
-                    "minModelCount": 3,
-                    "maxModelCount": 3,
+                    "minModelCount": 2,
+                    "maxModelCount": 2,
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
                     "removeFromWarband": false
                 },
                 "Mordor": {
-                    "minModelCount": 3,
-                    "maxModelCount": 3,
+                    "minModelCount": 2,
+                    "maxModelCount": 2,
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
@@ -227,7 +232,7 @@
                 }
             },
             "magic": {},
-            "modelCount": 3,
+            "modelCount": 2,
             "mounts": {},
             "name": "Orc Siege Crew",
             "unique": false,
