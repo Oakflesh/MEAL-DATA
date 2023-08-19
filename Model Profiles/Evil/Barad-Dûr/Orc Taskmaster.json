@@ -21,7 +21,8 @@
     "unique": false,
     "points": 50,
     "race": {
-        "Orc": {}
+        "Orc": {},
+        "Mordor": {}
     },
     "rules": {
         "Whip Of The Masters": {
@@ -83,6 +84,5 @@
                 "initials": "AotLotR"
             }
         }
-    },
-    "version": 1.0
+    }
 }

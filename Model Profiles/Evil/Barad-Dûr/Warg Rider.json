@@ -14,10 +14,16 @@
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {},
-    "name": "Orc Warrior",
+    "mounts": {
+        "Warg": {
+            "optional": false,
+            "points": 0,
+            "userSelected": true
+        }
+    },
+    "name": "Warg Rider",
     "unique": false,
-    "points": 5,
+    "points": 11,
     "race": {
         "Orc": {},
         "Mordor": {}
@@ -34,16 +40,10 @@
         "courage": 2
     },
     "type": {
-        "Infantry": {}
+        "Cavalry": {}
     },
     "wargear": {
         "Sword": {
-            "optional": false,
-            "points": 0,
-            "type": "Default",
-            "userSelected": false
-        },
-        "Pick": {
             "optional": false,
             "points": 0,
             "type": "Default",
@@ -73,13 +73,7 @@
             "type": "Passive",
             "userSelected": false
         },
-        "Spear": {
-            "optional": true,
-            "points": 1,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Two-Handed Weapon": {
+        "Throwing Spear": {
             "optional": true,
             "points": 1,
             "type": "Passive",
@@ -89,7 +83,7 @@
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 119,
+                "page": 120,
                 "initials": "AotLotR"
             }
         }

@@ -1,37 +1,47 @@
 {
     "actions": {},
     "armies": {
-        "Barad-Dûr": {
-            "tier": "Independent Hero",
-            "selectableInWarband": true,
-            "warbandSize": 0
-        },
-        "Mordor": {
+        "Wanderers In The Wild (Tom & Goldberry)": {
             "tier": "Independent Hero",
             "selectableInWarband": true,
             "warbandSize": 0
         }
     },
-    "magic": {},
+    "magic": {
+        "Refreshing Song": {
+            "range": 3,
+            "casting": 2
+        }
+    },
     "modelCount": 1,
     "mounts": {},
-    "name": "Orc Drummer",
-    "unique": false,
-    "points": 30,
+    "name": "Goldberry",
+    "unique": true,
+    "uniqueName": "Goldberry",
+    "points": 140,
     "race": {
-        "Orc": {},
-        "Mordor": {}
+        "Spirit": {}
     },
-    "rules": {},
+    "rules": {
+        "River-Daughter": {
+            "type": "Passive"
+        },
+        "Hey! Come Merry Dol!": {
+            "type": "Passive"
+        },
+        "Tom Has His House To Mind, And Goldberry Is Waiting": {
+            "type": "Passive"
+        }
+    },
     "stats": {
         "movement": 6,
-        "fight": 4,
-        "range": 5,
-        "strength": 4,
-        "defence": 5,
-        "attacks": 1,
-        "wounds": 1,
-        "courage": 3,
+        "fight": 0,
+        "range": 0,
+        "strength": 0,
+        "defence": 0,
+        "attacks": 0,
+        "wounds": 0,
+        "courage": 0,
         "might": {
             "additional": 0,
             "points": 0,
@@ -40,32 +50,19 @@
         "will": {
             "additional": 0,
             "points": 0,
-            "value": 0
+            "value": 10
         },
         "fate": {
             "additional": 0,
             "points": 0,
-            "value": 1
+            "value": 0
         }
     },
     "type": {
         "Infantry": {}
     },
     "wargear": {
-        "War Drum": {
-            "additional": "Mordor Orc",
-            "optional": false,
-            "points": 0,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "dagger": {
-            "optional": false,
-            "points": 0,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Armour": {
+        "Unarmed": {
             "optional": false,
             "points": 0,
             "type": "Passive",
@@ -75,7 +72,7 @@
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 118,
+                "page": 109,
                 "initials": "AotLotR"
             }
         }

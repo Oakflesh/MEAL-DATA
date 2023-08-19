@@ -46,7 +46,8 @@
     "uniqueName": "Sauron",
     "points": 400,
     "race": {
-        "Spirit": {}
+        "Spirit": {},
+        "Mordor": {}
     },
     "rules": {
         "Ancient Evil": {
@@ -115,6 +116,5 @@
                 "initials": "AotLotR"
             }
         }
-    },
-    "version": 1
+    }
 }

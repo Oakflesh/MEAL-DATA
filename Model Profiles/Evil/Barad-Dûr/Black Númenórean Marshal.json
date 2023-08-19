@@ -26,7 +26,8 @@
     "unique": false,
     "points": 65,
     "race": {
-        "Man": {}
+        "Man": {},
+        "Mordor": {}
     },
     "rules": {
         "Terror": {
@@ -89,6 +90,5 @@
                 "initials": "AotLotR"
             }
         }
-    },
-    "version": 1.0
+    }
 }

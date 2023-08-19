@@ -18,6 +18,7 @@
     "modelCount": 1,
     "mounts": {
         "Warg": {
+            "optional": true,
             "points": 10,
             "userSelected": false
         }
@@ -26,7 +27,8 @@
     "unique": false,
     "points": 40,
     "race": {
-        "Orc": {}
+        "Orc": {},
+        "Mordor": {}
     },
     "rules": {},
     "stats": {
@@ -96,6 +98,5 @@
                 "initials": "AotLotR"
             }
         }
-    },
-    "version": 1.0
+    }
 }

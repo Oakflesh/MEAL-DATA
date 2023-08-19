@@ -62,7 +62,9 @@
     "points": 55,
     "race": {
         "Spirit": {},
-        "Ringwraith": {}
+        "Ringwraith": {},
+        "Mordor": {},
+        "Angmar": {}
     },
     "rules": {
         "Terror": {
@@ -127,6 +129,5 @@
                 "initials": "AotLotR"
             }
         }
-    },
-    "version": 1.0
+    }
 }

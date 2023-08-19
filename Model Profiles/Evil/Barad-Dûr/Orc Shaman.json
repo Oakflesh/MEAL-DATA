@@ -36,7 +36,8 @@
     "unique": false,
     "points": 50,
     "race": {
-        "Orc": {}
+        "Orc": {},
+        "Mordor": {}
     },
     "rules": {},
     "stats": {
@@ -94,6 +95,5 @@
                 "initials": "AotLotR"
             }
         }
-    },
-    "version": 1.0
+    }
 }

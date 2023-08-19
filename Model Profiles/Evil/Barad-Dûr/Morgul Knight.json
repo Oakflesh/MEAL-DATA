@@ -1,5 +1,7 @@
 {
-    "actions": {},
+    "actions": {
+        "March": {}
+    },
     "armies": {
         "Barad-Dûr": {
             "tier": "Warrior",
@@ -14,45 +16,67 @@
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {},
-    "name": "Orc Warrior",
+    "mounts": {
+        "Armoured Horse": {
+            "optional": false,
+            "points": 0,
+            "userSelected": true
+        }
+    },
+    "name": "Morgul Knight",
     "unique": false,
-    "points": 5,
+    "points": 18,
     "race": {
-        "Orc": {},
+        "Man": {},
         "Mordor": {}
     },
-    "rules": {},
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        }
+    },
     "stats": {
         "movement": 6,
-        "fight": 3,
-        "range": 5,
+        "fight": 4,
+        "range": 4,
         "strength": 3,
-        "defence": 4,
+        "defence": 6,
         "attacks": 1,
         "wounds": 1,
-        "courage": 2
+        "courage": 4
     },
     "type": {
-        "Infantry": {}
+        "Cavalry": {}
     },
     "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
         "Sword": {
             "optional": false,
             "points": 0,
             "type": "Default",
             "userSelected": false
         },
-        "Pick": {
+        "Lance": {
             "optional": false,
             "points": 0,
             "type": "Default",
             "userSelected": false
         },
-        "Armour": {
+        "Shield": {
             "optional": false,
             "points": 0,
             "type": "Default",
+            "userSelected": false
+        },
+        "War Horn": {
+            "optional": true,
+            "points": 30,
+            "type": "Passive",
             "userSelected": false
         },
         "Banner": {
@@ -60,36 +84,12 @@
             "points": 25,
             "type": "Passive",
             "userSelected": false
-        },
-        "Orc Bow": {
-            "optional": true,
-            "points": 1,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Shield": {
-            "optional": true,
-            "points": 1,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Spear": {
-            "optional": true,
-            "points": 1,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Two-Handed Weapon": {
-            "optional": true,
-            "points": 1,
-            "type": "Passive",
-            "userSelected": false
         }
     },
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 119,
+                "page": 121,
                 "initials": "AotLotR"
             }
         }
