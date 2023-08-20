@@ -1,0 +1,89 @@
+{
+    "actions": {
+        "Strength": {},
+        "Defence": {}
+    },
+    "armies": {
+        "Angmar": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 15
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Gûlavhar, The Terror Of Arnor",
+    "unique": true,
+    "uniqueName": "Gûlavhar",
+    "points": 200,
+    "race": {
+        "Spirit": {},
+        "Angmar": {}
+    },
+    "rules": {
+        "Fly": {
+            "type": "Passive"
+        },
+        "Harbinger Of Evil": {
+            "type": "Passive"
+        },
+        "Monstrous Charge": {
+            "type": "Active"
+        },
+        "Resistant To Magic": {
+            "type": "Active"
+        },
+        "Terror": {
+            "type": "Passive"
+        },
+        "Immortal Hunger": {
+            "type": "Active"
+        },
+        "Strength Of Body, Strength Of Will": {
+            "type": "Passive",
+            "asterisk": "*"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 7,
+        "range": 4,
+        "strength": 8,
+        "defence": 5,
+        "_attacks_comment": "98 will be * in code",
+        "attacks": 98,
+        "wounds": 4,
+        "_courage_comment": "98 will be * in code",
+        "courage": 98,
+        "might": {
+            "value": 3
+        },
+        "will": {
+            "value": 3
+        },
+        "fate": {
+            "value": 0
+        }
+    },
+    "type": {
+        "Monster": {},
+        "Infantry": {}
+    },
+    "wargear": {
+        "Claws & Teeth": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 127,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}

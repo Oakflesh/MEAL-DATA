@@ -1,0 +1,75 @@
+{
+    "actions": {
+        "Strike": {},
+        "Strength": {},
+        "Challenge": {}
+    },
+    "armies": {
+        "Angmar": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 15
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Buhrdûr, Troll Chieftain",
+    "unique": true,
+    "uniqueName": "Buhrdûr",
+    "points": 110,
+    "race": {
+        "Troll": {},
+        "Angmar": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Throw Stones (Troll)": {
+            "type": "Active"
+        },
+        "Lead By Example": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 6,
+        "range": 4,
+        "strength": 6,
+        "defence": 6,
+        "attacks": 3,
+        "wounds": 3,
+        "courage": 4,
+        "might": {
+            "value": 3
+        },
+        "will": {
+            "value": 1
+        },
+        "fate": {
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {},
+        "Monster": {}
+    },
+    "wargear": {
+        "Pick": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 127,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}

@@ -1,6 +1,6 @@
 {
     "actions": {
-        "Challenge": {}
+        "Channelling": {}
     },
     "armies": {
         "Angmar": {
@@ -15,9 +15,9 @@
         }
     },
     "magic": {
-        "Instill Fear": {
-            "range": 3,
-            "casting": 5
+        "Drain Courage": {
+            "range": 12,
+            "casting": 2
         },
         "Transfix": {
             "range": 12,
@@ -27,13 +27,13 @@
             "range": 12,
             "casting": 4
         },
-        "Drain Courage": {
-            "casting": 2,
-            "range": 12
-        },
         "Black Dart": {
-            "casting": 5,
-            "range": 12
+            "range": 12,
+            "casting": 5
+        },
+        "Instill Fear": {
+            "range": 3,
+            "casting": 5
         },
         "Sap Will": {
             "range": 12,
@@ -46,12 +46,12 @@
             "points": 70,
             "userSelected": false
         },
-        "Armoured Horse": {
-            "points": 15,
-            "userSelected": false
-        },
         "Fell Beast": {
             "points": 50,
+            "userSelected": false
+        },
+        "Armoured Horse": {
+            "points": 15,
             "userSelected": false
         },
         "Horse": {
@@ -59,7 +59,7 @@
             "userSelected": false
         }
     },
-    "name": "The Tainted",
+    "name": "The Dwimmerlaik",
     "unique": true,
     "uniqueName": "Ringwraith",
     "points": 120,
@@ -79,10 +79,7 @@
         "Harbinger Of Evil": {
             "type": "Passive"
         },
-        "Miasmatic Presence": {
-            "type": "Passive"
-        },
-        "Seeping Decay": {
+        "Sap Fortitude": {
             "type": "Passive"
         }
     },
@@ -96,10 +93,10 @@
         "wounds": 1,
         "courage": 6,
         "might": {
-            "value": 2
+            "value": 0
         },
         "will": {
-            "value": 14
+            "value": 16
         },
         "fate": {
             "value": 2
@@ -115,7 +112,7 @@
             "type": "Passive",
             "userSelected": false
         },
-        "Sword": {
+        "Two-Handed Sword": {
             "optional": false,
             "points": 0,
             "type": "Passive",
@@ -125,7 +122,7 @@
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 125,
+                "page": 126,
                 "initials": "AotLotR"
             }
         }

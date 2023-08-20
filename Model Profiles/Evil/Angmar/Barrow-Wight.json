@@ -1,0 +1,77 @@
+{
+    "actions": {},
+    "armies": {
+        "Angmar": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {
+        "Paralyse":{
+            "range": 6,
+            "casting": 4
+        }
+    },
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Barrow-Wight",
+    "unique": false,
+    "points": 50,
+    "race": {
+        "Spirit": {},
+        "Angmar": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Blades Of The Dead": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 3,
+        "range": 4,
+        "strength": 3,
+        "defence": 7,
+        "attacks": 1,
+        "wounds": 2,
+        "courage": 6,
+        "might": {
+            "value": 0
+        },
+        "will": {
+            "value": 5
+        },
+        "fate": {
+            "value": 0
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 128,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}
