@@ -1,0 +1,68 @@
+{
+    "actions": {},
+    "armies": {
+        "Angmar": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {
+
+    },
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Dead Marsh Spectre",
+    "unique": false,
+    "points": 15,
+    "race": {
+        "Spirit": {},
+        "Angmar": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Blades Of The Dead": {
+            "type": "Passive"
+        },
+        "A Fell Light Is In Them": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 2,
+        "range": 4,
+        "strength": 3,
+        "defence": 5,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 6
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 132,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}

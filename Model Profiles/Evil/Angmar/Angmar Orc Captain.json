@@ -1,0 +1,91 @@
+{
+    "actions": {
+        "March": {}
+    },
+    "armies": {
+        "Angmar": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {
+        "Warg": {
+            "optional": true,
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Angmar Orc Captain",
+    "unique": false,
+    "points": 40,
+    "race": {
+        "Orc": {},
+        "Angmar": {}
+    },
+    "rules": {},
+    "stats": {
+        "movement": 6,
+        "fight": 4,
+        "range": 5,
+        "strength": 4,
+        "defence": 5,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 3,
+        "might": {
+            "value": 2
+        },
+        "will": {
+            "value": 1
+        },
+        "fate": {
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Shield": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Orc Bow": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Pick": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 129,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}

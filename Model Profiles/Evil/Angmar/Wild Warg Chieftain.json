@@ -1,0 +1,68 @@
+{
+    "actions": {
+        "March": {},
+        "Strength": {}
+    },
+    "armies": {
+        "Angmar": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Wild Warg Chieftain",
+    "unique": false,
+    "points": 80,
+    "race": {
+        "Warg": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Packlord": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 10,
+        "fight": 5,
+        "range": 5,
+        "strength": 6,
+        "defence": 5,
+        "attacks": 3,
+        "wounds": 3,
+        "courage": 4,
+        "might": {
+            "value": 2
+        },
+        "will": {
+            "value": 2
+        },
+        "fate": {
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Claws And Teeth": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 130,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "actions": {},
+    "armies": {
+        "Angmar": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Cave Troll",
+    "unique": false,
+    "points": 75,
+    "race": {
+        "Troll": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Throw Stones (Troll)": {
+            "type": "Active"
+        },
+        "Burly": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 6,
+        "range": 5,
+        "strength": 6,
+        "defence": 6,
+        "attacks": 3,
+        "wounds": 3,
+        "courage": 3
+    },
+    "type": {
+        "Infantry": {},
+        "Monster": {}
+    },
+    "wargear": {
+        "Spear": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        },
+        "Troll Chain": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Hand-And-A-Half Hammer": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false,
+            "additional": "Replaces Spear"
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 127,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}

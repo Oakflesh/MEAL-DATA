@@ -1,0 +1,51 @@
+{
+    "actions": {
+    },
+    "armies": {
+        "Angmar": {
+            "tier": "Warrior",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Wild Warg",
+    "unique": false,
+    "points": 7,
+    "race": {
+        "Warg": {}
+    },
+    "rules": {
+    },
+    "stats": {
+        "movement": 10,
+        "fight": 3,
+        "range": 5,
+        "strength": 4,
+        "defence": 4,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 2
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Claws And Teeth": {
+            "optional": false,
+            "points": 0,
+            "type": "Default",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 133,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}

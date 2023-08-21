@@ -1,0 +1,87 @@
+{
+    "actions": {
+        "Channelling": {}
+    },
+    "armies": {
+        "Angmar": {
+            "tier": "Minor Hero",
+            "selectableInWarband": false,
+            "warbandSize": 6
+        }
+    },
+    "magic": {
+        "Wither": {
+            "range": 12,
+            "casting": 3
+        },
+        "Instill Fear": {
+            "range": 3,
+            "casting": 5
+        }
+    },
+    "modelCount": 1,
+    "mounts": {
+        "Warg": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Angmar Orc Shaman",
+    "unique": false,
+    "points": 50,
+    "race": {
+        "Orc": {},
+        "Angmar": {}
+    },
+    "rules": {},
+    "stats": {
+        "movement": 6,
+        "fight": 3,
+        "range": 5,
+        "strength": 3,
+        "defence": 5,
+        "attacks": 1,
+        "wounds": 2,
+        "courage": 3,
+        "might": {
+            "value": 1
+        },
+        "will": {
+            "value": 3
+        },
+        "fate": {
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Spear": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Dagger": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 129,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}
