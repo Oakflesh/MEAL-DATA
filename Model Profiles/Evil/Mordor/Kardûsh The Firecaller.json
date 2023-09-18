@@ -1,7 +1,6 @@
 {
     "actions": {
-        "Strike": {},
-        "Strength": {}
+        "Channelling": {}
     },
     "armies": {
         "Mordor": {
@@ -10,45 +9,52 @@
             "warbandSize": 12
         }
     },
-    "magic": {},
+    "magic": {
+        "Flameburst":{
+            "range": 6,
+            "casting": 3
+        },
+        "Fury":{
+            "range": 6,
+            "casting": 3,
+            "additional": "Mordor Orc"
+        }
+    },
     "modelCount": 1,
     "mounts": {
     },
-    "name": "Gorbag, Orc Captain",
+    "name": "Kardûsh The Firecaller",
     "unique": true,
-    "uniqueName": "Gorbag",
-    "points": 55,
+    "uniqueName": "Kardûsh",
+    "points": 60,
     "race": {
         "Orc": {},
         "Mordor": {}
     },
     "rules": {
-        "Orcish Brawler": {
-            "type": "Passive"
+        "Heart Of Darkness": {
+            "type": "Active"
+        },
+        "Shadow Pawn": {
+            "type": "Active"
         }
     },
     "stats": {
         "movement": 6,
-        "fight": 4,
+        "fight": 3,
         "range": 5,
-        "strength": 4,
-        "defence": 5,
-        "attacks": 2,
+        "strength": 3,
+        "defence": 4,
+        "attacks": 1,
         "wounds": 2,
-        "courage": 4,
+        "courage": 3,
         "might": {
-            "additional": 0,
-            "points": 0,
-            "value": 3
-        },
-        "will": {
-            "additional": 0,
-            "points": 0,
             "value": 1
         },
+        "will": {
+            "value": 3
+        },
         "fate": {
-            "additional": 0,
-            "points": 0,
             "value": 1
         }
     },
@@ -62,15 +68,9 @@
             "type": "Passive",
             "userSelected": false
         },
-        "Sword": {
+        "Spear": {
             "optional": false,
             "points": 0,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Shield": {
-            "optional": true,
-            "points": 5,
             "type": "Passive",
             "userSelected": false
         }
@@ -78,7 +78,7 @@
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 142,
+                "page": 143,
                 "initials": "AotLotR"
             }
         }

@@ -1,0 +1,123 @@
+{
+    "actions": {
+        "Channelling": {}
+    },
+    "armies": {
+        "Mordor": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 15
+        }
+    },
+    "magic": {
+        "Drain Courage": {
+            "range": 12,
+            "casting": 2
+        },
+        "Transfix": {
+            "range": 12,
+            "casting": 3
+        },
+        "Compel": {
+            "range": 12,
+            "casting": 4
+        },
+        "Black Dart": {
+            "range": 6,
+            "casting": 5
+        },
+        "Instill Fear": {
+            "range": 3,
+            "casting": 5
+        },
+        "Sap Will": {
+            "range": 12,
+            "casting": 5
+        }
+    },
+    "modelCount": 1,
+    "mounts": {
+        "Armoured Fell Beast": {
+            "points": 70,
+            "userSelected": false
+        },
+        "Fell Beast": {
+            "points": 50,
+            "userSelected": false
+        },
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "The Shadow Lord",
+    "unique": true,
+    "uniqueName": "Ringwraith",
+    "points": 120,
+    "race": {
+        "Spirit": {},
+        "Ringwraith": {},
+        "Mordor": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Will Of Evil": {
+            "type": "Passive"
+        },
+        "Harbinger Of Evil": {
+            "type": "Passive"
+        },
+        "One Of Nine": {
+            "type": "Passive"
+        },
+        "Pall Of Darkness": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 4,
+        "strength": 4,
+        "defence": 8,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 5,
+        "might": {
+            "value": 2
+        },
+        "will": {
+            "value": 14
+        },
+        "fate": {
+            "value": 2
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 137,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}

@@ -1,7 +1,8 @@
 {
     "actions": {
         "Strike": {},
-        "Strength": {}
+        "Strength": {},
+        "Challenge": {}
     },
     "armies": {
         "Mordor": {
@@ -14,42 +15,36 @@
     "modelCount": 1,
     "mounts": {
     },
-    "name": "Gorbag, Orc Captain",
+    "name": "Shagrat, Captain Of Cirith Ungol",
     "unique": true,
-    "uniqueName": "Gorbag",
-    "points": 55,
+    "uniqueName": "Shagrat",
+    "points": 100,
     "race": {
-        "Orc": {},
+        "Uruk-Hai": {},
         "Mordor": {}
     },
     "rules": {
-        "Orcish Brawler": {
+        "Blood And Glory": {
             "type": "Passive"
         }
     },
     "stats": {
         "movement": 6,
-        "fight": 4,
-        "range": 5,
-        "strength": 4,
+        "fight": 5,
+        "range": 4,
+        "strength": 5,
         "defence": 5,
-        "attacks": 2,
-        "wounds": 2,
+        "attacks": 3,
+        "wounds": 3,
         "courage": 4,
         "might": {
-            "additional": 0,
-            "points": 0,
             "value": 3
         },
         "will": {
-            "additional": 0,
-            "points": 0,
-            "value": 1
+            "value": 3
         },
         "fate": {
-            "additional": 0,
-            "points": 0,
-            "value": 1
+            "value": 3
         }
     },
     "type": {
@@ -68,7 +63,13 @@
             "type": "Passive",
             "userSelected": false
         },
-        "Shield": {
+        "Shield Of Cirith Ungol": {
+            "optional": true,
+            "points": 10,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Heavy Armour": {
             "optional": true,
             "points": 5,
             "type": "Passive",

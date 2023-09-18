@@ -1,0 +1,127 @@
+{
+    "actions": {
+        "Channelling": {}
+    },
+    "armies": {
+        "Mordor": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 15
+        }
+    },
+    "magic": {
+        "Drain Courage": {
+            "range": 12,
+            "casting": 2
+        },
+        "Transfix": {
+            "range": 12,
+            "casting": 3
+        },
+        "Compel": {
+            "range": 12,
+            "casting": 4
+        },
+        "Instill Fear": {
+            "range": 3,
+            "casting": 4
+        },
+        "Black Dart": {
+            "range": 12,
+            "casting": 5
+        },
+        "Sap Will": {
+            "range": 12,
+            "casting": 5
+        }
+    },
+    "modelCount": 1,
+    "mounts": {
+        "Armoured Fell Beast": {
+            "points": 70,
+            "userSelected": false
+        },
+        "Fell Beast": {
+            "points": 50,
+            "userSelected": false
+        },
+        "Armoured Horse": {
+            "points": 15,
+            "userSelected": false
+        },
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "The Dark Marshal",
+    "unique": true,
+    "uniqueName": "Ringwraith",
+    "points": 120,
+    "race": {
+        "Spirit": {},
+        "Ringwraith": {},
+        "Mordor": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Will Of Evil": {
+            "type": "Passive"
+        },
+        "Harbinger Of Evil": {
+            "type": "Passive"
+        },
+        "One Of Nine": {
+            "type": "Passive"
+        },
+        "Rule Through Fear": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 6,
+        "range": 4,
+        "strength": 4,
+        "defence": 8,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 6,
+        "might": {
+            "value": 2
+        },
+        "will": {
+            "value": 14
+        },
+        "fate": {
+            "value": 2
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 136,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}

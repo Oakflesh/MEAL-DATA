@@ -1,54 +1,65 @@
 {
     "actions": {
-        "Strike": {},
-        "Strength": {}
+        "March": {},
+        "Channelling": {}
     },
     "armies": {
         "Mordor": {
-            "tier": "Hero Of Fortitude",
+            "tier": "Hero Of Valour",
             "selectableInWarband": false,
-            "warbandSize": 12
+            "warbandSize": 15
         }
     },
-    "magic": {},
+    "magic": {
+        "Drain Courage": {
+            "range": 12,
+            "casting": 2
+        },
+        "Transfix": {
+            "range": 12,
+            "casting": 3
+        },
+        "Instill Fear": {
+            "range": 3,
+            "casting": 5
+        }
+    },
     "modelCount": 1,
     "mounts": {
+        "Armoured Horse": {
+            "points": 15,
+            "userSelected": false
+        }
     },
-    "name": "Gorbag, Orc Captain",
+    "name": "The Mouth Of Sauron",
     "unique": true,
-    "uniqueName": "Gorbag",
-    "points": 55,
+    "uniqueName": "The Mouth Of Sauron",
+    "points": 70,
     "race": {
-        "Orc": {},
+        "Man": {},
         "Mordor": {}
     },
     "rules": {
-        "Orcish Brawler": {
+        "Terror": {
             "type": "Passive"
         }
     },
     "stats": {
         "movement": 6,
-        "fight": 4,
-        "range": 5,
+        "fight": 5,
+        "range": 4,
         "strength": 4,
-        "defence": 5,
+        "defence": 6,
         "attacks": 2,
         "wounds": 2,
-        "courage": 4,
+        "courage": 5,
         "might": {
-            "additional": 0,
-            "points": 0,
-            "value": 3
+            "value": 2
         },
         "will": {
-            "additional": 0,
-            "points": 0,
-            "value": 1
+            "value": 4
         },
         "fate": {
-            "additional": 0,
-            "points": 0,
             "value": 1
         }
     },
@@ -56,21 +67,15 @@
         "Infantry": {}
     },
     "wargear": {
-        "Armour": {
+        "Heavy Armour": {
             "optional": false,
             "points": 0,
             "type": "Passive",
             "userSelected": false
         },
-        "Sword": {
+        "Hand-And-A-Half Sword": {
             "optional": false,
             "points": 0,
-            "type": "Passive",
-            "userSelected": false
-        },
-        "Shield": {
-            "optional": true,
-            "points": 5,
             "type": "Passive",
             "userSelected": false
         }
@@ -78,7 +83,7 @@
     "references": {
         "books": {
             "Armies Of The Lord Of The Rings": {
-                "page": 142,
+                "page": 141,
                 "initials": "AotLotR"
             }
         }

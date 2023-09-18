@@ -1,0 +1,130 @@
+{
+    "actions": {
+        "Channelling": {},
+        "Strike": {},
+        "Challenge": {}
+    },
+    "armies": {
+        "Mordor": {
+            "tier": "Hero Of Valour",
+            "selectableInWarband": false,
+            "warbandSize": 15
+        }
+    },
+    "magic": {
+        "Instill Fear": {
+            "range": 3,
+            "casting": 5
+        },
+        "Transfix": {
+            "range": 12,
+            "casting": 4
+        },
+        "Compel": {
+            "range": 12,
+            "casting": 5
+        },
+        "Drain Courage": {
+            "range": 12,
+            "casting": 3
+        },
+        "Black Dart": {
+            "range": 12,
+            "casting": 6
+        },
+        "Sap Will": {
+            "range": 12,
+            "casting": 5
+        }
+    },
+    "modelCount": 1,
+    "mounts": {
+        "Armoured Fell Beast": {
+            "points": 70,
+            "userSelected": false
+        },
+        "Fell Beast": {
+            "points": 50,
+            "userSelected": false
+        },
+        "Armoured Horse": {
+            "points": 15,
+            "userSelected": false
+        },
+        "Horse": {
+            "points": 10,
+            "userSelected": false
+        }
+    },
+    "name": "Khamûl The Easterling",
+    "unique": true,
+    "uniqueName": "Ringwraith",
+    "points": 120,
+    "race": {
+        "Spirit": {},
+        "Ringwraith": {},
+        "Mordor": {},
+        "Easterling": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Will Of Evil": {
+            "type": "Passive"
+        },
+        "Harbinger Of Evil": {
+            "type": "Passive"
+        },
+        "One Of Nine": {
+            "type": "Passive"
+        },
+        "Essence Leech": {
+            "type": "Active"
+        }
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 4,
+        "strength": 4,
+        "defence": 8,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 6,
+        "might": {
+            "value": 2
+        },
+        "will": {
+            "value": 12
+        },
+        "fate": {
+            "value": 2
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 135,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}
