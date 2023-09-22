@@ -169,7 +169,20 @@
             },
             "totalPoints": 0,
             "warband": {},
-            "wargear": {},
+            "wargear": {
+                "Armour": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Passive",
+                    "userSelected": false
+                },
+                "Orc Bow": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Passive",
+                    "userSelected": false
+                }
+            },
             "references": {
                 "books": {
                     "Armies Of The Lord Of The Rings": {
