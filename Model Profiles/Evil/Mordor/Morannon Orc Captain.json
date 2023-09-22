@@ -1,0 +1,79 @@
+{
+    "actions": {
+        "March": {}
+    },
+    "armies": {
+        "Mordor": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Morannon Orc Captain",
+    "unique": false,
+    "points": 50,
+    "race": {
+        "Orc": {},
+        "Mordor": {}
+    },
+    "rules": {},
+    "stats": {
+        "movement": 6,
+        "fight": 4,
+        "range": 5,
+        "strength": 5,
+        "defence": 6,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 3,
+        "might": {
+            "value": 2
+        },
+        "will": {
+            "value": 1
+        },
+        "fate": {
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Two-Handed Weapon": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 144,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}

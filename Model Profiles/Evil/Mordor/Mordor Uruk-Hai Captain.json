@@ -1,0 +1,87 @@
+{
+    "actions": {
+        "March": {}
+    },
+    "armies": {
+        "Mordor": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 12
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Mordor Uruk-Hai Captain",
+    "unique": false,
+    "points": 55,
+    "race": {
+        "Uruk-Hai": {},
+        "Mordor": {}
+    },
+    "rules": {
+
+    },
+    "stats": {
+        "movement": 6,
+        "fight": 5,
+        "range": 4,
+        "strength": 5,
+        "defence": 5,
+        "attacks": 2,
+        "wounds": 2,
+        "courage": 4,
+        "might": {
+            "value": 2
+        },
+        "will": {
+            "value": 1
+        },
+        "fate": {
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Orc Bow": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Shield": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Two-Handed Weapon": {
+            "optional": true,
+            "points": 5,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 145,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}

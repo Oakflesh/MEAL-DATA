@@ -1,0 +1,72 @@
+{
+    "actions": {},
+    "armies": {
+        "Mordor": {
+            "tier": "Independent Hero",
+            "selectableInWarband": true,
+            "warbandSize": 0
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Black Guard Drummer",
+    "unique": false,
+    "points": 35,
+    "race": {
+        "Uruk-Hai": {},
+        "Mordor": {}
+    },
+    "rules": {},
+    "stats": {
+        "movement": 6,
+        "fight": 4,
+        "range": 5,
+        "strength": 5,
+        "defence": 5,
+        "attacks": 1,
+        "wounds": 1,
+        "courage": 4,
+        "might": {
+            "value": 0
+        },
+        "will": {
+            "value": 0
+        },
+        "fate": {
+            "value": 1
+        }
+    },
+    "type": {
+        "Infantry": {}
+    },
+    "wargear": {
+        "Heavy Armour": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "Sword": {
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        },
+        "War Drum": {
+            "additional": "Mordor Uruk-Hai",
+            "optional": false,
+            "points": 0,
+            "type": "Passive",
+            "userSelected": false
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 145,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}

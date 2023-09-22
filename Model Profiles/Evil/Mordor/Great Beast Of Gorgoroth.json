@@ -1,0 +1,220 @@
+{
+    "actions": {
+        "March": {}
+    },
+    "armies": {
+        "Mordor": {
+            "tier": "Hero Of Fortitude",
+            "selectableInWarband": false,
+            "warbandSize": 11,
+            "minModelCount": 11,
+            "maxModelCount": 11
+        }
+    },
+    "magic": {},
+    "modelCount": 1,
+    "mounts": {},
+    "name": "Great Beast Of Gorgoroth",
+    "unique": false,
+    "points": 150,
+    "race": {
+        "Great Beast": {},
+        "Mordor": {}
+    },
+    "rules": {
+        "Terror": {
+            "type": "Passive"
+        },
+        "Trample": {
+            "type": "Passive"
+        },
+        "Battle Platform": {
+            "type": "Passive"
+        }
+    },
+    "stats": {
+        "movement": 8,
+        "fight": 4,
+        "range": 4,
+        "strength": 6,
+        "defence": 7,
+        "attacks": 3,
+        "wounds": 5,
+        "courage": 2
+    },
+    "type": {
+        "Monster": {},
+        "War Beast": {}
+    },
+    "wargear": {},
+    "warband": {
+        "Orc Commander": {
+            "actions": {
+                "March": {}
+            },
+            "armies": {
+                "Mordor": {
+                    "minModelCount": 1,
+                    "maxModelCount": 1,
+                    "tier": "Hero Of Fortitude",
+                    "selectableInWarband": false,
+                    "warbandSize": 0,
+                    "removeFromWarband": false
+                }
+            },
+            "magic": {},
+            "modelCount": 1,
+            "mounts": {},
+            "name": "Orc Commander",
+            "points": 0,
+            "race": {
+                "Mordor": {}
+            },
+            "rules": {},
+            "stats": {
+                "movement": 6,
+                "fight": 4,
+                "range": 5,
+                "strength": 4,
+                "defence": 5,
+                "attacks": 2,
+                "wounds": 2,
+                "courage": 4,
+                "might": {
+                    "value": 2
+                },
+                "will": {
+                    "value": 1
+                },
+                "fate": {
+                    "value": 1
+                }
+            },
+            "type": {
+                "Infantry":{}
+            },
+            "totalPoints": 0,
+            "warband": {},
+            "wargear": {
+                "Armour": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Passive",
+                    "userSelected": false
+                },
+                "Spear": {
+                    "optional": false,
+                    "points": 0,
+                    "type": "Passive",
+                    "userSelected": false
+                }
+            },
+            "references": {
+                "books": {
+                    "Armies Of The Lord Of The Rings": {
+                        "page": 116,
+                        "initials": "AotLotR"
+                    }
+                }
+            }
+        },
+        "Orc Warrior": {
+            "actions": {},
+            "armies": {
+                "Mordor": {
+                    "minModelCount": 9,
+                    "maxModelCount": 9,
+                    "tier": "Warrior",
+                    "selectableInWarband": false,
+                    "warbandSize": 0,
+                    "removeFromWarband": false
+                }
+            },
+            "magic": {},
+            "modelCount": 9,
+            "mounts": {},
+            "name": "Orc Warrior",
+            "points": 0,
+            "race": {
+                "Mordor": {}
+            },
+            "rules": {},
+            "stats": {
+                "movement": 6,
+                "fight": 3,
+                "range": 5,
+                "strength": 3,
+                "defence": 4,
+                "attacks": 1,
+                "wounds": 1,
+                "courage": 2
+            },
+            "type": {
+                "Infantry":{}
+            },
+            "totalPoints": 0,
+            "warband": {},
+            "wargear": {},
+            "references": {
+                "books": {
+                    "Armies Of The Lord Of The Rings": {
+                        "page": 119,
+                        "initials": "AotLotR"
+                    }
+                }
+            }
+        },
+        "Howdah": {
+            "actions": {},
+            "armies": {
+                "Mordor": {
+                    "minModelCount": 0,
+                    "maxModelCount": 0,
+                    "tier": "Warrior",
+                    "selectableInWarband": false,
+                    "warbandSize": 0,
+                    "removeFromWarband": false
+                }
+            },
+            "magic": {},
+            "modelCount": 0,
+            "minimumModelCount": 0,
+            "mounts": {},
+            "name": "Howdah",
+            "points": 0,
+            "race": {},
+            "rules": {},
+            "stats": {
+                "_stat_comment": "97 will be ? in code",
+                "movement": 97,
+                "fight": 97,
+                "range": 97,
+                "strength": 97,
+                "defence": 8,
+                "attacks": 97,
+                "wounds": 4,
+                "courage": 97
+            },
+            "type": {},
+            "totalPoints": 0,
+            "warband": {},
+            "wargear": {},
+            "references": {
+                "books": {
+                    "Armies Of The Lord Of The Rings": {
+                        "page": 146,
+                        "initials": "AotLotR"
+                    }
+                }
+            }
+        }
+    },
+    "references": {
+        "books": {
+            "Armies Of The Lord Of The Rings": {
+                "page": 146,
+                "initials": "AotLotR"
+            }
+        }
+    }
+}
