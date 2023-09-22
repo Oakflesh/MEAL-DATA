@@ -74,7 +74,7 @@
                     "tier": "Warrior",
                     "minModelCount": 1,
                     "maxModelCount": 1,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 }
             },
             "magic": {},
@@ -117,7 +117,7 @@
                     "tier": "Warrior",
                     "minModelCount": 1,
                     "maxModelCount": 1,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 }
             },
             "magic": {},
@@ -160,7 +160,7 @@
                     "tier": "Warrior",
                     "minModelCount": 1,
                     "maxModelCount": 1,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 }
             },
             "magic": {},

@@ -51,7 +51,7 @@
                     "tier": "Hero Of Fortitude",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 }
             },
             "magic": {},
@@ -140,7 +140,7 @@
                     "tier": "Minor Hero",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 }
             },
             "magic": {},
@@ -194,7 +194,7 @@
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 }
             },
             "magic": {},
@@ -248,7 +248,7 @@
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 }
             },
             "magic": {},

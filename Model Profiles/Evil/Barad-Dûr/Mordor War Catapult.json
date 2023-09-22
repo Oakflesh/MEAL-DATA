@@ -62,7 +62,7 @@
                     "tier": "Hero Of Fortitude",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 },
                 "Mordor": {
                     "minModelCount": 1,
@@ -70,7 +70,7 @@
                     "tier": "Hero Of Fortitude",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 }
             },
             "magic": {},
@@ -144,7 +144,7 @@
                     "tier": "Minor Hero",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 },
                 "Mordor": {
                     "minModelCount": 1,
@@ -152,7 +152,7 @@
                     "tier": "Minor Hero",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 }
             },
             "magic": {},
@@ -220,7 +220,7 @@
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 },
                 "Mordor": {
                     "minModelCount": 2,
@@ -228,7 +228,7 @@
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 }
             },
             "magic": {},
@@ -287,7 +287,7 @@
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 },
                 "Mordor": {
                     "minModelCount": 1,
@@ -295,7 +295,7 @@
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 }
             },
             "magic": {},
@@ -349,7 +349,7 @@
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 },
                 "Mordor": {
                     "minModelCount": 0,
@@ -357,7 +357,7 @@
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    " preventRemoval": true
+                    "preventRemoval": true
                 }
             },
             "magic": {},
