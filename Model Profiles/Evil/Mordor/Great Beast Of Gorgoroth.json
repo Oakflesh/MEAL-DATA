@@ -6,9 +6,9 @@
         "Mordor": {
             "tier": "Hero Of Fortitude",
             "selectableInWarband": false,
-            "warbandSize": 11,
-            "minModelCount": 11,
-            "maxModelCount": 11
+            "warbandSize": 10,
+            "minModelCount": 10,
+            "maxModelCount": 10
         }
     },
     "magic": {},
@@ -32,16 +32,31 @@
             "type": "Passive"
         }
     },
-    "stats": {
-        "movement": 8,
-        "fight": 4,
-        "range": 4,
-        "strength": 6,
-        "defence": 7,
-        "attacks": 3,
-        "wounds": 5,
-        "courage": 2
-    },
+    "stats": [
+        {
+            "Great Beast": {
+                "movement": 8,
+                "fight": 4,
+                "range": 4,
+                "strength": 6,
+                "defence": 7,
+                "attacks": 3,
+                "wounds": 5,
+                "courage": 2
+            },
+            "Howdah": {
+                "_stat_comment": "97 will be - in code",
+                "movement": 97,
+                "fight": 97,
+                "range": 97,
+                "strength": 97,
+                "defence": 8,
+                "attacks": 97,
+                "wounds": 5,
+                "courage": 97
+            }
+        }
+    ],
     "type": {
         "Monster": {},
         "War Beast": {}
@@ -159,50 +174,6 @@
                 "books": {
                     "Armies Of The Lord Of The Rings": {
                         "page": 119,
-                        "initials": "AotLotR"
-                    }
-                }
-            }
-        },
-        "Howdah": {
-            "actions": {},
-            "armies": {
-                "Mordor": {
-                    "minModelCount": 0,
-                    "maxModelCount": 0,
-                    "tier": "Warrior",
-                    "selectableInWarband": false,
-                    "warbandSize": 0,
-                    "removeFromWarband": false
-                }
-            },
-            "magic": {},
-            "modelCount": 0,
-            "minimumModelCount": 0,
-            "mounts": {},
-            "name": "Howdah",
-            "points": 0,
-            "race": {},
-            "rules": {},
-            "stats": {
-                "_stat_comment": "97 will be ? in code",
-                "movement": 97,
-                "fight": 97,
-                "range": 97,
-                "strength": 97,
-                "defence": 8,
-                "attacks": 97,
-                "wounds": 4,
-                "courage": 97
-            },
-            "type": {},
-            "totalPoints": 0,
-            "warband": {},
-            "wargear": {},
-            "references": {
-                "books": {
-                    "Armies Of The Lord Of The Rings": {
-                        "page": 146,
                         "initials": "AotLotR"
                     }
                 }
