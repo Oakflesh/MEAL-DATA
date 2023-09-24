@@ -66,7 +66,7 @@
                     "tier": "Hero Of Fortitude",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    "preventRemoval": true
+                    "preventRemovalFromWarband": true
                 },
                 "Barad-Dûr": {
                     "minModelCount": 1,
@@ -74,7 +74,7 @@
                     "tier": "Hero Of Fortitude",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    "preventRemoval": true
+                    "preventRemovalFromWarband": true
                 }
             },
             "magic": {},
@@ -149,7 +149,7 @@
                     "tier": "Minor Hero",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    "preventRemoval": true
+                    "preventRemovalFromWarband": true
                 },
                 "Barad-Dûr": {
                     "minModelCount": 1,
@@ -157,7 +157,7 @@
                     "tier": "Minor Hero",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    "preventRemoval": true
+                    "preventRemovalFromWarband": true
                 }
             },
             "magic": {},
@@ -201,7 +201,7 @@
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    "preventRemoval": true
+                    "preventRemovalFromWarband": true
                 },
                 "Barad-Dûr": {
                     "minModelCount": 2,
@@ -209,7 +209,7 @@
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    "preventRemoval": true
+                    "preventRemovalFromWarband": true
                 }
             },
             "magic": {},
@@ -254,7 +254,7 @@
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    "preventRemoval": true
+                    "preventRemovalFromWarband": true
                 },
                 "Barad-Dûr": {
                     "minModelCount": 0,
@@ -262,7 +262,7 @@
                     "tier": "Warrior",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    "preventRemoval": true
+                    "preventRemovalFromWarband": true
                 }
             },
             "magic": {},

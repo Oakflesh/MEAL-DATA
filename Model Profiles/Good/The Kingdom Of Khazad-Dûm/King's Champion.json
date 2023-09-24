@@ -81,7 +81,7 @@
                     "tier": "Independent Hero",
                     "selectableInWarband": false,
                     "warbandSize": 0,
-                    "preventRemoval": true
+                    "preventRemovalFromWarband": true
                 }
             },
             "magic": {},
