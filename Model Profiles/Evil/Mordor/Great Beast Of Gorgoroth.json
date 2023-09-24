@@ -180,7 +180,8 @@
                     "optional": false,
                     "points": 0,
                     "type": "Passive",
-                    "userSelected": false
+                    "userSelected": false,
+                    "ignoreBowCount": true
                 }
             },
             "references": {
