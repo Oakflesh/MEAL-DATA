@@ -1,5 +1,5 @@
 {
-    "Hero ofLegend": {
+    "Hero of Legend": {
         "description": "This model has the <b>Hero</b> keyword and can lead a warband of 18 models. If they are the Leader they gain the Last Stand Special Rule.",
         "references": {
             "books": {
@@ -10,7 +10,7 @@
             }
         }
     },
-    "Hero ofValour": {
+    "Hero of Valour": {
         "description": "This model has the <b>Hero</b> keyword and can lead a warband of 15 models. If they are the highest tier of <b>Hero</b> they may be the Leader.",
         "references": {
             "books": {
@@ -21,7 +21,7 @@
             }
         }
     },
-    "Hero ofFortitude": {
+    "Hero of Fortitude": {
         "description": "This model has the <b>Hero</b> keyword and can lead a warband of 12 models. If they are the highest tier of <b>Hero</b> they may be the Leader.",
         "references": {
             "books": {

@@ -7,7 +7,7 @@
     },
     "armies": {
         "Rivendell": {
-            "tier": "Hero ofLegend",
+            "tier": "Hero of Legend",
             "selectableInWarband": false,
             "warbandSize": 18
         }

@@ -4,12 +4,12 @@
     },
     "armies": {
         "Angmar": {
-            "tier": "Hero ofValour",
+            "tier": "Hero of Valour",
             "selectableInWarband": false,
             "warbandSize": 15
         },
         "Mordor": {
-            "tier": "Hero ofValour",
+            "tier": "Hero of Valour",
             "selectableInWarband": false,
             "warbandSize": 15
         }

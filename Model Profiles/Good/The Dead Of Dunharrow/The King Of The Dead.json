@@ -5,7 +5,7 @@
     },
     "armies": {
         "The Dead Of Dunharrow": {
-            "tier": "Hero ofValour",
+            "tier": "Hero of Valour",
             "selectableInWarband": false,
             "warbandSize": 15
         }

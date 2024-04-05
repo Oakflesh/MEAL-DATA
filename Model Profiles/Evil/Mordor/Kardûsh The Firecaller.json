@@ -4,25 +4,24 @@
     },
     "armies": {
         "Mordor": {
-            "tier": "Hero ofFortitude",
+            "tier": "Hero of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
         }
     },
     "magic": {
-        "Flameburst":{
+        "Flameburst": {
             "range": 6,
             "casting": 3
         },
-        "Fury":{
+        "Fury": {
             "range": 6,
             "casting": 3,
             "additional": "Mordor Orc"
         }
     },
     "modelCount": 1,
-    "mounts": {
-    },
+    "mounts": {},
     "name": "Kardûsh The Firecaller",
     "unique": true,
     "uniqueName": "Kardûsh",

@@ -11,7 +11,7 @@
     ],
     "armies": {
         "Wanderers In The Wild (Múrin & Drár)": {
-            "tier": "Hero ofFortitude",
+            "tier": "Hero of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 11
         }

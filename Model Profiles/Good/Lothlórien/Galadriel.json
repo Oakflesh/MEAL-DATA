@@ -6,7 +6,7 @@
     },
     "armies": {
         "Lothlórien": {
-            "tier": "Hero ofLegend",
+            "tier": "Hero of Legend",
             "selectableInWarband": false,
             "warbandSize": 18
         }
@@ -70,7 +70,6 @@
             "points": 0,
             "value": 6,
             "asterisk": "*"
-
         },
         "fate": {
             "additional": 0,

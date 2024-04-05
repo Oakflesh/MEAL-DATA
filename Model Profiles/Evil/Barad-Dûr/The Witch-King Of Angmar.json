@@ -8,17 +8,17 @@
     },
     "armies": {
         "Angmar": {
-            "tier": "Hero ofLegend",
+            "tier": "Hero of Legend",
             "selectableInWarband": false,
             "warbandSize": 18
         },
         "Barad-Dûr": {
-            "tier": "Hero ofValour",
+            "tier": "Hero of Valour",
             "selectableInWarband": false,
             "warbandSize": 15
         },
         "Mordor": {
-            "tier": "Hero ofLegend",
+            "tier": "Hero of Legend",
             "selectableInWarband": false,
             "warbandSize": 18
         }
@@ -79,8 +79,8 @@
     "race": {
         "Spirit": {},
         "Ringwraith": {},
-        "Mordor":{},
-        "Angmar":{}
+        "Mordor": {},
+        "Angmar": {}
     },
     "rules": {
         "Terror": {

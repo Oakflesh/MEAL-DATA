@@ -5,15 +5,14 @@
     },
     "armies": {
         "Minas Tirith": {
-            "tier": "Hero ofFortitude",
+            "tier": "Hero of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
         }
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {
-    },
+    "mounts": {},
     "name": "Madril, Captain Of Ithilien",
     "unique": true,
     "uniqueName": "Madril",
@@ -23,11 +22,11 @@
         "Gondor": {}
     },
     "rules": {
-        "Woodland Creature":{
-            "type":"Passive"
+        "Woodland Creature": {
+            "type": "Passive"
         },
-        "Master Of Ambush":{
-            "type":"Passive"
+        "Master Of Ambush": {
+            "type": "Passive"
         }
     },
     "stats": {

@@ -6,7 +6,7 @@
     },
     "armies": {
         "Lothlórien": {
-            "tier": "Hero ofValour",
+            "tier": "Hero of Valour",
             "selectableInWarband": false,
             "warbandSize": 15
         }
@@ -67,7 +67,6 @@
             "additional": 0,
             "points": 0,
             "value": 3
-
         },
         "fate": {
             "additional": 0,

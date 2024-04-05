@@ -6,12 +6,12 @@
     },
     "armies": {
         "The Fellowship": {
-            "tier": "Hero ofLegend",
+            "tier": "Hero of Legend",
             "selectableInWarband": false,
             "warbandSize": 0
         },
         "The Shire": {
-            "tier": "Hero ofValour",
+            "tier": "Hero of Valour",
             "selectableInWarband": false,
             "warbandSize": 15
         }

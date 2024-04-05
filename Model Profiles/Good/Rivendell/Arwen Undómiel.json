@@ -6,7 +6,7 @@
     },
     "armies": {
         "Rivendell": {
-            "tier": "Hero ofFortitude",
+            "tier": "Hero of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
         }

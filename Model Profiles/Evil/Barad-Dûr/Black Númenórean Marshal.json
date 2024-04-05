@@ -4,12 +4,12 @@
     },
     "armies": {
         "Barad-Dûr": {
-            "tier": "Hero ofFortitude",
+            "tier": "Hero of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
         },
         "Mordor": {
-            "tier": "Hero ofFortitude",
+            "tier": "Hero of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
         }

@@ -2,7 +2,7 @@
     "actions": {},
     "armies": {
         "Wildmen Of Drúadan": {
-            "tier": "Hero ofFortitude",
+            "tier": "Hero of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
         }

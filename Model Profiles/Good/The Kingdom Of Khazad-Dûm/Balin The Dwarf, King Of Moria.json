@@ -7,7 +7,7 @@
     },
     "armies": {
         "The Kingdom Of Khazad-Dûm": {
-            "tier": "Hero ofLegend",
+            "tier": "Hero of Legend",
             "selectableInWarband": false,
             "warbandSize": 18
         }

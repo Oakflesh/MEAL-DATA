@@ -1,12 +1,10 @@
 {
     "actions": {
-
         "Strength": {}
-
     },
     "armies": {
         "The Fiefdoms": {
-            "tier": "Hero ofValour",
+            "tier": "Hero of Valour",
             "selectableInWarband": false,
             "warbandSize": 15
         }
@@ -32,7 +30,6 @@
             "type": "Passive",
             "asterisk": "*"
         }
-
     },
     "stats": {
         "movement": 6,

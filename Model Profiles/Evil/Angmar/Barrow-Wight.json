@@ -2,13 +2,13 @@
     "actions": {},
     "armies": {
         "Angmar": {
-            "tier": "Hero ofFortitude",
+            "tier": "Hero of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
         }
     },
     "magic": {
-        "Paralyse":{
+        "Paralyse": {
             "range": 6,
             "casting": 4
         }

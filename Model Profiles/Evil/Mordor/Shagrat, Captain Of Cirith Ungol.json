@@ -6,15 +6,14 @@
     },
     "armies": {
         "Mordor": {
-            "tier": "Hero ofFortitude",
+            "tier": "Hero of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
         }
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {
-    },
+    "mounts": {},
     "name": "Shagrat, Captain Of Cirith Ungol",
     "unique": true,
     "uniqueName": "Shagrat",

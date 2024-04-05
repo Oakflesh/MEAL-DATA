@@ -2,11 +2,10 @@
     "actions": {
         "Resolve": {},
         "March": {}
-
     },
     "armies": {
         "The Kingdom Of Khazad-Dûm": {
-            "tier": "Hero ofFortitude",
+            "tier": "Hero of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
         }
@@ -21,8 +20,7 @@
         "Dwarf": {},
         "Khazad-Dûm": {}
     },
-    "rules": {
-    },
+    "rules": {},
     "stats": {
         "movement": 5,
         "fight": 6,

@@ -5,12 +5,12 @@
     },
     "armies": {
         "The Fellowship": {
-            "tier": "Hero ofValour",
+            "tier": "Hero of Valour",
             "selectableInWarband": false,
             "warbandSize": 0
         },
         "The Kingdom Of Khazad-Dûm": {
-            "tier": "Hero ofFortitude",
+            "tier": "Hero of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
         }
@@ -81,8 +81,8 @@
             "points": 0,
             "type": "Passive",
             "userSelected": false
-        },       
-         "Throwing Axes": {
+        },
+        "Throwing Axes": {
             "optional": false,
             "points": 0,
             "type": "Passive",

@@ -5,7 +5,7 @@
     },
     "armies": {
         "Minas Tirith": {
-            "tier": "Hero ofFortitude",
+            "tier": "Hero of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
         }
@@ -29,9 +29,7 @@
         "Man": {},
         "Gondor": {}
     },
-    "rules": {
-
-    },
+    "rules": {},
     "stats": {
         "movement": 6,
         "fight": 5,

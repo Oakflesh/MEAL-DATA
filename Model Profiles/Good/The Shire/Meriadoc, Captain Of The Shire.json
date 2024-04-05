@@ -6,7 +6,7 @@
     },
     "armies": {
         "The Shire": {
-            "tier": "Hero ofValour",
+            "tier": "Hero of Valour",
             "selectableInWarband": false,
             "warbandSize": 15
         }
@@ -18,7 +18,8 @@
             "points": 5,
             "userSelected": false
         }
-    },    "name": "Meriadoc, Captain Of The Shire",
+    },
+    "name": "Meriadoc, Captain Of The Shire",
     "unique": true,
     "uniqueName": "Meriadoc",
     "points": 45,

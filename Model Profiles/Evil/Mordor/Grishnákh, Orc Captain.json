@@ -4,15 +4,14 @@
     },
     "armies": {
         "Mordor": {
-            "tier": "Hero ofFortitude",
+            "tier": "Hero of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
         }
     },
     "magic": {},
     "modelCount": 1,
-    "mounts": {
-    },
+    "mounts": {},
     "name": "Grishnákh, Orc Captain",
     "unique": true,
     "uniqueName": "Grishnákh",

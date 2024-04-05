@@ -63,7 +63,7 @@
                 "Mordor": {
                     "minModelCount": 1,
                     "maxModelCount": 1,
-                    "tier": "Hero ofFortitude",
+                    "tier": "Hero of Fortitude",
                     "selectableInWarband": false,
                     "warbandSize": 0,
                     "preventRemovalFromWarband": true
@@ -71,7 +71,7 @@
                 "Barad-Dûr": {
                     "minModelCount": 1,
                     "maxModelCount": 1,
-                    "tier": "Hero ofFortitude",
+                    "tier": "Hero of Fortitude",
                     "selectableInWarband": false,
                     "warbandSize": 0,
                     "preventRemovalFromWarband": true

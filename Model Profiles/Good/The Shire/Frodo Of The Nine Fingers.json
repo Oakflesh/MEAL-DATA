@@ -5,7 +5,7 @@
     },
     "armies": {
         "The Shire": {
-            "tier": "Hero ofFortitude",
+            "tier": "Hero of Fortitude",
             "selectableInWarband": false,
             "warbandSize": 12
         }
@@ -65,7 +65,7 @@
         "Infantry": {}
     },
     "wargear": {
-        "Unarmed" : {
+        "Unarmed": {
             "optional": false,
             "points": 0,
             "type": "Passive",

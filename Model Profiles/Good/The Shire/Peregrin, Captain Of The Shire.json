@@ -6,7 +6,7 @@
     },
     "armies": {
         "The Shire": {
-            "tier": "Hero ofValour",
+            "tier": "Hero of Valour",
             "selectableInWarband": false,
             "warbandSize": 15
         }
@@ -33,7 +33,7 @@
         "Throw Stones (Hobbit)": {
             "type": "Active"
         },
-        "Against All Odds" : {
+        "Against All Odds": {
             "type": "Active"
         }
     },

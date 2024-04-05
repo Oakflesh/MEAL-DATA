@@ -7,7 +7,7 @@
     },
     "armies": {
         "Minas Tirith": {
-            "tier": "Hero ofValour",
+            "tier": "Hero of Valour",
             "selectableInWarband": false,
             "warbandSize": 15
         }
@@ -33,11 +33,11 @@
         "Gondor": {}
     },
     "rules": {
-        "Woodland Creature":{
-            "type":"Passive"
+        "Woodland Creature": {
+            "type": "Passive"
         },
-        "Is There A Captain Here Who Still Has The Courage To Do His Lord's Will?":{
-            "type":"Passive"
+        "Is There A Captain Here Who Still Has The Courage To Do His Lord's Will?": {
+            "type": "Passive"
         }
     },
     "stats": {

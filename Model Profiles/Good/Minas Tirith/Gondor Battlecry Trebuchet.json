@@ -51,7 +51,7 @@
                 "Minas Tirith": {
                     "minModelCount": 1,
                     "maxModelCount": 1,
-                    "tier": "Hero ofFortitude",
+                    "tier": "Hero of Fortitude",
                     "selectableInWarband": false,
                     "warbandSize": 0,
                     "preventRemovalFromWarband": true
@@ -67,8 +67,7 @@
                 "Man": {},
                 "Gondor": {}
             },
-            "rules": {
-            },
+            "rules": {},
             "stats": {
                 "movement": 6,
                 "fight": 4,

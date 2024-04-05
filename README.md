@@ -166,7 +166,7 @@
 | Property | Type | Description |
 | --- | --- | --- |
 | Army Name | string | The name of the army this model belongs to in Capital Case. |
-| tier | "Hero ofLegend" \| "Hero ofValour" \| "Hero ofFortitude" \| "Minor Hero"\| "Independent Hero" \| "Warrior" | The tier of this model in the specified army in Capital Case. |
+| tier | "Hero of Legend" \| "Hero of Valour" \| "Hero of Fortitude" \| "Minor Hero"\| "Independent Hero" \| "Warrior" | The tier of this model in the specified army in Capital Case. |
 | warbandSize | number | The maximum warband size this model is allowed. 0 if this model isn't a hero. |
 | selectableInWarband | boolean | Can this model be selected as part of another models warband (Default should be true). |
 
@@ -200,17 +200,17 @@
 ```JSON5
     "armies": {
         "Angmar": {
-            "tier": "Hero ofLegend",
+            "tier": "Hero of Legend",
             "selectableInWarband": true,
             "warbandSize": 18
         },
         "Barad-Dûr": {
-            "tier": "Hero ofValour",
+            "tier": "Hero of Valour",
             "selectableInWarband": true,
             "warbandSize": 15
         },
         "Mordor": {
-            "tier": "Hero ofLegend",
+            "tier": "Hero of Legend",
             "selectableInWarband": true,
             "warbandSize": 18
         }
