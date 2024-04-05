@@ -4,7 +4,7 @@
     },
     "armies": {
         "The Fellowship": {
-            "tier": "Hero Of Fortitude",
+            "tier": "Hero ofFortitude",
             "selectableInWarband": false,
             "warbandSize": 0
         }

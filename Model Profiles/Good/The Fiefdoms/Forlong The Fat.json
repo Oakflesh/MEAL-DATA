@@ -6,7 +6,7 @@
     },
     "armies": {
         "The Fiefdoms": {
-            "tier": "Hero Of Valour",
+            "tier": "Hero ofValour",
             "selectableInWarband": false,
             "warbandSize": 15
         }

@@ -4,7 +4,7 @@
     },
     "armies": {
         "Mordor": {
-            "tier": "Hero Of Fortitude",
+            "tier": "Hero ofFortitude",
             "selectableInWarband": false,
             "warbandSize": 10,
             "minModelCount": 10,
@@ -71,7 +71,7 @@
                 "Mordor": {
                     "minModelCount": 1,
                     "maxModelCount": 1,
-                    "tier": "Hero Of Fortitude",
+                    "tier": "Hero ofFortitude",
                     "selectableInWarband": false,
                     "warbandSize": 0,
                     "preventRemovalFromWarband": true

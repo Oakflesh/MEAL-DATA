@@ -48,7 +48,7 @@
                 "The Kingdom Of Khazad-Dûm": {
                     "minModelCount": 1,
                     "maxModelCount": 1,
-                    "tier": "Hero Of Fortitude",
+                    "tier": "Hero ofFortitude",
                     "selectableInWarband": false,
                     "warbandSize": 0,
                     "preventRemovalFromWarband": true

@@ -7,7 +7,7 @@
     },
     "armies": {
         "Barad-Dûr": {
-            "tier": "Hero Of Legend",
+            "tier": "Hero ofLegend",
             "selectableInWarband": false,
             "warbandSize": 18,
             "additionalSize": 6

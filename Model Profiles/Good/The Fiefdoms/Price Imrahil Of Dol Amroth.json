@@ -7,7 +7,7 @@
     },
     "armies": {
         "The Fiefdoms": {
-            "tier": "Hero Of Legend",
+            "tier": "Hero ofLegend",
             "selectableInWarband": false,
             "warbandSize": 18
         }

@@ -10,12 +10,12 @@
     },
     "armies": {
         "The Fellowship": {
-            "tier": "Hero Of Valour",
+            "tier": "Hero ofValour",
             "selectableInWarband": false,
             "warbandSize": 0
         },
         "The Rangers": {
-            "tier": "Hero Of Valour",
+            "tier": "Hero ofValour",
             "selectableInWarband": false,
             "warbandSize": 15
         }
