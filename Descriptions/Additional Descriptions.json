@@ -1,6 +1,6 @@
 {
     "Bash": {
-        "description": "\n<b>Bash</b></br>A model armed with a Mace, Maul or Hammer may opt to Bash. If the model's side win the Duel roll then they may attempt to knock a single opponent (bashing players choice) prone. Both sides roll 1D6 and add model Strength values. Bashing models gain +1 to this total if using Two-Handed weapons. The bashing model must score equal or higher than the opponents value to be successful.",
+        "description": "<b>Bash</b><br>A model armed with a Mace, Maul or Hammer may opt to Bash. If the model's side win the Duel roll then they may attempt to knock a single opponent (bashing players choice) prone. Both sides roll 1D6 and add model Strength values. Bashing models gain +1 to this total if using Two-Handed weapons. The bashing model must score equal or higher than the opponents value to be successful.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -11,7 +11,7 @@
         }
     },
     "Feint Or Stab": {
-        "description": "\n<b>Feint</b></br>A model armed with a Dagger or Sword and equal or higher Fight value may opt to Feint. The model reduces their Fight value by 1D3 when resolving the Fight. If the model wins the Duel they may re-roll any To Wound rolls of a natural 1.\n<b>Stab</b></br>A model armed with a Dagger or Sword and equal or lower Fight value may opt to Stab. If the model wins the Duel they may re-roll any To Wound rolls of a natural 1. If they lose the Duel they will immediately take one Strength 2 hit after the fight is resolved (This only affects the rider if a <b>Cavalry</b> model).",
+        "description": "<b>Feint</b><br>A model armed with a Dagger or Sword and equal or higher Fight value may opt to Feint. The model reduces their Fight value by 1D3 when resolving the Fight. If the model wins the Duel they may re-roll any To Wound rolls of a natural 1.<b>Stab</b><br>A model armed with a Dagger or Sword and equal or lower Fight value may opt to Stab. If the model wins the Duel they may re-roll any To Wound rolls of a natural 1. If they lose the Duel they will immediately take one Strength 2 hit after the fight is resolved (This only affects the rider if a <b>Cavalry</b> model).",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -22,7 +22,7 @@
         }
     },
     "Piercing Strike": {
-        "description": "\n<b>Piercing Strike</b></br>A model armed with a Axe or Pick may make a Piercing Strike. If the model wins the Duel they may increase their Strength by 1.\nIf they lose the Duel they will reduce their defence by 1D3 (This only affects the rider if a <b>Cavalry</b> model).",
+        "description": "<b>Piercing Strike</b><br>A model armed with a Axe or Pick may make a Piercing Strike. If the model wins the Duel they may increase their Strength by 1.<br><br>If they lose the Duel they will reduce their defence by 1D3 (This only affects the rider if a <b>Cavalry</b> model).",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -33,7 +33,7 @@
         }
     },
     "Stun": {
-        "description": "\n<b>Stun</b></br>A model armed with a Staff or Club may opt to Stun. If the model wins the Duel, rather than striking normally, choose one opponent and roll 1D6. On a 5+ (6 if a <b>Monster</b>), the target is reduced to Fight value 1/6+ until the end of their next turn.",
+        "description": "<b>Stun</b><br>A model armed with a Staff or Club may opt to Stun. If the model wins the Duel, rather than striking normally, choose one opponent and roll 1D6. On a 5+ (6 if a <b>Monster</b>), the target is reduced to Fight value 1/6+ until the end of their next turn.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -44,7 +44,7 @@
         }
     },
     "Whirl": {
-        "description": "\n<b>Whirl</b></br>A model armed with a Flail, Scourge or Whip may opt to Whirl. The model reduces their fight value to 1 (after other modifiers), for the rest of Fight. If the model wins the Duel, rather than striking normally, they make a single strike against every enemy model in the Fight.",
+        "description": "<b>Whirl</b><br>A model armed with a Flail, Scourge or Whip may opt to Whirl. The model reduces their fight value to 1 (after other modifiers), for the rest of Fight. If the model wins the Duel, rather than striking normally, they make a single strike against every enemy model in the Fight.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -55,7 +55,7 @@
         }
     },
     "BowRule": {
-        "description": "\n<b>Bows</b></br>A model using a Bow can only shoot in the Shoot phase if they haven't moved more than half of their movement in the Move Phase, any movement will decrease the models Shoot value by -1.",
+        "description": "<b>Bows</b><br>A model using a Bow can only shoot in the Shoot phase if they haven't moved more than half of their movement in the Move Phase, any movement will decrease the models Shoot value by -1.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -66,7 +66,7 @@
         }
     },
     "BlowpipeRule": {
-        "description": "\n<b>Blowpipes</b></br>A model using a Blowpipe can only shoot in the Shoot phase if they haven't moved more than half of their movement in the Move Phase, any movement will decrease the models Shoot value by -1. They also gain the Poisoned Weapon special rule.",
+        "description": "<b>Blowpipes</b><br>A model using a Blowpipe can only shoot in the Shoot phase if they haven't moved more than half of their movement in the Move Phase, any movement will decrease the models Shoot value by -1. They also gain the Poisoned Weapon special rule.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -77,7 +77,7 @@
         }
     },
     "CrossbowRule": {
-        "description": "\n<b>Crossbows</b></br>A model using a Crossbow can only shoot in the Shoot phase if they haven't moved in the Move Phase.",
+        "description": "<b>Crossbows</b><br>A model using a Crossbow can only shoot in the Shoot phase if they haven't moved in the Move Phase.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -88,7 +88,7 @@
         }
     },
     "ThrowingWeaponRule": {
-        "description": "\n<b>Throwing Weapons</b></br>A model using a Throwing Weapon can throw it in the Shoot phase even if they moved in the Move Phase and didn't throw it in the last Move Phase, any movement will decrease the models Shoot value by -1. \nOnce per turn it can also be thrown while charging into combat in the Move Phase. The model must charge like normal and stop 1\" away from the model before throwing their weapon, this movement doesn't impose the -1 decrease to the models Shoot value. If the model is slain the model may carry on their move like normal.",
+        "description": "<b>Throwing Weapons</b><br>A model using a Throwing Weapon can throw it in the Shoot phase even if they moved in the Move Phase and didn't throw it in the last Move Phase, any movement will decrease the models Shoot value by -1. <br><br>Once per turn it can also be thrown while charging into combat in the Move Phase. The model must charge like normal and stop 1\" away from the model before throwing their weapon, this movement doesn't impose the -1 decrease to the models Shoot value. If the model is slain the model may carry on their move like normal.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -99,7 +99,7 @@
         }
     },
     "SlingshotRule": {
-        "description": "\n<b>Slingshots</b></br>A model using a Slingshot can shoot in the Shoot phase twice if they haven't moved, once if they have moved less than half of their movement, or not at all if they move over half their movement in the Move Phase. Any movement will decrease the models Shoot value by -1.",
+        "description": "<b>Slingshots</b><br>A model using a Slingshot can shoot in the Shoot phase twice if they haven't moved, once if they have moved less than half of their movement, or not at all if they move over half their movement in the Move Phase. Any movement will decrease the models Shoot value by -1.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -110,7 +110,7 @@
         }
     },
     "Feint Or Stab & ThrowingWeaponRule": {
-        "description": "\n<b>Feint</b></br>A model armed with a Dagger or Sword and equal or higher Fight value may opt to Feint. The model reduces their Fight value by 1D3 when resolving the Fight. If the model wins the Duel they may re-roll any To Wound rolls of a natural 1.\n<b>Stab</b></br>A model armed with a Dagger or Sword and equal or lower Fight value may opt to Stab. If the model wins the Duel they may re-roll any To Wound rolls of a natural 1. If they lose the Duel they will immediately take one Strength 2 hit after the fight is resolved (This only affects the rider if a <b>Cavalry</b> model).\n<b>Throwing Weapons</b></br>A model using a Throwing Weapon can throw it in the Shoot phase even if they moved in the Move Phase and didn't throw it in the last Move Phase, any movement will decrease the models Shoot value by -1. \nOnce per turn it can also be thrown while charging into combat in the Move Phase. The model must charge like normal and stop 1\" away from the model before throwing their weapon, this movement doesn't impose the -1 decrease to the models Shoot value. If the model is slain the model may carry on their move like normal.",
+        "description": "<b>Feint</b><br>A model armed with a Dagger or Sword and equal or higher Fight value may opt to Feint. The model reduces their Fight value by 1D3 when resolving the Fight. If the model wins the Duel they may re-roll any To Wound rolls of a natural 1.<b>Stab</b><br>A model armed with a Dagger or Sword and equal or lower Fight value may opt to Stab. If the model wins the Duel they may re-roll any To Wound rolls of a natural 1. If they lose the Duel they will immediately take one Strength 2 hit after the fight is resolved (This only affects the rider if a <b>Cavalry</b> model).<b>Throwing Weapons</b><br>A model using a Throwing Weapon can throw it in the Shoot phase even if they moved in the Move Phase and didn't throw it in the last Move Phase, any movement will decrease the models Shoot value by -1. <br><br>Once per turn it can also be thrown while charging into combat in the Move Phase. The model must charge like normal and stop 1\" away from the model before throwing their weapon, this movement doesn't impose the -1 decrease to the models Shoot value. If the model is slain the model may carry on their move like normal.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron) - Melee": {
@@ -125,7 +125,7 @@
         }
     },
     "Shielding": {
-        "description": "\n<b>Shielding</b></br>A model armed with a Shield may declare they are Shielding. The model doubles their dice when rolling their Duel roll dice, but can make no strikes if they win. The model doesn't gain any other wargear bonuses while Shielding. In multiple combat all friendly models must be Shielding for any to use this rule. <b>Cavalry</b> models that are Immobilised or Transfixed cannot use the Shielding rule.",
+        "description": "<b>Shielding</b><br>A model armed with a Shield may declare they are Shielding. The model doubles their dice when rolling their Duel roll dice, but can make no strikes if they win. The model doesn't gain any other wargear bonuses while Shielding. In multiple combat all friendly models must be Shielding for any to use this rule. <b>Cavalry</b> models that are Immobilised or Transfixed cannot use the Shielding rule.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -136,7 +136,7 @@
         }
     },
     "Elven-Made": {
-        "description": "\n<b>Elven-Made</b></br>In a combat where the fight is a draw the wielder of an Elven-Made weapon will win on the roll of a 3-6 (Good) and 1-4 (Evil). If both sides have Elven-Made weapons neither may benefit from this advantage.",
+        "description": "<b>Elven-Made</b><br>In a combat where the fight is a draw the wielder of an Elven-Made weapon will win on the roll of a 3-6 (Good) and 1-4 (Evil). If both sides have Elven-Made weapons neither may benefit from this advantage.",
         "references": {
             "books": {
                 "Rules Manual (Eye Of Sauron)": {
@@ -147,7 +147,7 @@
         }
     },
     "Master Forged": {
-        "description": "\n<b>Master Forged</b></br>In a combat where the fight is a draw the wielder of an Elven-Made weapon will win on the roll of a 3-6 (Good) and 1-4 (Evil). If both sides have Elven-Made weapons neither may benefit from this advantage.",
+        "description": "<b>Master Forged</b><br>In a combat where the fight is a draw the wielder of an Elven-Made weapon will win on the roll of a 3-6 (Good) and 1-4 (Evil). If both sides have Elven-Made weapons neither may benefit from this advantage.",
         "stats": null,
         "references": {
             "books": {

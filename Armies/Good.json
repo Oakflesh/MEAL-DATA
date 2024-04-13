@@ -1,70 +1,70 @@
 {
     "Arnor": {
-        "bonus": "Friendly <b>Arnor</b> models automatically pass Courage tests whilst within 6\" of Arvedui, Last King Of Arnor",
-        "alignment": "good"
+        "bonus": "Friendly <b>Arnor</b> models automatically pass Courage tests whilst within 6\" of Arvedui, Last King Of Arnor.",
+        "alignment": "Forces of Good"
     },
     "Fangorn": {
         "bonus": "<b>Ent</b> models from this army list gain the Fearless special Rule. Additionally, <b>Ent</b> models are completely unaffected by any Magical Powers or special rules that would prevent them from moving or move them against their will (the only exception being Sorcerous Blast, but will suffer no further effects). Additionally, <b>Ent</b> models are immune to Nature's Wrath and the Wrath Of Bruinen Magical Powers.",
-        "alignment": "good"
+        "alignment": "Forces of Good"
     },
     "Lothlórien": {
-        "bonus": "Friendly <b>Lothlórien</b> models gain the Resistant To Magic Special Rule",
-        "alignment": "good"
+        "bonus": "Friendly <b>Lothlórien</b> models gain the Resistant To Magic Special Rule.",
+        "alignment": "Forces of Good"
     },
     "Minas Tirith": {
         "bonus": "Friendly <b>Gondor</b> models from this army list increase their Courage value by 1.",
-        "alignment": "good"
+        "alignment": "Forces of Good"
     },
     "Númenor": {
         "bonus": "Friendly <b>Númenor</b> models from this army list increase their Courage value by 1.",
-        "alignment": "good"
+        "alignment": "Forces of Good"
     },
-    "Rivendell":{
+    "Rivendell": {
         "bonus": "Whilst within 6\" of the army's leader, friendly <b>Rivendell</b> models may re-roll failed To Hit rolls when making shooting attacks in a turn in which they did not move.",
-        "alignment": "good"
+        "alignment": "Forces of Good"
     },
     "Rohan": {
         "bonus": "Friendly <b>Rohan Cavalry</b> models gain +1 Strength on a turn in which they charge.",
-        "alignment": "good"
+        "alignment": "Forces of Good"
     },
     "The Dead Of Dunharrow": {
-        "bonus": "The King Of The Dead gains the Harbinger Of Evil special rule.\nAdditionally, warbands from this army list that contain 8 or more models, do not need a <b>Hero</b> to be the Captain of the warband. Instead, one of the <b>Warrior</b> models within the warband takes on the role of the warband's Captain for the purpose of deployment.",
-        "alignment": "good"
+        "bonus": "The King Of The Dead gains the Harbinger Of Evil special rule.<br><br>Additionally, warbands from this army list that contain 8 or more models, do not need a <b>Hero</b> to be the Captain of the warband. Instead, one of the <b>Warrior</b> models within the warband takes on the role of the warband's Captain for the purpose of deployment.",
+        "alignment": "Forces of Good"
     },
     "The Fellowship": {
-        "bonus": "As long as Frodo is alive and on the table (or escapes the board in Scenarios where this applies), all models from The Fellowship army list gain the Fearless special rule.\nAdditionally, a force that consists solely of models from The Fellowship army list will never be considered Broken if Frodo is alive and on the table (or escapes the board in Scenarios where this applies).",
-        "alignment": "good"
+        "bonus": "As long as Frodo is alive and on the table (or escapes the board in Scenarios where this applies), all models from The Fellowship army list gain the Fearless special rule.<br><br>Additionally, a force that consists solely of models from The Fellowship army list will never be considered Broken if Frodo is alive and on the table (or escapes the board in Scenarios where this applies).",
+        "alignment": "Forces of Good"
     },
     "The Fiefdoms": {
         "bonus": "Special Rules marked with <b>*</b> affect all models in this army list, not just the ones listed.",
-        "alignment": "good"
+        "alignment": "Forces of Good"
     },
-    "The Kingdom Of Khazad-Dûm":{
+    "The Kingdom Of Khazad-Dûm": {
         "bonus": "Friendly <b>Dwarf</b> models with either the <b>Khazad-Dûm</b> or <b>Moria</b> keyword may re-roll To Wound rolls of a 1 when fighting in close combat.",
-        "alignment": "good"
+        "alignment": "Forces of Good"
     },
     "The Misty Mountains": {
         "bonus": "<b>Eagle</b> models from this army list gain a bonus of +1 Strength on a turn in which they charged.",
-        "alignment": "good"
+        "alignment": "Forces of Good"
     },
     "The Rangers": {
         "bonus": "All models from this army list gain the Woodland Creature Special Rule, and the Rangers Of The North and Dúnedain may benefit from the Stand Fast! of Arathorn, Halbarad and Aragorn - Strider. Additionally, the Rangers Of The North and the Dúnedain increase their Attacks value to 2, while they have the <b>Infantry</b> keyword.",
-        "alignment": "good"
+        "alignment": "Forces of Good"
     },
     "The Shire": {
         "bonus": "<b>Hobbit</b> models from this army gain the Woodland Creature Special Rule.",
-        "alignment": "good"
+        "alignment": "Forces of Good"
     },
     "Wanderers In The Wild (Múrin & Drár)": {
         "bonus": "There is no army bonus for this army list.",
-        "alignment": "good"
+        "alignment": "Forces of Good"
     },
     "Wanderers In The Wild (Tom & Goldberry)": {
         "bonus": "There is no army bonus for this army list.",
-        "alignment": "good"
+        "alignment": "Forces of Good"
     },
     "Wildmen Of Drúadan": {
         "bonus": "Models from this army list gain the Mountain Dweller Special Rule. Additionally, enemy models do not gain any benefits from the Stalk Unseen special rule, or any such special rules that give similar benefits, against models from this army list. Additionally, warbands from this army list, that contain between 9 and 12 Models do not need a <b>Hero</b> to be the captain of the warband. Instead, one of the <b>Warrior</b> models within the warband takes on the role of the warband's captain for the purpose of deployment.",
-        "alignment":"good"
+        "alignment": "Forces of Good"
     }
 }
