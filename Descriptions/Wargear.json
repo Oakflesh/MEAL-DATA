@@ -12,7 +12,7 @@
         }
     },
     "Spear": {
-        "description": "A Spear is a Single-Handed weapon. <b>Infantry</b> models may assist friendly models with the same size base or smaller as long as they are in base contact. The model with a spear may then contribute a single attack to the Fight using its own Fight Value and Strength.<br /><br />Models with a spear may use it as a hand weapon, but may not make special strikes when using it. In multiple combat the model using a spear may strike a different target to the model they are supporting.",
+        "description": "A Spear is a Single-Handed weapon. <b>Infantry</b> models may assist friendly models with the same size base or smaller as long as they are in base contact. The model with a spear may then contribute a single attack to the Fight using its own Fight Value and Strength.<br><br>Models with a spear may use it as a hand weapon, but may not make special strikes when using it. In multiple combat the model using a spear may strike a different target to the model they are supporting.",
         "additionalDescription": null,
         "references": {
             "books": {
@@ -108,7 +108,7 @@
         }
     },
     "Pike": {
-        "description": "A Pike is a Two-Handed weapon. <b>Infantry</b> models with pikes follow the same rules as spears, although models may support in base contact two models deep. Models supporting in this way will be unable to Back Away if they lose the combat. <br /><br />Pikes require two hands to use and as such if a model is also equipped with a shield, bow or crossbow it will suffer a -1 penalty to Duel rolls.",
+        "description": "A Pike is a Two-Handed weapon. <b>Infantry</b> models with pikes follow the same rules as spears, although models may support in base contact two models deep. Models supporting in this way will be unable to Back Away if they lose the combat. <br><br>Pikes require two hands to use and as such if a model is also equipped with a shield, bow or crossbow it will suffer a -1 penalty to Duel rolls.",
         "additionalDescription": null,
         "references": {
             "books": {
@@ -437,7 +437,7 @@
         }
     },
     "Shield": {
-        "description": "A model equipped with a shield gains +1 Defence unless they carrying a Bow, Crossbow, Two-Handed Weapon, Pike or using a Hand-And-A-Half Sword with Two hands.<br /><br />",
+        "description": "A model equipped with a shield gains +1 Defence unless they carrying a Bow, Crossbow, Two-Handed Weapon, Pike or using a Hand-And-A-Half Sword with Two hands.<br><br>",
         "additionalDescription": "Shielding",
         "references": {
             "books": {

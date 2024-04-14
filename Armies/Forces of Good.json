@@ -28,11 +28,11 @@
         "alignment": "Forces of Good"
     },
     "The Dead Of Dunharrow": {
-        "bonus": "The King Of The Dead gains the Harbinger Of Evil special rule.<br /><br />Additionally, warbands from this army list that contain 8 or more models, do not need a <b>Hero</b> to be the Captain of the warband. Instead, one of the <b>Warrior</b> models within the warband takes on the role of the warband's Captain for the purpose of deployment.",
+        "bonus": "The King Of The Dead gains the Harbinger Of Evil special rule.<br><br>Additionally, warbands from this army list that contain 8 or more models, do not need a <b>Hero</b> to be the Captain of the warband. Instead, one of the <b>Warrior</b> models within the warband takes on the role of the warband's Captain for the purpose of deployment.",
         "alignment": "Forces of Good"
     },
     "The Fellowship": {
-        "bonus": "As long as Frodo is alive and on the table (or escapes the board in Scenarios where this applies), all models from The Fellowship army list gain the Fearless special rule.<br /><br />Additionally, a force that consists solely of models from The Fellowship army list will never be considered Broken if Frodo is alive and on the table (or escapes the board in Scenarios where this applies).",
+        "bonus": "As long as Frodo is alive and on the table (or escapes the board in Scenarios where this applies), all models from The Fellowship army list gain the Fearless special rule.<br><br>Additionally, a force that consists solely of models from The Fellowship army list will never be considered Broken if Frodo is alive and on the table (or escapes the board in Scenarios where this applies).",
         "alignment": "Forces of Good"
     },
     "The Fiefdoms": {

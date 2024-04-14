@@ -52,7 +52,7 @@
         }
     },
     "Pony": {
-        "description": "Ponies unlike other mounts must pass a courage test before charging, but gain no bonuses for doing so if they pass. If the courage test is failed they may move as normal.<br /><br />Ponies have the following stat profile:",
+        "description": "Ponies unlike other mounts must pass a courage test before charging, but gain no bonuses for doing so if they pass. If the courage test is failed they may move as normal.<br><br>Ponies have the following stat profile:",
         "stats": {
             "movement": 8,
             "fight": 2,

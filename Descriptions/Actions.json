@@ -1,6 +1,6 @@
 {
     "Accuracy": {
-        "description": "A <b>Hero</b> may use Heroic Accuracy (as long as they aren't engaged in combat) to re-roll failed In The Way Rolls during the Shoot Phase.<br /><br />A <b>Hero</b> model performing Heroic Accuracy may choose to shout \"Take Aim!\". Any friendly models within 6\" of that point may also re-roll failed In The Way Rolls during the Shoot Phase",
+        "description": "A <b>Hero</b> may use Heroic Accuracy (as long as they aren't engaged in combat) to re-roll failed In The Way Rolls during the Shoot Phase.<br><br>A <b>Hero</b> model performing Heroic Accuracy may choose to shout \"Take Aim!\". Any friendly models within 6\" of that point may also re-roll failed In The Way Rolls during the Shoot Phase",
         "phase": "Shoot",
         "references": {
             "books": {
@@ -12,7 +12,7 @@
         }
     },
     "Challenge": {
-        "description": "A <b>Hero</b> using Heroic Challenge must be in base contact with an enemy <b>Hero</b> of the same tier or higher.<br /><br />If the Heroic Challenge is accepted no other models partake in the duel or strikes stage of the fight between the <b>Hero</b> models. Both <b>Hero</b> models must engage each other until one is slain, the victorious <b>Hero</b> gains 1D3 Might points.<br /><br />If the Heroic Challenge is declined, any Heroic Actions that the declining <b>Hero</b> makes will not affect any friendly models until the <b>Hero</b> who issued the Challenge is slain. The declining <b>Hero</b> model may not use Stand Fast! for the rest of the game.",
+        "description": "A <b>Hero</b> using Heroic Challenge must be in base contact with an enemy <b>Hero</b> of the same tier or higher.<br><br>If the Heroic Challenge is accepted no other models partake in the duel or strikes stage of the fight between the <b>Hero</b> models. Both <b>Hero</b> models must engage each other until one is slain, the victorious <b>Hero</b> gains 1D3 Might points.<br><br>If the Heroic Challenge is declined, any Heroic Actions that the declining <b>Hero</b> makes will not affect any friendly models until the <b>Hero</b> who issued the Challenge is slain. The declining <b>Hero</b> model may not use Stand Fast! for the rest of the game.",
         "phase": "Move",
         "references": {
             "books": {
@@ -36,7 +36,7 @@
         }
     },
     "Combat": {
-        "description": "A Heroic Combat enables a <b>Hero</b> model to resolve their fight first – defying the usual Priority system. If all enemies in the fight are slain, the <b>Hero</b> and any friendly models engaged in the same fight may move (or charge) again before proceeding with the Fight Phase in normal priority order.<br /><br />",
+        "description": "A Heroic Combat enables a <b>Hero</b> model to resolve their fight first – defying the usual Priority system. If all enemies in the fight are slain, the <b>Hero</b> and any friendly models engaged in the same fight may move (or charge) again before proceeding with the Fight Phase in normal priority order.<br><br>",
         "phase": "Fight",
         "references": {
             "books": {
@@ -60,7 +60,7 @@
         }
     },
     "March": {
-        "description": "A <b>Hero</b> model who uses a Heroic March adds (depending on their troop keyword) 3\" for <b>Infantry</b> or 5\" for <b>Cavalry</b> / <b>Fly</b> to their maximum Move distance. Models who utilise a Heroic March may not Charge in the same Move phase.<br /><br />A <b>Hero</b> model who is conducting a Heroic March may choose to shout “At The Double!” to enable friendly models within 6\" to also benefit from the Heroic March",
+        "description": "A <b>Hero</b> model who uses a Heroic March adds (depending on their troop keyword) 3\" for <b>Infantry</b> or 5\" for <b>Cavalry</b> / <b>Fly</b> to their maximum Move distance. Models who utilise a Heroic March may not Charge in the same Move phase.<br><br>A <b>Hero</b> model who is conducting a Heroic March may choose to shout “At The Double!” to enable friendly models within 6\" to also benefit from the Heroic March",
         "phase": "Move",
         "references": {
             "books": {
@@ -72,7 +72,7 @@
         }
     },
     "Move": {
-        "description": "A Heroic Move enables a <b>Hero</b> model to move before other models – defying the usual Priority system. The <b>Hero</b> can then Move, Jump, Climb, Charge and Stand Fast!<br /><br />A <b>Hero</b> model performing a Heroic Move may choose to shout “With Me!”. Any friendly models within 6\" of that point may also move, so long as they end their move within 6\" of the <b>Hero</b> (if they are not able to end within 6\" of the <b>Hero</b> or choose not to move then they may not move at all this phase).",
+        "description": "A Heroic Move enables a <b>Hero</b> model to move before other models – defying the usual Priority system. The <b>Hero</b> can then Move, Jump, Climb, Charge and Stand Fast!<br><br>A <b>Hero</b> model performing a Heroic Move may choose to shout “With Me!”. Any friendly models within 6\" of that point may also move, so long as they end their move within 6\" of the <b>Hero</b> (if they are not able to end within 6\" of the <b>Hero</b> or choose not to move then they may not move at all this phase).",
         "phase": "Move",
         "references": {
             "books": {
@@ -96,7 +96,7 @@
         }
     },
     "Shoot": {
-        "description": "Heroic Shoot enables a <b>Hero</b> model to shoot before other models get a chance. A <b>Hero</b> cannot perform a Heroic Shoot if they are Engaged in combat.<br /><br />A <b>Hero</b> performing a Heroic Shoot may shout \"Loose!\" if they wish, enabling all friendly models within 6\" to shoot with them.",
+        "description": "Heroic Shoot enables a <b>Hero</b> model to shoot before other models get a chance. A <b>Hero</b> cannot perform a Heroic Shoot if they are Engaged in combat.<br><br>A <b>Hero</b> performing a Heroic Shoot may shout \"Loose!\" if they wish, enabling all friendly models within 6\" to shoot with them.",
         "phase": "Shoot",
         "references": {
             "books": {

@@ -108,7 +108,7 @@
         }
     },
     "Bodyguard": {
-        "description": "All Warrior and Hero models from the same army list with this special rule will automatically Bodyguard the Hero from the same army list with the highest Heroic Tier. If there is more than one Hero with the highest Heroic Tier, the controlling player may choose. As long as the bodyguarded model is alive on the battlefield, this model passes all Courage tests.<br /><br />Models that are part of an allied contingent must select a model from their own army list.",
+        "description": "All Warrior and Hero models from the same army list with this special rule will automatically Bodyguard the Hero from the same army list with the highest Heroic Tier. If there is more than one Hero with the highest Heroic Tier, the controlling player may choose. As long as the bodyguarded model is alive on the battlefield, this model passes all Courage tests.<br><br>Models that are part of an allied contingent must select a model from their own army list.",
         "type": "Active",
         "references": {
             "books": {
@@ -259,7 +259,7 @@
         }
     },
     "Master Of Battle": {
-        "description": "If an enemy <b>Hero</b> model calls a heroic action within 6\" this model may call the same heroic action for free (even if they can't normally call it).<br /><br />Sometimes this ability will be activated on the roll of 1D6 as noted in the model's stat profile.",
+        "description": "If an enemy <b>Hero</b> model calls a heroic action within 6\" this model may call the same heroic action for free (even if they can't normally call it).<br><br>Sometimes this ability will be activated on the roll of 1D6 as noted in the model's stat profile.",
         "type": "Active",
         "references": {
             "books": {
@@ -415,7 +415,7 @@
         }
     },
     "Terror": {
-        "description": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.<br /><br />Sometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are afflicted are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terror in all Orc models.",
+        "description": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.<br><br>Sometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are afflicted are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terror in all Orc models.",
         "type": "Passive",
         "references": {
             "books": {
@@ -475,7 +475,7 @@
         }
     },
     "Will Of Evil": {
-        "description": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.<br /><br />Additionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring-not even if other enemy models are included as part of Multiple Combat.",
+        "description": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.<br><br>Additionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring-not even if other enemy models are included as part of Multiple Combat.",
         "type": "Passive",
         "references": {
             "books": {
