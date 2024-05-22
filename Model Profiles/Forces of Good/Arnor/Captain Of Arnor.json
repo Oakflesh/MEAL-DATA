@@ -75,7 +75,7 @@
         "Bow": {
             "optional": true,
             "points": 0,
-            "type": "optional",
+            "type": "Passive",
             "userSelected": false,
             "replaces": "Shield"
         }
