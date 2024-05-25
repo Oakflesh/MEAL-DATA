@@ -1,6 +1,5 @@
 {
-    "actions": {
-    },
+    "actions": {},
     "armies": {
         "The Kingdom Of Khazad-Dûm": {
             "tier": "Minor Hero",
@@ -19,10 +18,10 @@
         "Khazad-Dûm": {}
     },
     "rules": {
-        "In Defence Of The King":{
+        "In Defence Of The King": {
             "type": "Active"
         },
-        "Lead By Example":{
+        "Lead By Example": {
             "type": "Active"
         }
     },
@@ -36,19 +35,13 @@
         "wounds": 2,
         "courage": 4,
         "might": {
-            "additional": 0,
-            "points": 0,
-            "value": 1
+            "current": 1
         },
         "will": {
-            "additional": 0,
-            "points": 0,
-            "value": 0
+            "current": 0
         },
         "fate": {
-            "additional": 0,
-            "points": 0,
-            "value": 0
+            "current": 0
         }
     },
     "type": {

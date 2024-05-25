@@ -39,19 +39,13 @@
         "wounds": 3,
         "courage": 6,
         "might": {
-            "additional": 0,
-            "points": 0,
-            "value": 6
+            "current": 6
         },
         "will": {
-            "additional": 0,
-            "points": 0,
-            "value": 1
+            "current": 1
         },
         "fate": {
-            "additional": 0,
-            "points": 0,
-            "value": 0
+            "current": 0
         }
     },
     "type": {

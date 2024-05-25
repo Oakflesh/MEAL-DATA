@@ -57,13 +57,13 @@
         "_courage_comment": "98 will be * in code",
         "courage": 98,
         "might": {
-            "value": 3
+            "current": 3
         },
         "will": {
-            "value": 3
+            "current": 3
         },
         "fate": {
-            "value": 0
+            "current": 0
         }
     },
     "type": {

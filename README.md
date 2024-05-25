@@ -84,19 +84,25 @@
         "wounds": 0,
         "courage": 0,
         "might": {
-            "additional": 0,
+            "min": 0,
+            "max": 0,
             "points": 0,
-            "value": 0
+            "current": 0,
+            "asterisk": null
         },
         "will": {
-            "additional": 0,
+            "min": 0,
+            "max": 0,
             "points": 0,
-            "value": 0
+            "current": 0,
+            "asterisk": null
         },
         "fate": {
-            "additional": 0,
+            "min": 0,
+            "max": 0,
             "points": 0,
-            "value": 0
+            "current": 0,
+            "asterisk": null
         }
     },
     "type": {
@@ -521,9 +527,11 @@
 | wounds | number | The model's wounds score. |
 | courage | number | The model's courage score. |
 | might , will & fate | object | The model's Might, Will & Fate stats |
-| additional | number | The additional amount of might points that can be bought for a model e.g. Ringwriath, Witch-King |
+| min | number | The lowest amount of might points that can be bought for a model e.g. Ringwriath, Witch-King |
+| max | number | The highest amount of might points that can be bought for a model e.g. Ringwriath, Witch-King |
 | points | number | The cost in points of the additional stat per point e.g. 5 points. 0 if model can't have additional points. |
-| value | number | The model's un-modified default stat value |
+| current | number | The model's un-modified default stat value |
+| asterisk | string | The * or ** if denoted in the profile e.g. The Dark Lord Sauron |
 
 </p></details>
 
@@ -542,19 +550,25 @@
         "wounds": 0,
         "courage": 0,
         "might": {
-            "additional": 0,
+            "min": 0,
+            "max": 0,
             "points": 0,
-            "value": 0
+            "current": 0,
+            "asterisk": null
         },
         "will": {
-            "additional": 0,
+            "min": 0,
+            "max": 0,
             "points": 0,
-            "value": 0
+            "current": 0,
+            "asterisk": null
         },
         "fate": {
-            "additional": 0,
+            "min": 0,
+            "max": 0,
             "points": 0,
-            "value": 0
+            "current": 0,
+            "asterisk": null
         }
     }
 ```
@@ -571,19 +585,25 @@
         "wounds": 1,
         "courage": 6,
         "might": {
-            "additional": 3,
+            "min": 0,
+            "max": 3,
             "points": 5,
-            "value": 0
+            "current": 0,
+            "asterisk": null
         },
         "will": {
-            "additional": 10,
+            "min": 10,
+            "max": 20,
             "points": 5,
-            "value": 10
+            "current": 10,
+            "asterisk": null
         },
         "fate": {
-            "additional": 3,
+            "min": 0,
+            "max": 3,
             "points": 5,
-            "value": 0
+            "current": 0,
+            "asterisk": null
         }
     }
 ```

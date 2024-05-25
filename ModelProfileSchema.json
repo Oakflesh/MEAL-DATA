@@ -158,52 +158,70 @@
                 "might": {
                     "type": "object",
                     "additionalProperties": {
-                        "additional": {
+                        "min": {
+                            "type": "integer"
+                        },
+                        "max": {
                             "type": "integer"
                         },
                         "points": {
                             "type": "integer"
                         },
-                        "value": {
+                        "current": {
                             "type": "integer"
+                        },
+                        "asterisk": {
+                            "type": "string"
                         }
                     },
                     "required": [
-                        "value"
+                        "current"
                     ]
                 },
                 "will": {
                     "type": "object",
                     "additionalProperties": {
-                        "additional": {
+                        "min": {
+                            "type": "integer"
+                        },
+                        "max": {
                             "type": "integer"
                         },
                         "points": {
                             "type": "integer"
                         },
-                        "value": {
+                        "current": {
                             "type": "integer"
+                        },
+                        "asterisk": {
+                            "type": "string"
                         }
                     },
                     "required": [
-                        "value"
+                        "current"
                     ]
                 },
                 "fate": {
                     "type": "object",
                     "additionalProperties": {
-                        "additional": {
+                        "min": {
+                            "type": "integer"
+                        },
+                        "max": {
                             "type": "integer"
                         },
                         "points": {
                             "type": "integer"
                         },
-                        "value": {
+                        "current": {
                             "type": "integer"
+                        },
+                        "asterisk": {
+                            "type": "string"
                         }
                     },
                     "required": [
-                        "value"
+                        "current"
                     ]
                 }
             },

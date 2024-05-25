@@ -38,13 +38,13 @@
         "wounds": 3,
         "courage": 1,
         "might": {
-            "value": 0
+            "current": 0
         },
         "will": {
-            "value": 8
+            "current": 8
         },
         "fate": {
-            "value": 0
+            "current": 0
         }
     },
     "type": {
