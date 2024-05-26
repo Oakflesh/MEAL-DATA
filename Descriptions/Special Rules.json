@@ -426,6 +426,30 @@
             }
         }
     },
+    "The Dark Lord": {
+        "description": "If <b>Sauron</b> is in your force, he must be your leader.",
+        "type": "Passive",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 113,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
+    "The Rule Of Gondor Is Mine, And No Other's!": {
+        "description": "If you force contains <b>Denethor</b> then he must be your leader, unless your force also contains <b>Aragorn, King Elessar</b>.",
+        "type": "Passive",
+        "references": {
+            "books": {
+                "Rules Manual (Eye Of Sauron)": {
+                    "page": 35,
+                    "initials": "RM (Eye Of Sauron)"
+                }
+            }
+        }
+    },
     "Throw Stones (Hobbit)": {
         "description": "If this model does not move at all during the Move phase, then in the Shoot phase it may make a shooting attack with Strength 1 and range 8\".",
         "type": "Active",
