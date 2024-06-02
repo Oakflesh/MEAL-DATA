@@ -70,8 +70,6 @@
             },
             "armies": {
                 "The Kingdom Of Khazad-Dûm": {
-                    "minModelCount": 2,
-                    "maxModelCount": 2,
                     "tier": "Independent Hero",
                     "selectableInWarband": false,
                     "warbandSize": 0,
@@ -82,7 +80,7 @@
             "modelCount": 2,
             "mounts": {},
             "name": "Herald",
-            "unique": false,
+            "unique": true,
             "points": 0,
             "race": {
                 "Dwarf": {},
